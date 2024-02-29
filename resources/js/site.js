@@ -13,22 +13,27 @@ Alpine.plugin([collapse, focus, morph, persist, precognition])
 Alpine.start()
 import { tns } from "tiny-slider/src/tiny-slider"
 
-tns({
-    "container": ".my-slider",
+const slides = document.getElementsByClassName('.my-slider');
 
-    "swipeAngle": false,
-    "speed": 400,
-    "controlsPosition": "bottom",
-    "controlsText": ["←","→"],
-    "responsive": {
-        "768": {
-          "items": 1,
+if(slides){
+  tns({
+      "container": ".my-slider",
+  
+      "swipeAngle": false,
+      "speed": 400,
+      "controlsPosition": "bottom",
+      "controlsText": ["←","→"],
+      "responsive": {
+          "768": {
+            "items": 1,
+          },
+          "1024": {
+            "items": 3
+          }
         },
-        "1024": {
-          "items": 3
-        }
-      },
-  });
+    });
+}
+
 
 
 ScrollReveal().reveal('.scroll-reveal', {
