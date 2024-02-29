@@ -1,5 +1,5 @@
 <!-- component -->
-<div class="fluid-grid mb-4 border-neutral border-b">
+<div class="fluid-grid  border-neutral border-b">
     
     <div class="span-content flex justify-start items-center  divide-x divide-neutral text-sm">
         <ul class="flex gap-3 flex-1 font-bold">

@@ -18,11 +18,6 @@ tabs:
               validate:
                 - required
       -
-        display: 'Page builder'
-        fields:
-          -
-            import: page_builder
-      -
         display: Hero
         fields:
           -
@@ -58,21 +53,9 @@ tabs:
           -
             handle: hero_intro
             field:
-              restrict: false
-              buttons:
-                - bold
-                - italic
-                - unorderedlist
-                - orderedlist
-              automatic_line_breaks: true
-              automatic_links: false
-              escape_markup: false
-              heading_anchors: false
-              smartypants: false
-              table_of_contents: false
               antlers: false
-              type: markdown
-              display: 'Hero intro'
+              type: textarea
+              display: 'Hero Introduction'
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -80,6 +63,11 @@ tabs:
               hide_display: false
           -
             import: button
+      -
+        display: 'Page builder'
+        fields:
+          -
+            import: page_builder
   seo:
     display: SEO
     sections:
@@ -151,6 +139,18 @@ tabs:
               antlers: false
               type: text
               display: 'Photo Credit'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: show_child_pages
+            field:
+              default: false
+              type: toggle
+              display: 'Show child pages'
+              instructions: 'If checked, this page will automatically show child pages'
               listable: hidden
               instructions_position: above
               visibility: visible

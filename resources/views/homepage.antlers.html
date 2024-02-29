@@ -1,0 +1,60 @@
+{{#
+    @name Default
+    @desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a page get evenly spaced without having to worry about margins or paddings.
+#}}
+
+{{ partial:components/hero}}
+ 
+
+<main class="py-12 md:py-16 lg:py-24 stack-12 md:stack-16 lg:stack-24" id="content">
+    {{ page_builder scope="block" }}
+        {{ partial src="page_builder/{type}" }}
+    {{ /page_builder }}
+
+    <div class="w-full overflow-x-hidden">
+        <div class="container mx-auto">
+            {{ partial:typography/h2 content="Get Involved" class="md:col-start-3 md:col-span-8 text-center text-neutral" }}
+            <div class="my-slider ">
+                {{ nav from="get-involved" }}
+                <div >
+                    <a href="{{ url }}" class=" p-4 rounded-lg block relative group">
+                        <div class="relative overflow-hidden">
+                            <div class="absolute inset-0  z-10 overflow-hidden  bg-gradient-to-b from-transparent to-[#000] opacity-40"></div>
+                            {{hero_image}}
+                            <img src="{{ glide:url width='640' height='406' }}" alt="{{ title }}" class="{{class}} w-full aspect-[3/2]">
+                            {{ /hero_image}}
+                            <div class="group-hover:-translate-y-6 relative transition z-30">
+                            <div class="absolute inset-0 top-auto z-20 text-white font-bold p-4 ">
+                                {{  title }}
+                            </div>
+                            <div class="absolute w-full bottom-0 bg-[#D2Fe83] h-2 z-20 transform translate-y-6">
+                            </div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                {{ /nav }}
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-[#274c4c] rivers">
+        <div class="fluid-grid">
+        <div
+        class="span-content grid md:grid-cols-12 gap-6 py-6 md:py-12 relative z-30">
+
+        {{ partial:typography/h2 content="Latest news" class="md:col-start-3 md:col-span-8 text-center text-white" }}
+
+        {{ collection:news limit="3"}}
+            {{ partial:components/news-card}}
+        {{ /collection:news }}
+    </div>
+        </div>
+    </div>
+
+</main>
+
+
+<!-- End: /default.antlers.html -->

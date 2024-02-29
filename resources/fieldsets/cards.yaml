@@ -64,4 +64,21 @@ fields:
                   config:
                     display: Button
                     max_rows: 1
+                -
+                  handle: image
+                  field:
+                    max_files: 1
+                    mode: grid
+                    container: images
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    show_set_alt: true
+                    type: assets
+                    display: Image
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    replicator_preview: true
+                    hide_display: false
       hide_display: true

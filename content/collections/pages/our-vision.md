@@ -9,5 +9,47 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1709029767
+updated_at: 1709207907
+hero_image: arundel-(114)-1.jpg
+hero_title: 'Our Vision'
+link_type: none
+target_blank: false
+button_type: button
+page_builder:
+  -
+    id: lt768j8p
+    article:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Our vision is one of thriving habitats all around our rivers in Western Sussex, in harmony with human activity.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We are striving for a water environment whose natural processes are restored or enhanced to enable our native wildlife to thrive.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The riverscape in our vision is defined as the entire catchment around the river - the area of land through which water from any form of precipitation drains into the river. We must breathe life back into the whole of the riverscape, with partners working together in powerful collaborations to ensure all the influences on the riverscape habitat are working together to protect its future.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Humans are not just the custodians of nature, we are a substantial and significant part of it. We have the ability to harm our natural systems and we have the power to heal them, protecting them into the future. We believe that humans can and must live within and alongside our riverscapes, so that we can enjoy healthy rivers and their surroundings for generations to come.'
+      -
+        type: paragraph
+        content:
+          -
+            type: hardBreak
+    type: article
+    enabled: true
+show_child_pages: false
+hero_intro: 'Riverscapes which enable native wildlife to thrive and which people will enjoy and value for generations to come.'
 ---

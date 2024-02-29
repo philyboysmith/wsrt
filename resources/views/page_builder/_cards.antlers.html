@@ -5,14 +5,17 @@
 #}}
 
 <!-- /page_builder/_cards.antlers.html -->
+<div class=" bg-[#3290a0] bg-opacity-30 relative overflow-hidden rivers">
+    <img src="/images/dragonfly-neutral.svg" class="w-24 h-auto absolute z-20 bottom-12 right-12" alt="" />
 {{ partial:page_builder/block }}
-    <div class="span-content grid md:grid-cols-12 gap-fluid-grid-gap">
-        {{ block:title ?= { partial:typography/h2 :content="block:title" class="md:col-start-3 md:col-span-8 text-center" } }}
+    <div class="span-content grid md:grid-cols-12 gap-fluid-grid-gap py-6 md:py-12 relative">
+        {{ block:title ?= { partial:typography/h2 :content="block:title" class="md:col-start-3 md:col-span-8 text-center text-neutral" } }}
 
         {{ block:cards }}
             <article
                 class="
-                    flex flex-col justify-between items-start p-6 border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary
+                scroll-reveal
+                    bg-white flex flex-col overflow-hidden  items-start  border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary 
                     {{ switch(
                         (total_results === 1) => 'md:col-span-8 md:col-start-3',
                         (total_results === 2) => 'md:col-span-6',
@@ -21,7 +24,16 @@
                     )}}
                 "
             >
-                <div class="mb-4">
+                {{ if image }}
+                    <div >
+                        {{ image }}
+                            <picture>
+                                <img src="{{ glide:url width='640' }}" alt="{{ title }}" class="w-full h-auto aspect-[3/2] object-cover">
+                            </picture>
+                        {{ /image }}
+                    </div>
+                {{ /if }}
+                <div class="mb-4 p-6">
                     {{ if button }}
                         {{ button }}
                             <a class="group" {{ partial:statamic-peak-tools::snippets/button_attributes }} aria-hidden="true" tabindex="-1">
@@ -44,4 +56,5 @@
         {{ /block:cards }}
     </div>
 {{ /partial:page_builder/block }}
+</div>
 <!-- End: /page_builder/_cards.antlers.html -->

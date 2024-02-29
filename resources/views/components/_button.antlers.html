@@ -21,10 +21,10 @@
                     : 'text-neutral decoration-primary focus-visible:ring-primary'
                 }}
             {{ else }}
-                inline-flex items-center py-3 px-4 rounded leading-none no-underline select-none whitespace-nowrap motion-safe:transition
+                inline-flex items-center py-3 px-4 rounded leading-none no-underline select-none whitespace-nowrap motion-safe:transition uppercase tracking-wider text-sm 
                 {{ inverted
                     ? 'bg-white text-primary focus-visible:ring-white'
-                    : 'bg-[#d2fe83] text-primary focus-visible:ring-primary'
+                    : 'bg-primary text-white hover:text-[#D2Fe83] focus-visible:ring-primary'
                 }}
             {{ /if }}
             {{ class }}
@@ -32,6 +32,9 @@
         {{ !faux ?= { partial:statamic-peak-tools::snippets/button_attributes } }}
     >
         {{ link_type == 'email' ? { label | obfuscate_email } : label }}
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+
     </{{ as or 'a' }}>
 {{ /if }}
 <!-- End: /components/_button.antlers.html -->

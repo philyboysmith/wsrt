@@ -23,12 +23,19 @@ fields:
                 -
                   import: form
             cards:
-              display: 'Cards'
+              display: Cards
               instructions: 'Show linkable cards with text.'
               icon: link
               fields:
                 -
                   import: cards
+            preview:
+              display: Preview
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: preview
         text:
           display: Text
           instructions: 'Text based blocks.'
@@ -44,3 +51,5 @@ fields:
       instructions_position: above
       visibility: visible
       previews: true
+      replicator_preview: true
+      fullscreen: true

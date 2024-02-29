@@ -1,0 +1,52 @@
+<div class="bg-[#3290a0] bg-opacity-30 relative rivers">
+   
+    <img src="/images/dragonfly-neutral.svg"
+        class="w-24 h-auto absolute z-20 bottom-12 right-12"
+        alt="" />
+
+    {{ partial:page_builder/block }}
+
+    <div
+        class="span-content grid md:grid-cols-12 gap-6 py-6 md:py-12 relative z-30">
+
+        {{ partial:typography/h2 content="In this section" class="md:col-start-3 md:col-span-8 text-center " }}
+
+        {{ nav :from="uri" }}
+
+        <article class="
+            bg-white flex flex-col overflow-hidden  items-start  border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary relative 
+            {{ switch(
+                (total_results === 1) => 'md:col-span-8 md:col-start-3',
+                (total_results === 2) => 'md:col-span-6',
+                (total_results > 2) => 'md:col-span-8 md:col-start-3 lg:col-span-3 lg:col-start-0',
+                () => void
+            )}}
+        ">
+            <a href="{{url}}"
+                class="absolute z-10 inset-0">&nbsp;</a>
+            {{ if hero_image }}
+            <div>
+                {{ hero_image }}
+                <picture>
+                    <img src="{{ glide:url width='640' }}"
+                        alt="{{ title }}"
+                        class="w-full h-auto aspect-[3/2] object-cover transition translate-z-0">
+                </picture>
+                {{ /hero_image }}
+            </div>
+            {{ /if }}
+            <div class="mb-4 p-6">
+
+                {{ partial:typography/h3 class="mb-2" :content="title" }}
+                {{ partial:typography/p class="mb-2" :content="hero_intro" }}
+
+            </div>
+
+        </article>
+
+        {{ /nav}}
+    </div>
+    {{ /partial:page_builder/block }}
+
+
+</div>

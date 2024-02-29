@@ -1,0 +1,35 @@
+<div class="fluid-grid bg-[#2d7087] text-white py-12 relative">
+    <img src="/images/dragonfly.svg" class="w-24 h-auto absolute z-20 bottom-12 right-12" alt="" />
+    {{ if image }}
+    <div class="col-start-2 col-span-5 relative">
+        {{ image }}
+            <picture >
+                <source media="(min-width: 1024px)" srcset="{{ glide:url width='1440' format='webp' }}"
+                    type="image/webp">
+                <source media="(min-width: 1024px)" srcset="{{ glide:url width='1400'  }}" type="image/jpeg">
+                <img src="{{ glide:url width='640'  }}" alt="{{ title }}" class="{{class}} ">
+            </picture>
+        {{ /image}}
+    </div>
+    <div class="col-span-5 relative">
+        <div class="prose text-white">
+
+            {{ partial:typography/h2 color="text-white" :content="title" }}
+            <p>
+                {{ text}}
+            </p>
+            {{ partial:components/button :inverted="inverted" class="" }}
+        </div>
+
+    </div>
+    {{ else }}
+    <div class="prose text-white col-span-8 col-start-5 relative text-center">
+
+        {{ partial:typography/h2 color="text-white" :content="title" }}
+        <p>
+            {{ text}}
+        </p>
+        {{ partial:components/button inverted="true" class="" }}
+    </div>
+    {{ /if }}
+</div>

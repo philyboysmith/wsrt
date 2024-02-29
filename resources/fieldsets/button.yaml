@@ -13,19 +13,10 @@ fields:
       instructions_position: above
       antlers: false
   -
-    handle: show_controls
-    field:
-      mode: toggle
-      display: 'Show controls'
-      type: revealer
-      icon: revealer
-      width: 33
-      listable: hidden
-      instructions_position: above
-  -
     handle: link_type
     field:
       options:
+        none: None
         entry: Entry
         url: URL
         email: Email
@@ -34,16 +25,15 @@ fields:
         asset: Asset
       type: button_group
       localizable: true
-      default: entry
+      default: none
       listable: false
       display: 'Link type'
       replicator_preview: false
       width: 66
-      if:
-        show_controls: 'equals true'
       instructions_position: above
       visibility: visible
       always_save: false
+      hide_display: false
   -
     handle: target_blank
     field:
@@ -53,8 +43,6 @@ fields:
       listable: false
       display: 'Open in new window'
       replicator_preview: false
-      if:
-        show_controls: 'equals true'
   -
     handle: entry
     field:
@@ -70,7 +58,6 @@ fields:
         - 'required_if:{this}.link_type,entry'
       if:
         link_type: entry
-        show_controls: 'equals true'
   -
     handle: url
     field:
@@ -85,7 +72,6 @@ fields:
         - 'required_if:{this}.link_type,url'
       if:
         link_type: url
-        show_controls: 'equals true'
   -
     handle: email
     field:
@@ -101,7 +87,6 @@ fields:
         - 'required_if:{this}.link_type,email'
       if:
         link_type: email
-        show_controls: 'equals true'
   -
     handle: tel
     field:
@@ -117,7 +102,6 @@ fields:
         - 'required_if:{this}.link_type,tel'
       if:
         link_type: tel
-        show_controls: 'equals true'
   -
     handle: sms
     field:
@@ -133,20 +117,18 @@ fields:
         - 'required_if:{this}.link_type,sms'
       if:
         link_type: sms
-        show_controls: 'equals true'
   -
     handle: asset
     field: common.image
     config:
+      container: files
       localizable: true
       display: Asset
-      container: files
       width: 50
       validate:
         - 'required_if:{this}.link_type,asset'
       if:
         link_type: asset
-        show_controls: 'equals true'
   -
     handle: button_type
     field:
@@ -159,8 +141,6 @@ fields:
       listable: false
       display: 'Button type'
       replicator_preview: false
-      if:
-        show_controls: 'equals true'
   -
     handle: attr_title
     field:
@@ -172,8 +152,6 @@ fields:
       display: Title
       width: 50
       replicator_preview: false
-      if:
-        show_controls: 'equals true'
   -
     handle: attr_aria
     field:
@@ -185,5 +163,3 @@ fields:
       display: 'Aria label'
       width: 50
       replicator_preview: false
-      if:
-        show_controls: 'equals true'

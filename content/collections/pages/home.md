@@ -1,15 +1,30 @@
 ---
 id: home
 blueprint: page
+template: homepage
 title: Home
 updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1709114876
+updated_at: 1709208263
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 page_builder:
+  -
+    id: lt5ne5nd
+    title: 'About the Western Sussex Rivers Trust'
+    text: "We're the Rivers Trust for Western Sussex, a team striving to protect and restore resilient, vibrant riverscapes for wildlife and people.  From the bold sweeping Arun in the east to the precious Ems in the west, we care for our rivers and the landscapes with which they are entwined - our riverscapes."
+    button:
+      -
+        id: lt5nfc9f
+        label: 'Find out more'
+        link_type: entry
+        target_blank: false
+        entry: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
+        button_type: button
+    type: preview
+    enabled: false
   -
     id: T5ZZwBfn
     article:
@@ -20,97 +35,52 @@ page_builder:
         content:
           -
             type: text
-            text: 'Start out on top'
+            text: 'About the Western Sussex Rivers Trust'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Peak is your personal bespoke development sherpa. Start every project with this kit full of development goodies. '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "But beware, this kit ain't here to be pretty. There are some examples of what Peak can do, but the rest is up to you. "
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Get climbing!'
+            text: "We're the Rivers Trust for Western Sussex, a team striving to protect and restore resilient, vibrant riverscapes for wildlife and people.  From the bold sweeping Arun in the east to the precious Ems in the west, we care for our rivers and the landscapes with which they are entwined - our riverscapes."
     type: article
     enabled: true
   -
-    id: eFlcYHyl
-    title: Features
-    type: cards
-    enabled: false
+    id: lt72t2km
+    title: 'Learn more'
     cards:
       -
-        id: lly5m22j
-        title: 'Check out a form'
-        text: "Peak renders forms and mail templates dynamically so you can add as many forms as you'd like, just by creating them in the CP. Peak ships with a default basic contact form you can edit."
-        label: 'Send a form'
-        link_type: entry
-        target_blank: false
-        entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
-        button_type: inline
+        id: lt72t6yg
+        title: 'Discover our riverscapes'
+        text: 'Find out more about the rivers and streams in Western Sussex and some of the incredible wildlife they support.'
         type: card
         enabled: true
-        button:
-          -
-            id: llz6sh4t
-            label: 'Send a form'
-            link_type: entry
-            target_blank: false
-            entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
-            button_type: inline
+        image: hero/arundel-(114).jpg
       -
-        id: lly5mxh7
-        title: 'Long form content'
-        text: 'For long form content you can use the Article content block. This is a Bard fieldtypeopen in new window with multiple sets of fields that are regularly used in longer articles.'
-        label: 'Read an article'
-        link_type: entry
-        target_blank: false
-        entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-        button_type: inline
+        id: lt72txsm
+        title: 'Your Wildlife'
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         type: card
         enabled: true
-        button:
-          -
-            id: llz6svox
-            label: 'Read an article'
-            link_type: entry
-            target_blank: false
-            entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-            button_type: inline
+        image: (c)-derek-middleton-13.jpg
       -
-        id: lly5nvk4
-        title: 'Way more features'
-        text: 'Professional SEO, social image generation, responsive assets, appearance globals, favicons generation, search templates, dark mode support with toggle, pagination template, search and additional bottles of oxygen.'
-        label: 'Climb the docs'
-        link_type: url
-        target_blank: true
-        url: 'https://peak.1902.studio'
-        button_type: inline
+        id: lt72ulb3
+        title: 'Our Projects'
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         type: card
         enabled: true
-        button:
-          -
-            id: llz6t5ao
-            label: 'Read the docs'
-            link_type: url
-            target_blank: true
-            url: 'https://peak.1902.studio'
-            button_type: inline
+        image: arundel-(108)-1.jpg
+    type: cards
+    enabled: true
 hero_image: hero/arundel-(114).jpg
-hero_title: 'Hello world'
-hero_intro: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-label: 'Find out more'
+hero_title: 'Restoring Our Riverscapes.'
+hero_intro: |-
+  We're custodians of rivers, restorers of rivers. We're a community of people who love rivers. 
+  We re-imagine our rivers, asking 'What if?', and making it happen. We need thriving, resilient, vibrant riverscapes, alive for people and wildlife. Now more than ever.
+label: 'Dive in'
 link_type: entry
 target_blank: false
 entry: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 button_type: button
-attr_title: 'Find out more'
+attr_title: 'Dive in'
+show_child_pages: false
 ---

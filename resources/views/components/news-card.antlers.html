@@ -1,0 +1,24 @@
+<div
+                    class="scroll-reveal bg-white flex flex-col overflow-hidden  items-start  border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary relative md:col-span-4 ">
+                    <a href="{{url}}"
+                        class="absolute z-10 inset-0">&nbsp;</a>
+                    {{ if hero_image }}
+                    <div>
+                        {{ hero_image }}
+                        <picture>
+                            <img src="{{ glide:url width='640' }}"
+                                alt="{{ title }}"
+                                class="w-full h-auto aspect-[3/2] object-cover transition translate-z-0">
+                        </picture>
+                        {{ /hero_image }}
+                    </div>
+                    {{ /if }}
+                    <div class="mb-4 p-6 space-y-2">
+                        <p
+                            class="uppercase text-sm  text-semibold tracking-wider">
+                            {{ date}}</p>
+                        {{ partial:typography/h3 class="font-serif text-2xl" :content="title" }}
+                        {{ partial:typography/p  :content="content | strip_tags | safe_truncate(200, '...') " }}
+
+                    </div>
+                </div>

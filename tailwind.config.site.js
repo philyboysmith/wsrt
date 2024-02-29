@@ -48,14 +48,14 @@ module.exports = {
         // Use a custom sans serif font for this site by changing 'Gaultier' to the
         // font name you want and uncommenting the following line.
         // 'Gaultier',
-        'PPNeueMontreal',
+        '"PPNeueMontreal"',
         ...defaultTheme.fontFamily.sans,
       ],
       serif: [
         // Use a custom serif font for this site by changing 'Lavigne' to the
         // font name you want and uncommenting the following line.
         // 'Lavigne',
-        'Pathie',
+        '"Pathie"',
         ...defaultTheme.fontFamily.serif,
       ],
     },
@@ -65,9 +65,9 @@ module.exports = {
       // thin: 200,
       // light: 300,
       normal: 400,
-      // medium: 500,
+      medium: 500,
       // semibold: 600,
-      bold: 700,
+      bold: 600,
       // extrabold: 800,
       // black: 900,
     },

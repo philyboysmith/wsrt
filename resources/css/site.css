@@ -1,3 +1,4 @@
+@import "@glidejs/glide/dist/css/glide.core.css";
 @import "tailwindcss/base";
 @import "custom";
 @import "tailwindcss/components";

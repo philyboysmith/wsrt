@@ -4,7 +4,8 @@
 
     @font-face {
         font-family: 'Pathie';
-        src: url('/resources/fonts/Pathie.otf') format('otf'),
+        src: url('/resources/fonts/Pathie.otf') format('woff'),
+        url('/resources/fonts/Pathie.otf') format('otf'),
             url('/resources/fonts/Pathie.ttf') format('ttf');
         font-weight: 400;
         font-style: normal;
@@ -14,7 +15,7 @@
 
     @font-face {
         font-family: 'PPNeueMontreal';
-        src: url('/resources/fonts/PPNeueMontreal-Book.otf') format('otf');
+        src: url('/resources/fonts/NeueMontreal-Regular.woff') format('woff');
         font-weight: 400;
         font-style: normal;
         font-display: swap;
@@ -22,8 +23,16 @@
 
     @font-face {
         font-family: 'PPNeueMontreal';
-        src: url('/resources/fonts/PPNeueMontreal-Medium.otf') format('otf');
+        src: url('/resources/fonts/NeueMontreal-Medium.woff') format('woff');
         font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'PPNeueMontreal';
+        src: url('/resources/fonts/PPNeueMontreal-Bold.woff') format('woff');
+        font-weight: 600;
         font-style: normal;
         font-display: swap;
     }
@@ -41,7 +50,21 @@
         opacity: 0.3
     }
 
-
+    .rivers {
+        background-image: url("/resources/svg/rivers.svg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    html.sr .scroll-reveal {
+        visibility: hidden;
+    }
+    /* purgecss ignore */ 
+    .tns-ovh {
+        overflow: visible!important;
+    }
+    .tns-controls {
+        @apply font-serif text-2xl flex items-center justify-center gap-4;
+    }
 }
 
 @layer components {
