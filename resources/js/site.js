@@ -15,10 +15,9 @@ import { tns } from "tiny-slider/src/tiny-slider"
 
 const slides = document.getElementsByClassName('.my-slider');
 
-if(slides){
+if(slides.length > 0){
   tns({
       "container": ".my-slider",
-  
       "swipeAngle": false,
       "speed": 400,
       "controlsPosition": "bottom",
