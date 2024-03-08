@@ -24,7 +24,9 @@ module.exports = {
       },
       // Primary: primary brand color with a default fallback if you don't need shades. Always set a DEFAULT when you use shades.
       primary: {
-        DEFAULT: '#004936'
+        dark: "#0b3025",
+        DEFAULT: '#004936',
+        light: '#a6b476'
       },
     },
     extend: {

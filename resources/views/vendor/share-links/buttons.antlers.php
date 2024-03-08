@@ -4,7 +4,7 @@
     <div class="span-content flex justify-start items-center  divide-x divide-neutral text-sm">
         <ul class="flex gap-3 flex-1 font-bold">
             {{ nav:breadcrumbs }}
-            <li class="flex space-x-2 {{ if is_current }}current{{ /if }}">
+            <li class="flex items-center space-x-2 {{ if is_current }}current{{ /if }}">
                 <a href="{{ url }}">{{ title }}</a>
                 {{ if !is_current }}
                 <svg class="w-2 h-2 text-slate-200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" viewBox="0 0 16 16" width="100%" height="100%"><g><path d="M3.5,14.6L10.1,8L3.5,1.4L4.9,0l7.3,7.3c0.2,0.2,0.3,0.4,0.3,0.7c0,0.3-0.1,0.5-0.3,0.7L4.9,16L3.5,14.6z" fill="currentColor"></path></g></svg>

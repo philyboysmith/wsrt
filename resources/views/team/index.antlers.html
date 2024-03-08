@@ -1,0 +1,56 @@
+{{#
+    @name Default
+    @desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a page get evenly spaced without having to worry about margins or paddings.
+#}}
+
+    {{ partial:components/hero}}
+
+
+    <main
+        class="py-12 md:py-16 lg:py-24 stack-12 md:stack-16 lg:stack-24"
+        id="content">
+        {{ page_builder scope="block" }}
+        {{ partial src="page_builder/{type}" }}
+        {{ /page_builder }}
+
+        <div class="fluid-grid">
+            <div
+                class="span-content grid md:grid-cols-12 gap-6 py-6 md:py-12 relative z-30">
+                {{ collection:team  as="posts"}}
+                {{ posts }}
+
+                <div
+                    class="scroll-reveal bg-white grid grid-cols-12 gap-8 overflow-hidden  items-start  border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary relative md:col-span-12 md:flex-row ">
+                    
+                    {{ if image }}
+                    <div class="col-span-12 lg:col-span-4">
+                        {{ image }}
+                        <picture>
+                            <img src="{{ glide:url width='640' }}"
+                                alt="{{ title }}"
+                                class="w-full h-auto aspect-[3/2] object-cover transition translate-z-0">
+                        </picture>
+                        {{ /image }}
+                    </div>
+                    {{ /if }}
+                    <div class="mb-4 p-6 space-y-2 col-span-12 lg:col-span-8">
+                        <p
+                            class="uppercase text-sm  text-semibold tracking-wider">
+                            {{ date }}</p>
+                        {{ partial:typography/h3 class="font-serif text-2xl lg:text-4xl" :content="title" }}
+                        {{ partial:typography/p  :content="content " }}
+
+                    </div>
+                </div>
+               
+
+                {{ /posts }}
+
+                {{ /collection:team }}
+
+               </div>
+               </div>
+        </div>
+    </main>
+
+    <!-- End: /default.antlers.html -->

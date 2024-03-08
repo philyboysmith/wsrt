@@ -2,8 +2,20 @@ title: 'Social media'
 data:
   social_media:
     -
-      id: trJdEAn4
-      handle: studio1902
-      prefix: 'https://www.github.com/'
-      type: github
+      id: lti9yjam
+      handle: arunandrotherriverstrust/
+      prefix: 'https://www.instagram.com/'
+      type: instagram
+      enabled: true
+    -
+      id: lti9yoi2
+      handle: 'people/Arun-Rother-Rivers-Trust/61550827785423/?sk=about'
+      prefix: 'https://www.facebook.com/'
+      type: facebook
+      enabled: true
+    -
+      id: lti9yv2r
+      handle: 'company/arun-&-rother-rivers-trust-arrt-/'
+      prefix: 'https://www.linkedin.com/'
+      type: linkedin
       enabled: true

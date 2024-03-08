@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fea840c0df0bb53cdf6379e4eff20e2f",
+    "content-hash": "3a9af6ec274b85f7c11b31601a35be06",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1941,50 +1941,6 @@
                 "source": "https://github.com/JamesHeinrich/getID3/tree/v1.9.23"
             },
             "time": "2023-10-19T13:18:49+00:00"
-        },
-        {
-            "name": "jezzdk/statamic-wp-import",
-            "version": "v1.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jezzdk/statamic-wp-import.git",
-                "reference": "2ef06561f20599e3327059eeddaa8acc1f77ced5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jezzdk/statamic-wp-import/zipball/2ef06561f20599e3327059eeddaa8acc1f77ced5",
-                "reference": "2ef06561f20599e3327059eeddaa8acc1f77ced5",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Statamic WP Import",
-                    "description": "Import Wordpress content into Statamic"
-                },
-                "laravel": {
-                    "providers": [
-                        "Jezzdk\\StatamicWpImport\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Jezzdk\\StatamicWpImport\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Jess Stopa"
-                }
-            ],
-            "support": {
-                "email": "jess@stopa.dk",
-                "issues": "https://github.com/jezzdk/statamic-wp-import/issues",
-                "source": "https://github.com/jezzdk/statamic-wp-import/tree/v1.6.0"
-            },
-            "time": "2022-07-04T14:57:56+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -11488,5 +11444,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }

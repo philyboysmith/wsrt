@@ -18,6 +18,14 @@ tabs:
               validate:
                 - required
       -
+        display: 'Page builder'
+        fields:
+          -
+            import: page_builder
+  hero:
+    display: Hero
+    sections:
+      -
         display: Hero
         fields:
           -
@@ -63,11 +71,6 @@ tabs:
               hide_display: false
           -
             import: button
-      -
-        display: 'Page builder'
-        fields:
-          -
-            import: page_builder
   seo:
     display: SEO
     sections:
