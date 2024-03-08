@@ -17,7 +17,6 @@
         "osayaweventures/share-links": "^1.0",
         "statamic/cms": "^4.0",
         "studio1902/statamic-peak-browser-appearance": "^3.0",
-        "studio1902/statamic-peak-commands": "^6.0",
         "studio1902/statamic-peak-seo": "^8.0",
         "studio1902/statamic-peak-tools": "^4.0"
     },
