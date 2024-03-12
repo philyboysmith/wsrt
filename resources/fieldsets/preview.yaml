@@ -1,6 +1,26 @@
 title: Preview
 fields:
   -
+    handle: style
+    field:
+      options:
+        one: One
+        two: Two
+      taggable: false
+      push_tags: false
+      multiple: false
+      clearable: false
+      searchable: true
+      cast_booleans: false
+      default: one
+      type: select
+      display: Style
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
     handle: title
     field:
       input_type: text
@@ -37,4 +57,3 @@ fields:
       visibility: visible
       replicator_preview: true
       hide_display: false
-

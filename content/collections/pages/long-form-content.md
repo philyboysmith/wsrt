@@ -3,7 +3,7 @@ id: 20f6a148-63b8-47a8-9b0e-d57095d78c21
 blueprint: page
 title: 'Demo page'
 updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1709880011
+updated_at: 1710238678
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -249,6 +249,30 @@ page_builder:
                 entry: home
                 button_type: button
     type: article
+    enabled: true
+  -
+    id: lto092sz
+    title: 'Style one'
+    text: 'Demo of preview block with style one'
+    button:
+      -
+        id: lto095nn
+        label: 'Get involved'
+        link_type: entry
+        target_blank: false
+        entry: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
+        button_type: button
+    image: (c)-derek-middleton-11-1.jpg
+    type: preview
+    enabled: true
+    style: one
+  -
+    id: lto7v0nz
+    style: two
+    title: 'Style two'
+    text: 'Demo of preview block with style two. Generally these would be used with a more text than style one as the left hand column is a bit taller.'
+    image: (c)-dave-kilbey-2.jpg
+    type: preview
     enabled: true
 hero_image: hero/arundel-(114).jpg
 hero_title: 'Demo page'

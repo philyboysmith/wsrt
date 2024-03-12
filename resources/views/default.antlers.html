@@ -3,8 +3,17 @@
     @desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a page get evenly spaced without having to worry about margins or paddings.
 #}}
 
+{{if hero_image }}
     {{ partial:components/hero}}
+{{ else }}
 
+<div class="text-center space-y-4 text-primary py-12">
+<p class="uppercase text-semibold tracking-wider">{{ hero_subtitle}}</p>
+{{ partial:typography/h1 color="text-primary" :content="title ?? hero_title" }}
+</div>
+{{ svg:hero-alt class="w-full" aria-hidden="true" sanitize="true" }}
+
+{{ /if }}
 
     <main
         class="py-12 md:py-16 lg:py-24 stack-12 md:stack-16 lg:stack-24"

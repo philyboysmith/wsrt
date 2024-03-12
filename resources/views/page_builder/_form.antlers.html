@@ -11,6 +11,7 @@
         {{ block:text ?= { partial:typography/p :content="block:text" } }}
 
         {{# Render form and use Alpine based Statamic conditional logic. #}}
+
         {{ if form:handle }}
             {{ form:create :in="form:handle" js="alpine:form" attr:x-ref="form" }}
                 {{# Use Laravel Precognition for live validation and submission. #}}

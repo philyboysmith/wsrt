@@ -12,7 +12,6 @@ sitemap_priority: 0.5
 page_builder:
   -
     id: QGsYdcyd
-    title: 'Get in touch'
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     form: contact
     type: form

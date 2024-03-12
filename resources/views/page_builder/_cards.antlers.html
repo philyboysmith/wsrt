@@ -5,11 +5,11 @@
 #}}
 
 <!-- /page_builder/_cards.antlers.html -->
-<div class=" bg-[#3290a0] bg-opacity-30 relative overflow-hidden rivers">
-    <img src="/images/dragonfly-neutral.svg" class="w-24 h-auto absolute z-20 bottom-12 right-12" alt="" />
+<div class=" bg-[#328a9a]  relative overflow-hidden rivers">
+    <img src="/images/dragonfly-neutral.svg" class="w-24 h-auto absolute z-20 bottom-12 right-12 bg-blend-multiply" alt="" />
 {{ partial:page_builder/block }}
-    <div class="span-content grid md:grid-cols-12 gap-fluid-grid-gap py-6 md:py-12 relative">
-        {{ block:title ?= { partial:typography/h2 :content="block:title" class="md:col-start-3 md:col-span-8 text-center text-neutral" } }}
+    <div class="span-content grid md:grid-cols-12 gap-fluid-grid-gap py-6 md:py-12 relative z-50">
+        {{ block:title ?= { partial:typography/h2 :content="block:title" class="md:col-start-3 md:col-span-8 text-center text-white" } }}
 
         {{ block:cards }}
             <article

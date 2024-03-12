@@ -2,18 +2,73 @@
     @name Footer
     @desc The sites footer rendered on each page.
 #}}
+<div class="bg-[#98aee6] pt-12">
+    {{ partial:typography/h2 color="text-primary" class="text-center" content="Join our mailing list" }}
 
+    {{ form:sign_up_form class="max-w-xl mx-auto mt-6"}}
+
+    {{ if success }}
+        <div class="bg-green-300 text-white p-2">
+            {{ success }}
+        </div>
+    {{ else }}
+        
+        {{ if errors }}
+            <div class="bg-red-300 text-white p-2 my-4">
+                {{ errors }}
+                    {{ value }}<br>
+                {{ /errors }}
+            </div>
+        {{ /if }}
+ 
+        {{ fields }}
+        <div class="p-2 lg:grid grid-cols-3">
+                {{ if type != 'toggle' }}
+                <label class="font-bold col-span-1">{{ display }} <sup class="text-red-700">*</sup></label>
+                <div class="p-1 col-span-2">{{ field }}</div>
+                {{ if error }}
+                    <p class="text-gray-500 col-span-3">{{ error }}</p>
+                {{ /if }}
+                {{ else }}
+                <div class="p-1 col-span-3">{{ field }}</div>
+                {{ if error }}
+                    <p class="text-gray-500 col-span-3">{{ error }}</p>
+                {{ /if }}
+                {{ /if }}
+            </div>
+        {{ /fields }}
+ 
+        <input type="text" class="hidden" name="{{ honeypot ?? 'honeypot' }}">
+ 
+        <div class="flex justify-end">
+            {{ partial:components/button as="button" label="Submit" }}
+        </div>
+
+    {{ /if }}
+
+
+    {{ /form:sign_up_form}}
+{{ svg:waves class="w-fill fill-primary-dark mt-12 -mb-1" aria-hidden="true" sanitize="true" }}
+</div>
+<div class=" bg-primary-dark text-white py-24">
+    {{ partial:typography/h2 color="text-white" class="text-center" content="working together for our riverscapes" }}
+
+</div>
 <!-- /layout/_footer.antlers.html -->
-<footer class="fluid-grid py-4 mt-auto">
+<footer class="fluid-grid py-4 mt-auto bg-primary-dark text-white">
     <div class="span-content flex flex-col space-y-4 md:space-y-0 md:flex-row md:justify-between md:space-x-4 md:items-center ">
-        <div class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4 text-xs font-bold">
-            <span>
+        {{ partial:components/logo width="120" class="text-[#d2fe83]"}}
+        <div class="space-y-2 text-xs font-bold items-center">
+            <div class="text-center">
+                <a href="/privacy">Privacy Policy</a> | <a href="/terms">Term & Conditions</a>
+            </div>
+            <div>
                 &copy; {{ configuration:copyright_since }}
                 {{ unless (now | format('Y')) == configuration:copyright_since }}
                     - {{ now | format('Y') }}
                     {{ /unless }}
                 {{ configuration:copyright_name ?? config:app:name }}
-            </span>
+            </div>
 
             {{# Let's users reset consent when you use the consent banner. #}}
             {{ yield:reset_consent }}
@@ -21,7 +76,7 @@
         {{ if social_media:social_media }}
             <div class="flex space-x-2">
                 {{ social_media:social_media }}
-                    <a class="p-1 -m-1 text-neutral hover:text-primary focus:outline-none focus-visible:ring-2 ring-primary" href="{{ prefix }}{{ handle }}" rel="noopener{{ type == 'mastodon' ?= ' me' }}" aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}" target="_blank">{{ svg :src="type" class="w-3 h-3 overflow-visible fill-current" alt="" aria-hidden="true" sanitize="true" }}</a>
+                    <a class="p-1 -m-1 text-white focus:outline-none focus-visible:ring-2 ring-primary" href="{{ prefix }}{{ handle }}" rel="noopener{{ type == 'mastodon' ?= ' me' }}" aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}" target="_blank">{{ svg :src="type" class="w-6 h-6 overflow-visible fill-current" alt="" aria-hidden="true" sanitize="true" }}</a>
                 {{ /social_media:social_media }}
             </div>
         {{ /if }}

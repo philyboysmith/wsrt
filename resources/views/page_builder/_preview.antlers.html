@@ -1,7 +1,8 @@
-<div class="fluid-grid bg-[#2d7087] text-white py-12 relative">
+{{ if style == 'one' }}
+<div class="lg:fluid-grid bg-[#bbc6d6] lg:py-12 relative rivers ">
     <img src="/images/dragonfly.svg" class="w-24 h-auto absolute z-20 bottom-12 right-12" alt="" />
     {{ if image }}
-    <div class="col-start-2 col-span-5 relative">
+    <div class="lg:col-start-2 lg:col-span-6 relative">
         {{ image }}
             <picture >
                 <source media="(min-width: 1024px)" srcset="{{ glide:url width='1440' format='webp' }}"
@@ -11,10 +12,10 @@
             </picture>
         {{ /image}}
     </div>
-    <div class="col-span-5 relative">
-        <div class="prose text-white">
+    <div class="lg:col-span-6 relative">
+        <div class="prose p-4">
 
-            {{ partial:typography/h2 color="text-white" :content="title" }}
+            {{ partial:typography/h2 color="" :content="title" }}
             <p>
                 {{ text}}
             </p>
@@ -23,9 +24,9 @@
 
     </div>
     {{ else }}
-    <div class="prose text-white col-span-8 col-start-5 relative text-center">
+    <div class="prose  col-span-8 col-start-5 relative text-center">
 
-        {{ partial:typography/h2 color="text-white" :content="title" }}
+        {{ partial:typography/h2 color="" :content="title" }}
         <p>
             {{ text}}
         </p>
@@ -33,3 +34,35 @@
     </div>
     {{ /if }}
 </div>
+
+{{ else }}
+
+<div class="lg:fluid-grid bg-primary-dark  relative overflow-hidden">
+
+    <div class="col-span-7 relative flex flex-col">
+        {{ image }}
+            <picture class="lg:h-full">
+                <source media="(min-width: 1024px)" srcset="{{ glide:url width='1440' format='webp' }}"
+                    type="image/webp">
+                <source media="(min-width: 1024px)" srcset="{{ glide:url width='1400'  }}" type="image/jpeg">
+                <img src="{{ glide:url width='640'  }}" alt="{{ title }}" class="{{class}} lg:h-full aspect-square lg:aspect-auto object-cover">
+            </picture>
+        {{ /image}}
+    </div>
+    <div class="col-span-7  px-4 pt-12 pb-32">
+        <div class="prose prose-invert">
+
+            {{ partial:typography/h2 color="text-[#ccf880]" :content="title" }}
+            <p>
+                {{ text}}
+            </p>
+            {{ partial:components/button :inverted="inverted" class="" }}
+        </div>
+
+        
+    </div>
+    {{ svg:swirls class="fill-[#ccf880] absolute bottom-0 right-0 lg:left-1/2 transform translate-x-1/2 lg:-translate-x-1/2 w-96 h-auto translate-y-[10%]" aria-hidden="true" sanitize="true" }}
+    
+</div>
+
+{{ /if}}
