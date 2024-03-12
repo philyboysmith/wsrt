@@ -1,8 +1,15 @@
 
 {{if hero_image }}
     {{hero_image}}
-    <div class="relative z-10 overflow-hidden bg-[#000]">
+    <div class="relative z-10 overflow-hidden bg-neutral">
     {{ partial:components/_hero-image class="w-full"}}
+
+    {{ if photo_credit}}
+    <div class="absolute bottom-0 right-0 bg-neutral  text-white py-1 px-3 text-sm flex items-center gap-2 ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(2 3)"><path d="M20 16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3l2-3h6l2 3h3a2 2 0 0 1 2 2v11z"/><circle cx="10" cy="10" r="4"/></g></svg>
+        {{ photo_credit }}
+    </div>
+    {{ /if}}
     {{ /hero_image}}
         <div class="absolute inset-0 z-50 flex items-center justify-center text-white">
             <div class="max-w-4xl text-center space-y-4">
@@ -18,5 +25,6 @@
             </div>
         </div>
     </div>
+
     {{ share_links }}
 {{ /if }}

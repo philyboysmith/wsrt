@@ -47,6 +47,18 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
+            handle: photo_credit
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Photo Credit'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: hero_title
             field:
               input_type: text
@@ -134,18 +146,6 @@ tabs:
               visibility: visible
               mode: default
               create: true
-              hide_display: false
-          -
-            handle: photo_credit
-            field:
-              input_type: text
-              antlers: false
-              type: text
-              display: 'Photo Credit'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
               hide_display: false
           -
             handle: show_child_pages

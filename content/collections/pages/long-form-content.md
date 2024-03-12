@@ -3,7 +3,7 @@ id: 20f6a148-63b8-47a8-9b0e-d57095d78c21
 blueprint: page
 title: 'Demo page'
 updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1710238678
+updated_at: 1710239082
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -274,7 +274,7 @@ page_builder:
     image: (c)-dave-kilbey-2.jpg
     type: preview
     enabled: true
-hero_image: hero/arundel-(114).jpg
+hero_image: hero/kingfisher-2.jpg
 hero_title: 'Demo page'
 hero_intro: 'A place to see what is possible'
 label: 'Go home'
@@ -284,4 +284,5 @@ entry: home
 button_type: button
 attr_title: Home
 show_child_pages: false
+photo_credit: 'Photo credit'
 ---
