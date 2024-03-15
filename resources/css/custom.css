@@ -4,8 +4,8 @@
 
     @font-face {
         font-family: 'Pathie';
-        src: url('/resources/fonts/Pathie.otf') format('woff'),
-        url('/resources/fonts/Pathie.otf') format('otf'),
+        src: url('/resources/fonts/Pathie.woff') format('woff'),
+            url('/resources/fonts/Pathie.otf') format('otf'),
             url('/resources/fonts/Pathie.ttf') format('ttf');
         font-weight: 400;
         font-style: normal;
@@ -14,28 +14,30 @@
 
 
     @font-face {
-        font-family: 'PPNeueMontreal';
-        src: url('/resources/fonts/NeueMontreal-Regular.woff') format('woff');
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
+        font-family: "Givonic";
+        src: url('/resources/fonts/GivonicLight/font.woff2') format('woff2'), url('/resources/fonts/GivonicLight/font.woff') format('woff');
+        font-weight: 300;
     }
 
     @font-face {
-        font-family: 'PPNeueMontreal';
-        src: url('/resources/fonts/NeueMontreal-Medium.woff') format('woff');
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'PPNeueMontreal';
-        src: url('/resources/fonts/PPNeueMontreal-Bold.woff') format('woff');
+        font-family: "Givonic";
+        src: url('/resources/fonts/GivonicBold/font.woff2') format('woff2'), url('/resources/fonts/GivonicBold/font.woff') format('woff');
         font-weight: 600;
-        font-style: normal;
-        font-display: swap;
     }
+
+    @font-face {
+        font-family: "Givonic";
+        src: url('/resources/fonts/GivonicRegular/font.woff2') format('woff2'), url('/resources/fonts/GivonicRegular/font.woff') format('woff');
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: "Givonic";
+        src: url('/resources/fonts/GivonicSemiBold/font.woff2') format('woff2'), url('/resources/fonts/GivonicSemiBold/font.woff') format('woff');
+        font-weight: 500;
+    }
+
+
 
     .hero-image::after {
         content: "";
@@ -55,22 +57,21 @@
         background-size: cover;
         background-attachment: fixed;
     }
+
     html.sr .scroll-reveal {
         visibility: hidden;
     }
-    /* purgecss ignore */ 
+
+    /* purgecss ignore */
     .tns-ovh {
-        overflow: visible!important;
+        overflow: visible !important;
     }
+
     .tns-controls {
         @apply font-serif text-2xl flex items-center justify-center gap-4;
     }
 }
 
-@layer components {
+@layer components {}
 
-}
-
-@layer utilities {
-
-}
+@layer utilities {}
