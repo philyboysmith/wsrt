@@ -39,7 +39,7 @@
 
 
 
-    .hero-image::after {
+    /* .hero-image::after {
         content: "";
         position: absolute;
         background-color: black;
@@ -50,7 +50,7 @@
         mix-blend-mode: multiply;
         background-blend-mode: multiply;
         opacity: 0.3
-    }
+    } */
 
     .rivers {
         background-image: url("/resources/svg/rivers.svg");
