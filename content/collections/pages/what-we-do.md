@@ -539,7 +539,7 @@ page_builder:
 link_type: none
 target_blank: false
 button_type: button
-hero_image: arundel-(108)-1.jpg
+hero_image: riverscapes/arun/arundel-(108)-1.jpg
 hero_title: 'What we do'
 show_child_pages: false
 ---

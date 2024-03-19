@@ -55,7 +55,7 @@ page_builder:
           id: ltis97uj
           values:
             type: image
-            image: (c)-dave-kilbey-2.jpg
+            image: trees_plants/(c)-dave-kilbey-2.jpg
             size: md
             caption: 'Nice image'
       -
@@ -89,7 +89,7 @@ page_builder:
             link_type: none
             target_blank: false
             button_type: button
-        image: (c)-barry-yates.jpg
+        image: wildlife/common_seal_barry_yates.jpg
         type: card
         enabled: true
     type: cards

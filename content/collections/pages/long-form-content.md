@@ -262,7 +262,7 @@ page_builder:
         target_blank: false
         entry: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
         button_type: button
-    image: (c)-derek-middleton-11-1.jpg
+    image: wildlife/dormouse_derek_middleton.jpg
     type: preview
     enabled: true
     style: one
@@ -271,7 +271,7 @@ page_builder:
     style: two
     title: 'Style two'
     text: 'Demo of preview block with style two. Generally these would be used with a more text than style one as the left hand column is a bit taller.'
-    image: (c)-dave-kilbey-2.jpg
+    image: trees_plants/(c)-dave-kilbey-2.jpg
     type: preview
     enabled: true
 hero_image: hero/kingfisher-2.jpg
