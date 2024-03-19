@@ -61,14 +61,14 @@ page_builder:
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         type: card
         enabled: true
-        image: (c)-derek-middleton-13.jpg
+        image: wildlife/otter2_derek_middleton.jpg
       -
         id: lt72ulb3
         title: 'Our Projects'
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         type: card
         enabled: true
-        image: arundel-(108)-1.jpg
+        image: riverscapes/arun/arundel-(108)-1.jpg
     type: cards
     enabled: true
 hero_image: hero/arundel-(114).jpg

@@ -3,7 +3,7 @@ id: 00bdbfca-5ad1-471d-8970-584609103faa
 blueprint: page
 template: news/index
 title: News
-hero_image: arundel-(113)-1.jpg
+hero_image: riverscapes/arun/arundel-(113)-1.jpg
 hero_title: News
 link_type: none
 target_blank: false

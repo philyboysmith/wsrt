@@ -2,7 +2,7 @@
 id: 6e5899d0-d10e-4419-bd5a-83459c3d4f90
 blueprint: page
 title: 'European Eels: An epic journey of transformation'
-hero_image: (c)-derek-middleton-18.jpg
+hero_image: wildlife/european_eel1_derek_middleton.jpg
 link_type: none
 target_blank: false
 button_type: button

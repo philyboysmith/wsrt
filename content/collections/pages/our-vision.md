@@ -10,7 +10,7 @@ sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
 updated_at: 1709207907
-hero_image: arundel-(114)-1.jpg
+hero_image: riverscapes/arun/arundel-(114)-1.jpg
 hero_title: 'Our Vision'
 link_type: none
 target_blank: false
