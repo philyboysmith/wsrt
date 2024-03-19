@@ -1,74 +1,70 @@
 {{#
-    @name Default
-    @desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a page get evenly spaced without having to worry about margins or paddings.
+@name Default
+@desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a
+page get evenly spaced without having to worry about margins or paddings.
 #}}
 
-    {{ partial:components/hero}}
+{{ partial:components/hero}}
 
 
-    <main
-        class="py-12  stack-12 md:stack-16 lg:stack-24"
-        id="content">
-        {{ page_builder scope="block" }}
-        {{ partial src="page_builder/{type}" }}
-        {{ /page_builder }}
+<main class="py-12  stack-12 md:stack-16 lg:stack-24" id="content">
+    {{ page_builder scope="block" }}
+    {{ partial src="page_builder/{type}" }}
+    {{ /page_builder }}
 
 
-        <div class="fluid-grid">
+    <div class="fluid-grid">
+        <div class="span-content grid md:grid-cols-12 gap-6 py-6 md:py-12 relative z-30">
+            {{ collection:news paginate="10" as="posts"}}
+            {{ posts }}
+
+            {{ if index === 0}}
             <div
-                class="span-content grid md:grid-cols-12 gap-6 py-6 md:py-12 relative z-30">
-                {{ collection:news paginate="10" as="posts"}}
-                {{ posts }}
-
-                {{ if index === 0}}
-                <div
-                    class="scroll-reveal bg-white flex flex-col overflow-hidden  items-start  border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary relative md:col-span-12 md:flex-row ">
-                    <a href="{{url}}"
-                        class="absolute z-10 inset-0">&nbsp;</a>
-                    {{ if hero_image }}
-                    <div>
-                        {{ hero_image }}
-                        <picture>
-                            <img src="{{ glide:url width='640' }}"
-                                alt="{{ title }}"
-                                class="w-full h-auto aspect-[3/2] object-cover transition translate-z-0">
-                        </picture>
-                        {{ /hero_image }}
-                    </div>
-                    {{ /if }}
-                    <div class="mb-4 p-6 space-y-2">
-                        <p
-                            class="uppercase text-sm  text-semibold tracking-wider">
-                            {{ date}}</p>
-                        {{ partial:typography/h3 class="font-serif text-2xl lg:text-4xl" :content="title" }}
-                        {{ partial:typography/p  :content="content | strip_tags | safe_truncate(200, '...') " }}
-
-                    </div>
+                class="scroll-reveal bg-white flex flex-col overflow-hidden  items-start  border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary relative md:col-span-12 md:flex-row ">
+                <a href="{{url}}" class="absolute z-10 inset-0">&nbsp;</a>
+                {{ if hero_image }}
+                <div>
+                    {{ hero_image }}
+                    <picture>
+                        <img src="{{ glide:url width='640' }}" alt="{{ title }}"
+                            class="w-full h-auto aspect-[3/2] object-cover transition translate-z-0">
+                    </picture>
+                    {{ /hero_image }}
                 </div>
-                {{ else }}
-                {{ partial:components/news-card}}
+                {{ /if }}
+                <div class="mb-4 p-6 space-y-2">
+                    <p class="uppercase text-sm  text-semibold tracking-wider">
+                        {{ date}}</p>
+                    {{ partial:typography/h3 class="font-serif text-2xl lg:text-4xl" :content="title" }}
+                    {{ partial:typography/p :content="content ?? seo_description | strip_tags | safe_truncate(200,
+                    '...') " }}
+
+                </div>
+            </div>
+            {{ else }}
+            {{ partial:components/news-card}}
+            {{ /if }}
+
+            {{ /posts }}
+
+            {{ paginate }}
+            <div class="md:col-span-12 text-center  py-12 flex gap-4 justify-center items-center">
+                {{ if prev_page }}
+                <a href="{{ prev_page }}" class="font-serif text-xl">←</a>
                 {{ /if }}
 
-                {{ /posts }}
+                {{ current_page }} of {{ total_pages }} pages
+                (There are {{ total_items }} posts)
 
-                {{ paginate }}
-                <div class="md:col-span-12 text-center  py-12 flex gap-4 justify-center items-center">
-                    {{ if prev_page }}
-                    <a href="{{ prev_page }}" class="font-serif text-xl">←</a>
-                    {{ /if }}
-
-                    {{ current_page }} of {{ total_pages }} pages
-                    (There are {{ total_items }} posts)
-            
-                    {{ if next_page }}
-                    <a href="{{ next_page }}" class="font-serif text-xl">→</a>
-                    {{ /if }}
+                {{ if next_page }}
+                <a href="{{ next_page }}" class="font-serif text-xl">→</a>
+                {{ /if }}
                 {{ /paginate }}
             </div>
-                {{ /collection:news }}
-            </div>
+            {{ /collection:news }}
         </div>
+    </div>
 
-    </main>
+</main>
 
-    <!-- End: /default.antlers.html -->
+<!-- End: /default.antlers.html -->
