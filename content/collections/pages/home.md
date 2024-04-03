@@ -3,8 +3,8 @@ id: home
 blueprint: page
 template: homepage
 title: Home
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1709208263
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1712074121
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -25,6 +25,7 @@ page_builder:
         button_type: button
     type: preview
     enabled: false
+    style: one
   -
     id: T5ZZwBfn
     article:
@@ -54,28 +55,32 @@ page_builder:
         text: 'Find out more about the rivers and streams in Western Sussex and some of the incredible wildlife they support.'
         type: card
         enabled: true
-        image: hero/arundel-(114).jpg
+        image: riverscapes/arun/arun2_dave_mills.jpg
       -
         id: lt72txsm
-        title: 'Your Wildlife'
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        title: 'Wild Lives'
+        text: 'Discover some of the incredible creatures you can find in or near our rivers. From wiggly eels to swooping eagles, this precious habitat is home to an array of stunning wildlife.'
         type: card
         enabled: true
         image: wildlife/otter2_derek_middleton.jpg
       -
         id: lt72ulb3
         title: 'Our Projects'
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        text: "From hedge planting to sluice removal, citizen science to saving black poplars, restoring ancient channels to revitalising chalk streams, and inspiring kids to creating climate resilient playgrounds....there's a lot happening for our rivers!"
         type: card
         enabled: true
-        image: riverscapes/arun/arundel-(108)-1.jpg
+        image: liss-nfm.jpeg
+      -
+        id: ltzve0b1
+        title: 'Latest news'
+        type: card
+        enabled: true
+        image: trees_plants/dsc_0126.jpg
+        text: 'All the latest happenings from the world of WSRT.'
     type: cards
     enabled: true
-hero_image: hero/arundel-(114).jpg
-hero_title: 'Restoring Our Riverscapes.'
-hero_intro: |-
-  We're custodians of rivers, restorers of rivers. We're a community of people who love rivers. 
-  We re-imagine our rivers, asking 'What if?', and making it happen. We need thriving, resilient, vibrant riverscapes, alive for people and wildlife. Now more than ever.
+hero_image: hero/boris-smokrovic-hwwf4onxadm-unsplash-(1).jpg
+hero_title: 'Action for our Riverscapes.'
 label: 'Dive in'
 link_type: entry
 target_blank: false
