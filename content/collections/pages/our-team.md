@@ -9,9 +9,9 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1709729250
-hero_image: wildlife/hedgehog2_derek_middleton.jpg
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1712066045
+hero_image: hero/forget-me-not.jpg
 hero_title: 'Our Team'
 link_type: none
 target_blank: false

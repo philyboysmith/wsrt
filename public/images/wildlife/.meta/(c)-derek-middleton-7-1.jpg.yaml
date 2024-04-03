@@ -1,6 +1,8 @@
-data: {  }
+data:
+  exempt_from_alt: false
+  focus: 51-55-1
 size: 757926
-last_modified: 1709202737
+last_modified: 1709248855
 width: 1461
 height: 2200
 mime_type: image/jpeg
