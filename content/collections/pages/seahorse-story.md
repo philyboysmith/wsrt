@@ -130,6 +130,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1712071802
+updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
+updated_at: 1712131943
+dark_text: false
 ---

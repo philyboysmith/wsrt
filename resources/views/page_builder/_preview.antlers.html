@@ -30,7 +30,9 @@
         <p>
             {{ text}}
         </p>
+        {{button}}
         {{ partial:components/button inverted="true" class="" }}
+        {{ /button }}
     </div>
     {{ /if }}
 </div>
@@ -56,7 +58,11 @@
             <p>
                 {{ text}}
             </p>
-            {{ partial:components/button :inverted="inverted" class="" }}
+
+            {{button}}
+                
+                {{ partial:components/button inverted="true" class="" }}
+            {{ /button}}
         </div>
 
         

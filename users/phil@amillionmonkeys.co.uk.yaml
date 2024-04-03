@@ -6,3 +6,5 @@ preferences:
   assets:
     images:
       mode: grid
+    files:
+      mode: grid

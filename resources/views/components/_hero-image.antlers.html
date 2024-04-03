@@ -1,6 +1,6 @@
 <picture class="hero-image">
-    <source media="(min-width: 1024px)" srcset="{{ glide:url width='1440' height='580' format='webp' }}"
+    <source media="(min-width: 1024px)" srcset="{{ glide:url width='1440' height='580' format='webp' fit="crop_focal"  }}"
         type="image/webp">
-    <source media="(min-width: 1024px)" srcset="{{ glide:url width='1400' height='580' }}" type="image/jpeg">
-    <img src="{{ glide:url width='640' height='406' }}" alt="{{ title }}" class="{{class}} object-cover max-h-[768px] object-cover">
+    <source media="(min-width: 1024px)" srcset="{{ glide:url width='1400' height='580' fit="crop_focal"  }}" type="image/jpeg">
+    <img src="{{ glide:url width='640' height='406' fit="crop_focal" }}" alt="{{ title }}" class="{{class}} object-cover max-h-[768px] object-cover">
 </picture>

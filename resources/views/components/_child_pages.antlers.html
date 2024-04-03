@@ -9,7 +9,7 @@
     <div
         class="span-content grid md:grid-cols-12 gap-6 py-6 md:py-12 relative z-30">
 
-        {{ partial:typography/h2 content="In this section" class="md:col-start-3 md:col-span-8 text-center text-white" }}
+        {{ partial:typography/h2 :content="slug === 'our-rivers' ? title : 'In this section'" class="md:col-start-3 md:col-span-8 text-center text-white" }}
 
         {{ nav :from="uri" }}
 

@@ -8,8 +8,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1712076087
+updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
+updated_at: 1712132275
 hero_image: wildlife/frog2_richard_will_crombie.jpg
 link_type: none
 target_blank: false
@@ -47,6 +47,15 @@ page_builder:
       We aim to cover the entire catchment and collaborate with groups and orgs who currently or previously collected water quality and river health data. The 'ARRT Water Quality Survey' looks at river characteristics, ecosystems, wildlife, and pollution alongside chemical readings, to provide a holistic view of river health at every site.
     type: preview
     enabled: true
+    button:
+      -
+        id: lujjadnr
+        label: 'Find out more'
+        link_type: entry
+        target_blank: false
+        entry: 9364a075-7789-4adb-aaa5-bb44f6c516a7
+        button_type: button
+        attr_title: 'Find out more'
   -
     id: lub8rwlr
     style: two
@@ -114,4 +123,5 @@ page_builder:
     type: article
     enabled: true
 hero_title: 'Volunteer with us'
+dark_text: false
 ---

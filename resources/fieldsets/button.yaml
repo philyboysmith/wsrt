@@ -128,7 +128,7 @@ fields:
       validate:
         - 'required_if:{this}.link_type,asset'
       if:
-        link_type: asset
+        link_type: 'equals asset'
   -
     handle: button_type
     field:

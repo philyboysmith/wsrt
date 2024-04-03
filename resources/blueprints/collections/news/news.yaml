@@ -190,6 +190,17 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
+            handle: dark_text
+            field:
+              default: false
+              type: toggle
+              display: 'Dark text'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: hero_intro
             field:
               restrict: false

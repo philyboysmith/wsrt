@@ -11,13 +11,13 @@
     </div>
     {{ /if}}
     {{ /hero_image}}
-        <div class="absolute inset-0 z-50 flex items-center justify-center text-white">
+        <div class="absolute inset-0 z-50 flex items-center justify-center {{ if dark_text }} text-[#0b3025] {{ else }} text-white {{ /if }}">
             <div class="max-w-4xl text-center space-y-4">
                 <p class="uppercase text-semibold tracking-wider">{{ hero_subtitle}}</p>
-                {{ partial:typography/h1 color="text-white" :content="hero_title" }}
+                {{ partial:typography/h1 color="text-current" :content="hero_title" }}
 
                 <div>
-                    {{ partial:typography/p color="text-white" class="text-xl font-medium " :content="hero_intro" }}
+                    {{ partial:typography/p color="text-current" class="text-xl font-medium " :content="hero_intro" }}
                 </div>
                 {{if hero_image }}
                 {{ partial:components/button inverted="true" class="" }}
