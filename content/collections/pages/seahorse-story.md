@@ -16,18 +16,8 @@ page_builder:
         type: paragraph
         content:
           -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
             type: text
             text: "You might associate the majestic seahorse with tropical waters, but we are lucky enough to have both short-snouted and long-snouted seahorses here in the English Channel. Easily distinguished by, you’ve guessed it, the length of their snouts, the long-snouted seahorse also bears a fleshy “mane” along its back, whereas the short-snouted seahorse is “maneless”.\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
       -
         type: paragraph
         content:
@@ -38,18 +28,8 @@ page_builder:
         type: paragraph
         content:
           -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
             type: text
             text: "Providing shelter for young to grow, as well as anchors for all ages of seahorses to cling to, kelp (a brown flat bladed seaweed) in the English Channel is a vital part of a balanced sea habitat. Sadly since the 1980s Sussex kelp beds had declined by 96%, having a huge impact on a myriad of sealife, including our underwater horsey friends.\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
       -
         type: paragraph
         content:
@@ -60,18 +40,8 @@ page_builder:
         type: paragraph
         content:
           -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
             type: text
             text: "Intense arable agricultural activities and insensitive management along the river banks causes soil erosion, leading to more soil and often fertilisers slipping into the river water. Pollution from roads and wash off from fields also contaminates the river water, which then flows into the sea contaminating our coastal waters.\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
       -
         type: paragraph
         content:
@@ -82,43 +52,14 @@ page_builder:
         type: paragraph
         content:
           -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
             type: text
             text: "With smaller or less kelp growing, marine animals lose food sources and a place to stay safe and create a home. One kelp can provide a multi-dimensional habitat for around 80,000 individual animals! Isn’t that amazing!\_"
       -
         type: paragraph
         content:
           -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
             type: text
             text: "With the short and long-snouted seahorse on the vulnerable list, it is a stark sign of how the life quality of even the tiniest sea creatures on our shorelines can be affected by the quality of our river water.\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'How you can help the long and short-snouted seahorses thrive:'
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
     type: article
     enabled: true
 link_type: none
@@ -130,7 +71,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1712131943
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1713190251
 dark_text: false
 ---

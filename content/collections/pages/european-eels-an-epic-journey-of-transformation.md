@@ -2,7 +2,7 @@
 id: 6e5899d0-d10e-4419-bd5a-83459c3d4f90
 blueprint: page
 title: 'European Eels: An epic journey of transformation'
-hero_image: wildlife/european_eel1_derek_middleton.jpg
+hero_image: wildlife/european_eel3_derek_middleton.jpg
 link_type: none
 target_blank: false
 button_type: button
@@ -48,7 +48,16 @@ page_builder:
         content:
           -
             type: text
-            text: "And now for the fantastical finale. A masterful metamorphosis and another gigantic journey. Once the eels have lived a peaceful life in our beautiful rivers, gorging on fish, molluscs and crustaceans - oh and not forgetting the odd slug or snail… did we not mention that they can also leave the water and cross dry land should the urge take them… Just another string to this amazing creature’s bow! Upon reaching adequate size and with satisfying fat supplies accumulated, the eels enter their final stage, the fully matured ‘silver eel’ stage.\_"
+            text: 'And now for the fantastical finale. A masterful metamorphosis and another gigantic journey. Once the eels have lived a peaceful life in our beautiful rivers, gorging on fish, molluscs and crustaceans - oh and not forgetting the odd slug or snail… did we not mention that they can also leave the water and cross dry land should the urge take them… Just another string to this amazing creature’s bow! Upon reaching adequate size and with satisfying fat supplies accumulated, the eels enter their final stage, the fully matured ‘silver eel’ stage.'
+      -
+        type: set
+        attrs:
+          id: lv10tgvi
+          values:
+            type: image
+            image: wildlife/european_eel1_derek_middleton.jpg
+            size: md
+            caption: '"Walking" on grass - copyright Derek Middleton'
       -
         type: paragraph
         content:
@@ -70,7 +79,10 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: c11038d9-06f8-4190-9728-cb8c177727b7
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1712071376
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1713189622
 photo_credit: 'Derek Middleton'
+dark_text: false
+hero_intro: 'Swimming against colossal tides, morphing more than once in their own skin and living out their lives in our humble rivers.'
+hero_title: 'European eels'
 ---

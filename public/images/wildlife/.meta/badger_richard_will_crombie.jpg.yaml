@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'A badger'
+  exempt_from_alt: false
 size: 2062811
 last_modified: 1710771845
 width: 4500

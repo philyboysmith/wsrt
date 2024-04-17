@@ -1,7 +1,7 @@
 ---
 id: 0bffcac9-1861-469d-80d6-d64c6fcce148
 blueprint: page
-title: 'The River Ems - A precious place for all'
+title: 'The River Ems'
 hero_title: 'The River Ems'
 hero_intro: 'Locally precious and globally unique, the Ems is a chalk stream, a rare and special habitat to cherish.'
 link_type: none
@@ -14,8 +14,8 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: cae26e89-1eb8-4d6b-8455-fc52bbfc4c1d
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1712067966
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1713187015
 page_builder:
   -
     id: luigsflu
@@ -41,6 +41,15 @@ page_builder:
           -
             type: text
             text: "Offering a place for people to relax, the crystal clear waters of the Ems offer a home to a multitude of wildlife such as water voles, fish and dragonflies, while its banks provide a sanctuary for a variety of birds.\_"
+      -
+        type: set
+        attrs:
+          id: lv0z9vx6
+          values:
+            type: image
+            image: wildlife/dragonfly_nymph_derek_middleton.jpg
+            size: md
+            caption: 'Dragonfly nymph - copyright Derek Middleton'
       -
         type: paragraph
         content:
@@ -72,4 +81,6 @@ page_builder:
             type: hardBreak
     type: article
     enabled: true
+hero_image: post/river-ems-10-year-chalk-stream-restoration-plan/ems.jpg
+dark_text: false
 ---

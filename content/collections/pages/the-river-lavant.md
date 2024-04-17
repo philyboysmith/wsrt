@@ -14,6 +14,74 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: cae26e89-1eb8-4d6b-8455-fc52bbfc4c1d
 show_child_pages: false
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1709730177
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1713187917
+hero_image: riverscapes/lavant/river-lavant-north-of-chi---rebecca-saunders.jpg
+dark_text: false
+page_builder:
+  -
+    id: lv0zopp2
+    article:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: "Otters, kingfishers and trout are just some of the wildlife which call the River Lavant their home.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The chalk-filtered waters of the River Lavant serenely carve a route from the peaceful village of East Dean, through Singleton, West Dean and Lavant, before winding their way around the city walls of historic Chichester and out to sea.'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: "\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Providing a vital source of freshwater, the Lavant has played an important part in building the settlements around this rolling downland valley. Evidence suggests that humans have lived along the banks of the river for around 5000 years, using the water for daily life and farming.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Throughout the years the river has also been used as a way of transporting goods, mainly wool and grain, to different villages and of course to market in Chichester. Nowadays the most activity it sees is kayaking or canoeing, and fishing, but lots more people take solace on its banks through the many footpaths and bridleways, including part of the South Downs Way National Trail.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "As one of only 200 chalk streams left in the UK, this precious river offers a haven for an abundance of wildlife. Fish species such as grayling, eels, pike and carp can be found here, while badgers, rabbits, foxes and deer rely on its fresh waters to quench their thirst.\_"
+      -
+        type: set
+        attrs:
+          id: lv0zto5h
+          values:
+            type: image
+            image: wildlife/badger_richard_will_crombie.jpg
+            size: md
+            caption: 'Badger - copyright Richard Will Crombie'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'However in recent years the quality of this habitat has been destroyed due to sewage being pumped into the river and pollution washing into the water from the adjacent farmland and roads. We need to act now to help prevent this precious wildlife haven from being lost completely.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'On a lighter note, the Lavant has inspired folklore through the years, with one story involving a mischievous water nymph named Lydian, who lived on the river playing tricks on local villagers. Rumor had it that she could be appeased by flowers or other little gifts laid at her favourite spot on the riverbank - we wonder where that might have been, and where yours might be?…'
+    type: article
+    enabled: true
 ---

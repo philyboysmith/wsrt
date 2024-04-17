@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Kingfisher perched on a branch'
+  exempt_from_alt: false
 size: 768340
 last_modified: 1710767859
 width: 2386

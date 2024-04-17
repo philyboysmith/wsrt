@@ -16,18 +16,8 @@ page_builder:
         type: paragraph
         content:
           -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
             type: text
             text: "With a three stage life-cycle - egg, larva and adult - dragonflies are some of the most sci-fi creatures that you’ll find in our fresh waters. With two sets of wings, the hind ones usually shorter, two large eyes on their heads which touch at the top and a long abdomen made up of ten sections, these alien-looking insects can often be spotted darting over rivers, or resting on plants at the edge of water. But it’s their life under the surface that is most fascinating.\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
       -
         type: paragraph
         content:
@@ -38,18 +28,8 @@ page_builder:
         type: paragraph
         content:
           -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
             type: text
             text: 'Within two to five weeks the eggs hatch, with tiny prolarva emerging. And so begins their watery life, hidden from our view beneath the surface of our rivers and ponds.'
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
       -
         type: paragraph
         content:
@@ -57,10 +37,14 @@ page_builder:
             type: text
             text: "Over the next one to two years (yes it really is that long!) the larva stay in the water and will moult between 5 and 14 times over, growing each time in size and development. Moulting is the process by which they shed a layer of skin, emerging each time bigger and renewed with hunger for more prey, feeding off insect larva, crustaceans, worms and even small fish.\_"
       -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
+        type: set
+        attrs:
+          id: lv11b7qj
+          values:
+            type: image
+            image: wildlife/dragonfly_nymph_derek_middleton.jpg
+            size: md
+            caption: 'Dragonfly nymph - copyright Derek Middleton'
       -
         type: paragraph
         content:
@@ -71,43 +55,14 @@ page_builder:
         type: paragraph
         content:
           -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
             type: text
             text: "It isn’t until temperature and daylight length signals it’s time for their final moult that the larva will drag themselves from the water. If you spy what looks like a dragonfly sitting at the water's edge, it’s likely that they are preparing for their last moult and starting to breathe air for the first time. How amazing would it be to witness such a transformation!"
       -
         type: paragraph
         content:
           -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
             type: text
             text: 'Once adult dragonflies, they have only a short few weeks above the water to eat, mate and lay eggs. So next time you’re strolling by a river, or gazing out over a pond, think about these amazing larvae busy feeding, moutling and surviving just beneath the water’s surface.'
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'How you can help dragonfly larva thrive in our rivers:'
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
     type: article
     enabled: true
 link_type: none
@@ -119,7 +74,10 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1712071749
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1713190397
 hero_image: wildlife/(c)-derek-middleton-7-1.jpg
+hero_title: Dragonflies
+dark_text: false
+hero_intro: 'An unseen life cycle underwater in our rivers.'
 ---
