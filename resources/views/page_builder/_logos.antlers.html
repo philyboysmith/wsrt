@@ -1,0 +1,21 @@
+<div class="fluid-grid lg:py-12 relative">
+    <div class="col-span-12 col-start-2 ">
+        <div class="fluid-grid">
+            {{ replicator_field }}
+            <div class="col-span-6 lg:col-span-4 ">
+                {{if url}}
+                <a href="{{url}}" target="_blank" class="block space-y-2 group">
+                    {{ /if }}
+                {{image}}
+                <img src="{{ glide:url width='640' height='406' fit="crop_focal" }}" alt="{{ title }}" class="group-hover:opacity-80 transition-opacity rounded">
+                {{ /image}}
+                {{ partial:typography/h3 color="" :content="title" }}
+                {{if url}}
+
+            </a>
+            {{ /if }}
+            </div>
+            {{ /replicator_field }}
+        </div>
+    </div>
+</div>

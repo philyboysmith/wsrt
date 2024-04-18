@@ -1,7 +1,7 @@
 name: 'Phil Smith'
 super: true
 id: a675cf36-f153-4a24-9195-29b6eccb8c3a
-password_hash: $2y$10$mwBhWIx3DVMYFrstq4n6B.QOv9Ik4wBzYYH2VJSH4OfNa5Jdahoz2
+password_hash: $2y$10$nAHtcl0qLFKiXB2P4jEiBuoIrvEYkiKE7eotSGm/WrXZ9Z7vR8thW
 preferences:
   assets:
     images:

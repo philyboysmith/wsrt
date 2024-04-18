@@ -3,7 +3,7 @@ id: 20f6a148-63b8-47a8-9b0e-d57095d78c21
 blueprint: page
 title: 'Demo page'
 updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1712129737
+updated_at: 1713433625
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -272,6 +272,18 @@ page_builder:
     text: 'Demo of preview block with style two. Generally these would be used with a more text than style one as the left hand column is a bit taller.'
     image: trees_plants/(c)-dave-kilbey-2.jpg
     type: preview
+    enabled: true
+  -
+    id: lv524m9w
+    replicator_field:
+      -
+        id: lv524o51
+        title: Title
+        url: 'https://amillionmonkeys.co.uk'
+        image: liss-nfm.jpeg
+        type: new_set
+        enabled: true
+    type: logos
     enabled: true
 hero_image: hero/kingfisher-2.jpg
 hero_title: 'Demo page'
