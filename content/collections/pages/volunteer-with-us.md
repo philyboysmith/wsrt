@@ -8,8 +8,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1712132275
+updated_by: b1d311df-0293-4bc5-8f87-ba4b911c8075
+updated_at: 1713366438
 hero_image: wildlife/frog2_richard_will_crombie.jpg
 link_type: none
 target_blank: false
@@ -52,7 +52,7 @@ page_builder:
         id: lujjadnr
         label: 'Find out more'
         link_type: entry
-        target_blank: false
+        target_blank: true
         entry: 9364a075-7789-4adb-aaa5-bb44f6c516a7
         button_type: button
         attr_title: 'Find out more'
