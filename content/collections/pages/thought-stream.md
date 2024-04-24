@@ -14,6 +14,8 @@ sitemap_priority: 0.5
 parent: 00bdbfca-5ad1-471d-8970-584609103faa
 show_child_pages: false
 updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1713435420
+updated_at: 1713965432
 template: news/thought-stream
+seo_title: 'Thought stream'
+seo_description: "What we've been up to and our latest msuings on life with our rivers."
 ---

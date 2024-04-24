@@ -63,6 +63,11 @@ tree:
   -
     id: 716ccb39-5945-4155-af32-8cd884d82239
     entry: 00bdbfca-5ad1-471d-8970-584609103faa
+    children:
+      -
+        id: 17192730-826a-4170-bbd4-bb4a7cfdc55c
+        title: 'Thought stream'
+        url: /news/thought-stream
   -
     id: d74d482c-c919-4fe4-85bd-198961175dc0
     entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
