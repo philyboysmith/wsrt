@@ -3,7 +3,7 @@ id: 20f6a148-63b8-47a8-9b0e-d57095d78c21
 blueprint: page
 title: 'Demo page'
 updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1713433625
+updated_at: 1713965184
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -284,6 +284,16 @@ page_builder:
         type: new_set
         enabled: true
     type: logos
+    enabled: true
+  -
+    id: lvdulw1d
+    html:
+      code: |-
+        <iframe
+          src="https://app.cartographer.io/embed/map?workspace=arrt&project=riverguardians&map=ArrtWaterQuality&when=year&zoom=10">
+        </iframe>
+      mode: htmlmixed
+    type: html
     enabled: true
 hero_image: hero/kingfisher-2.jpg
 hero_title: 'Demo page'
