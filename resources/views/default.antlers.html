@@ -25,6 +25,9 @@
         {{ if show_child_pages }}
         {{ partial:components/child_pages}}
         {{ /if }}
+        {{ if slug === 'thought-stream'}}
+            {{ partial:components/thought-stream}}
+        {{ /if}}
     </main>
 
     <!-- End: /default.antlers.html -->

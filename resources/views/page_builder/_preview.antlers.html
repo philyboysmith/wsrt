@@ -44,10 +44,10 @@
     <div class="col-span-7 relative flex flex-col">
         {{ image }}
             <picture class="lg:h-full">
-                <source media="(min-width: 1024px)" srcset="{{ glide:url width='1440' format='webp' }}"
+                <source media="(min-width: 1024px)" srcset="{{ glide:url width='1440' height='1080' format='webp' }}"
                     type="image/webp">
-                <source media="(min-width: 1024px)" srcset="{{ glide:url width='1400'  }}" type="image/jpeg">
-                <img src="{{ glide:url width='640'  }}" alt="{{ title }}" class="{{class}} lg:h-full aspect-square lg:aspect-auto object-cover">
+                <source media="(min-width: 1024px)" srcset="{{ glide:url width='1400' height='1080'  }}" type="image/jpeg">
+                <img src="{{ glide:url width='640' height='480'  }}" alt="{{ title }}" class="{{class}} lg:h-full aspect-square lg:aspect-auto object-cover">
             </picture>
         {{ /image}}
     </div>

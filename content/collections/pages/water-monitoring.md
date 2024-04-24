@@ -8,8 +8,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1712075833
+updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
+updated_at: 1713964757
 hero_image: hero/mayfly-3.jpg
 link_type: none
 target_blank: false
@@ -124,5 +124,18 @@ page_builder:
             type: hardBreak
     type: article
     enabled: true
+  -
+    id: lvducspb
+    html:
+      code: |-
+        <iframe
+          class="cartographer-map"
+          src="https://app.cartographer.io/embed/map?workspace=arrt&project=riverguardians&map=ArrtWaterQuality&when=year&zoom=10"
+        		>
+        </iframe>
+      mode: htmlmixed
+    type: html
+    enabled: true
 hero_title: 'River Guardians'
+dark_text: false
 ---

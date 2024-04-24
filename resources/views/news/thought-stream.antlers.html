@@ -1,0 +1,42 @@
+<div class="bg-primary text-white">
+    <div class="text-center py-16 space-y-2">
+    {{ partial:typography/h1 color="text-[#d2fe83]" content="Thought stream" class="max-w-sm mx-auto"}}
+    {{ partial:typography/h3 color="text-white lg:text-2xl" content="Thought stream" }}
+    </div>
+<div class="fluid-grid ">
+    <div class="span-content grid md:grid-cols-12 gap-6 py-6 md:py-12 relative z-30">
+        {{ collection:news paginate="10" as="posts" taxonomy:news="thought-stream"}}
+        {{ posts }}
+
+        <div
+        class="scroll-reveal text-white flex flex-col overflow-hidden  items-start   rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary relative md:col-span-4 ">
+        <a href="{{url}}" class="absolute z-10 inset-0">&nbsp;</a>
+        {{ if hero_image }}
+        <div>
+            {{ hero_image }}
+            <picture>
+                <img src="{{ glide:url width='640' }}" alt="{{ title }}"
+                    class="w-full h-auto aspect-square object-cover transition translate-z-0">
+            </picture>
+            {{ /hero_image }}
+        </div>
+        {{ /if }}
+        <div class="mb-4 pt-6 space-y-2">
+            <p class="uppercase text-sm  text-semibold tracking-wider">
+                {{ date}}</p>
+            {{ partial:typography/h3 class="font-serif text-white text-2xl" :content="title" }}
+    
+        </div>
+    </div>
+    
+
+        {{ /posts }}
+
+        {{ paginate }}
+            {{ partial:components/pagination}}
+        {{ /paginate }}
+        {{ /collection:news }}
+    </div>
+</div>
+
+</div>

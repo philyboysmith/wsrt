@@ -1,0 +1,15 @@
+<div class="fluid-grid">
+    <div class="span-content grid md:grid-cols-12 gap-6 py-6 md:py-12 relative z-30">
+        {{ collection:news paginate="10" as="posts" taxonomy:news="thought-stream"}}
+        {{ posts }}
+
+        {{ partial:components/news-card}}
+
+        {{ /posts }}
+
+        {{ paginate }}
+            {{ partial:components/pagination}}
+        {{ /paginate }}
+        {{ /collection:news }}
+    </div>
+</div>

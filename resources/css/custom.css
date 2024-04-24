@@ -72,6 +72,11 @@
     }
 }
 
+.html-wrapper > iframe{
+    @apply w-full h-full
+}
+
 @layer components {}
 
 @layer utilities {}
+

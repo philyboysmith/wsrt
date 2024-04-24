@@ -1,0 +1,12 @@
+<div class="md:col-span-12 text-center  py-12 flex gap-4 justify-center items-center">
+    {{ if prev_page }}
+    <a href="{{ prev_page }}" class="font-serif text-xl">←</a>
+    {{ /if }}
+
+    {{ current_page }} of {{ total_pages }} pages
+    (There are {{ total_items }} posts)
+
+    {{ if next_page }}
+    <a href="{{ next_page }}" class="font-serif text-xl">→</a>
+    {{ /if }}
+    </div>
