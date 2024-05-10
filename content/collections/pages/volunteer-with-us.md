@@ -8,8 +8,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
-updated_by: b1d311df-0293-4bc5-8f87-ba4b911c8075
-updated_at: 1713366438
+updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
+updated_at: 1714042353
 hero_image: wildlife/frog2_richard_will_crombie.jpg
 link_type: none
 target_blank: false
@@ -89,23 +89,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'To make volunteering opportunities easier to access and sign up to, we have set up a new online platform called Better Impact. Better Impact is a simple system that allows people to view and sign up for voluntary sessions and has some extra perks like logging your hours, working towards achievement badges, and connecting with people in your local community. We’ll be using Better Impact for all of our volunteering activities going forward to please register by clicking '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://wear-rivers-trust.teamkinetic.co.uk/'
-                  rel: null
-                  target: null
-                  title: null
-              -
-                type: bold
-            text: here.
-          -
-            type: text
-            text: ' If you need any additional support with online systems and may not have regular access to a computer or smartphone so please contact '
+            text: 'To make volunteering opportunities easier to access and sign up to, we have set up a new online platform called Better Impact. Better Impact is a simple system that allows people to view and sign up for voluntary sessions and has some extra perks like logging your hours, working towards achievement badges, and connecting with people in your local community. We’ll be using Better Impact for all of our volunteering activities going forward to please register by following the link below. If you need any additional support with online systems and may not have regular access to a computer or smartphone so please contact '
           -
             type: text
             marks:
@@ -120,6 +104,20 @@ page_builder:
           -
             type: text
             text: .
+      -
+        type: set
+        attrs:
+          id: lvf4ijz8
+          values:
+            type: buttons
+            buttons:
+              -
+                id: lvf4ikqr
+                label: 'Click here to sign up!'
+                link_type: url
+                target_blank: true
+                url: 'https://app.betterimpact.com/Application?OrganizationGuid=18e71d13-a17c-4f31-8a02-9b1f91f6eb71&ApplicationFormNumber=1'
+                button_type: button
     type: article
     enabled: true
 hero_title: 'Volunteer with us'

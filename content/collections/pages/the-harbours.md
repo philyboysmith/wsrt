@@ -1,5 +1,6 @@
 ---
 id: 9fe2b7f9-9f64-469c-865f-859e5b823755
+published: false
 blueprint: page
 title: 'The harbours'
 hero_title: 'The Harbours'
@@ -14,6 +15,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: cae26e89-1eb8-4d6b-8455-fc52bbfc4c1d
 show_child_pages: false
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1709730226
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1714648564
+dark_text: false
 ---

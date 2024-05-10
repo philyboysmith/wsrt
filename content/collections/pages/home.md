@@ -3,8 +3,8 @@ id: home
 blueprint: page
 template: homepage
 title: Home
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1712130027
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1714510554
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -69,7 +69,7 @@ page_builder:
         text: "From hedge planting to sluice removal, citizen science to saving black poplars, restoring ancient channels to revitalising chalk streams, and inspiring kids to creating climate resilient playgrounds....there's a lot happening for our rivers!"
         type: card
         enabled: true
-        image: liss-nfm.jpeg
+        image: volunteer_hedgerow_planting-liss/liss-nfm.jpeg
       -
         id: ltzve0b1
         title: 'Latest news'
@@ -79,7 +79,7 @@ page_builder:
         text: 'All the latest happenings from the world of WSRT.'
     type: cards
     enabled: true
-hero_image: hero/boris-smokrovic-hwwf4onxadm-unsplash-(1).jpg
+hero_image: hero/kingfisher-crop-4.jpg
 hero_title: 'Action for our Riverscapes.'
 label: 'Dive in'
 link_type: entry

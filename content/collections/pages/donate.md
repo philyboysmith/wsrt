@@ -8,12 +8,45 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1713364298
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1715338002
 link_type: none
 target_blank: false
 button_type: button
 show_child_pages: false
 dark_text: false
-hero_image: hero/boris-smokrovic-hwwf4onxadm-unsplash-(1).jpg
+hero_image: riverscapes/arun/arun2_dave_mills.jpg
+page_builder:
+  -
+    id: lvpolyhj
+    article:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "From the source of our rivers to the sea - across towns, cities, countryside and coast – a healthy riverscape is essential to all of us. It means better places to live, where people and wildlife thrive together.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Humans are not just the custodians of nature, we are a substantial and significant part of it. We have the ability to harm our natural systems and we have the power to heal them, protecting them into the future. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Donate now to help us ensure we can enjoy healthy rivers and their surroundings for generations to come.'
+      -
+        type: set
+        attrs:
+          id: lw0jpekb
+          values:
+            type: image
+            image: wildlife/water_vole1_derek_middleton.jpg
+            size: md
+    type: article
+    enabled: true
+hero_title: 'Donate - help our rivers thrive'
 ---

@@ -17,7 +17,6 @@ page_builder:
             id: lujlmcof
             link_type: asset
             target_blank: false
-            asset: 623002711-brighton-college-13-interview-pdf.pdf
             button_type: button
         type: card
         enabled: true

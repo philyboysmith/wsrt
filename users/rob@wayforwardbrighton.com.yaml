@@ -3,3 +3,7 @@ roles:
   - editor
 id: b1d311df-0293-4bc5-8f87-ba4b911c8075
 password_hash: $2y$10$gK6SOapnyPpZr4mTWBw84ev5Ny5QgT3TxuXy8TDL/m.b/Z/McdV1K
+preferences:
+  assets:
+    images:
+      mode: grid

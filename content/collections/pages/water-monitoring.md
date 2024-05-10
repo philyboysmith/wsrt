@@ -8,9 +8,9 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1713964757
-hero_image: hero/mayfly-3.jpg
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1714652176
+hero_image: hero/paddleboard.jpg
 link_type: none
 target_blank: false
 button_type: button
@@ -19,15 +19,6 @@ page_builder:
   -
     id: luilondd
     article:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'ARRT has created an expanding programme of citizen science water quality testing across the Arun & Western Streams. Establishing a baseline view of the river’s health state allows us to understand where we can protect and restore our natural environment, and to see where possible pollution events occur.'
       -
         type: paragraph
         content:
@@ -45,7 +36,18 @@ page_builder:
             marks:
               -
                 type: bold
-            text: 'We are creating a Water Quality Monitoring initiative led by you, our Citizen Scientists. With just a few hours a month you can help take monthly surveys of your local rivers to paint a long-term observation of our river’s chemical, pollution, and wildlife state.'
+            text: 'River Guardians is a Water Quality Monitoring initiative led by our fantastic Citizen Scientists. With just a few hours a month you can help take monthly surveys of your local rivers to paint a long-term observation of water quality in our rivers and identify pollution.'
+      -
+        type: set
+        attrs:
+          id: lvp7m8iq
+          values:
+            type: image
+            image: wqtesting/high-phosphate.jpeg
+            size: md
+            caption: 'High phosphate in the Lavant chalk stream'
+      -
+        type: paragraph
       -
         type: paragraph
         content:
@@ -72,26 +74,7 @@ page_builder:
             marks:
               -
                 type: bold
-            text: 'Browse our citizen science data here (insert live Cartographer data viewer map). '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://cartographer.io/'
-                  rel: null
-                  target: null
-                  title: null
-              -
-                type: bold
-            text: 'https://cartographer.io/'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: "\_"
+            text: 'Browse our citizen science data below.'
       -
         type: paragraph
         content:

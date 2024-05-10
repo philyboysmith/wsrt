@@ -8,8 +8,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1712074426
+updated_by: b1d311df-0293-4bc5-8f87-ba4b911c8075
+updated_at: 1714749375
 hero_image: wildlife/frog_richard_will_crombie.jpg
 hero_title: 'Our Vision'
 link_type: none
@@ -20,7 +20,9 @@ page_builder:
     id: lt768j8p
     article:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 2
         content:
           -
             type: text
@@ -36,13 +38,27 @@ page_builder:
         content:
           -
             type: text
-            text: 'The riverscape in our vision is defined as the entire catchment around the river - the area of land through which water from any form of precipitation drains into the river. We must breathe life back into the whole of the riverscape, with partners working together in powerful collaborations to ensure all the influences on the riverscape habitat are working together to protect its future.'
+            text: 'The riverscape in our vision is defined as the entire catchment around the river - the area of land through which water from any form of precipitation drains into the river. '
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'We must breathe life back into the whole of the riverscape, with partners working together in powerful collaborations to ensure all the influences on the riverscape habitat are working together to protect its future.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Humans are not just the custodians of nature, we are a substantial and significant part of it. We have the ability to harm our natural systems and we have the power to heal them, protecting them into the future. We believe that humans can and must live within and alongside our riverscapes, so that we can enjoy healthy rivers and their surroundings for generations to come.'
+            text: 'Humans are not just the custodians of nature, we are a substantial and significant part of it. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We have the ability to harm our natural systems and we have the power to heal them, protecting them into the future. We believe that humans can and must live within and alongside our riverscapes, so that we can enjoy healthy rivers and their surroundings for generations to come.'
       -
         type: paragraph
         content:
@@ -52,4 +68,5 @@ page_builder:
     enabled: true
 show_child_pages: false
 hero_intro: 'Riverscapes which enable native wildlife to thrive and which people will enjoy and value for generations to come.'
+dark_text: false
 ---
