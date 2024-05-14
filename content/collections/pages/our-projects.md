@@ -13,6 +13,8 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 show_child_pages: true
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1712131445
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1715634222
+hero_image: wildlife/frog2_richard_will_crombie.jpg
+hero_intro: "Discover more about the different projects we're working on right now."
 ---

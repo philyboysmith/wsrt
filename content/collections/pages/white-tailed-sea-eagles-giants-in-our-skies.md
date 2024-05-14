@@ -2,7 +2,7 @@
 id: 9f7bd866-a7b1-4591-876a-0f0b2adba015
 blueprint: page
 title: 'White-tailed Sea Eagles: Giants in our Skies'
-hero_image: riverscapes/arun/arundel-(108)-1.jpg
+hero_image: wildlife/white-tailed-sea-eagle---neil-burton.jpg
 hero_title: 'White-tailed Sea Eagles'
 hero_intro: 'Is it a bird? Is it a plane? No it’s definitely a bird, but it’s huge… That’ll be a White-tailed Sea Eagle then!'
 link_type: none
@@ -55,6 +55,6 @@ sitemap_priority: 0.5
 parent: c11038d9-06f8-4190-9728-cb8c177727b7
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1713189779
+updated_at: 1715632593
 dark_text: false
 ---

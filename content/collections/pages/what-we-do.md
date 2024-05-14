@@ -8,8 +8,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1709210731
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1715633855
 page_builder:
   -
     id: lt73fpn4
@@ -542,4 +542,6 @@ button_type: button
 hero_image: riverscapes/arun/arundel-(108)-1.jpg
 hero_title: 'What we do'
 show_child_pages: false
+dark_text: false
+hero_intro: 'We collaborate with and convene all the partners required to enable wildlife to thrive in our riverscape.'
 ---

@@ -11,7 +11,16 @@ page_builder:
         content:
           -
             type: text
-            text: "It’s all about the snouts in the two types of seahorse which you’ll find off the coast of southern England - the short and the long! You’re probably asking yourself what have our freshwater rivers got to do with these saltwater dwelling creatures, but river water quality has a huge impact on the habitat of these tiny animals.\_"
+            marks:
+              -
+                type: bold
+            text: 'It’s all about the snouts in the two types of seahorse which you’ll find off the coast of southern England - the short and the long! '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "You’re probably asking yourself what have our freshwater rivers got to do with these saltwater dwelling creatures, but river water quality has a huge impact on the habitat of these tiny animals.\_"
       -
         type: paragraph
         content:
@@ -72,6 +81,10 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1713190251
+updated_at: 1715632943
 dark_text: false
+hero_image: wildlife/short-snouted-seahorse---oleg-kovtun.jpg
+photo_credit: 'Oleg Kovtun'
+hero_intro: 'River effects from source to sea'
+hero_title: Seahorses
 ---

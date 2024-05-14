@@ -11,7 +11,16 @@ page_builder:
         content:
           -
             type: text
-            text: 'It’s easy to look out over the sea and imagine the bustling marine life happening below the surface, but have you ever thought about what might be taking place beneath the glistening surface of our fresh water rivers? Well one story which might take you by surprise is that of the humble dragonfly. Often only seen buzzing through the air, these extraordinary insects have a whole secret underwater life before we usually set eyes on them.'
+            marks:
+              -
+                type: bold
+            text: 'It’s easy to look out over the sea and imagine the bustling marine life happening below the surface, but have you ever thought about what might be taking place beneath the glistening surface of our fresh water rivers? '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Well one story which might take you by surprise is that of the humble dragonfly. Often only seen buzzing through the air, these extraordinary insects have a whole secret underwater life before we usually set eyes on them.'
       -
         type: paragraph
         content:
@@ -75,7 +84,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1713190397
+updated_at: 1715632981
 hero_image: wildlife/(c)-derek-middleton-7-1.jpg
 hero_title: Dragonflies
 dark_text: false
