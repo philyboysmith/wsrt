@@ -14,23 +14,14 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: cae26e89-1eb8-4d6b-8455-fc52bbfc4c1d
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1713187917
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1715860923
 hero_image: riverscapes/lavant/river-lavant-north-of-chi---rebecca-saunders.jpg
 dark_text: false
 page_builder:
   -
     id: lv0zopp2
     article:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: "Otters, kingfishers and trout are just some of the wildlife which call the River Lavant their home.\_"
       -
         type: paragraph
         content:
@@ -54,13 +45,13 @@ page_builder:
         content:
           -
             type: text
-            text: "Throughout the years the river has also been used as a way of transporting goods, mainly wool and grain, to different villages and of course to market in Chichester. Nowadays the most activity it sees is kayaking or canoeing, and fishing, but lots more people take solace on its banks through the many footpaths and bridleways, including part of the South Downs Way National Trail.\_"
+            text: "Throughout the years the river has also been used as a way of transporting goods, mainly wool and grain, to different villages and of course to market in Chichester. Nowadays many people take solace on its banks through the many footpaths and bridleways, including part of the South Downs Way National Trail.\_"
       -
         type: paragraph
         content:
           -
             type: text
-            text: "As one of only 200 chalk streams left in the UK, this precious river offers a haven for an abundance of wildlife. Fish species such as grayling, eels, pike and carp can be found here, while badgers, rabbits, foxes and deer rely on its fresh waters to quench their thirst.\_"
+            text: "As one of only 200 chalk streams left in the UK, this precious river should offer a haven for an abundance of wildlife. \_"
       -
         type: set
         attrs:

@@ -7,29 +7,17 @@ page_builder:
     id: luik7g3w
     article:
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'To add'
+        type: set
+        attrs:
+          id: lw6yaiki
+          values:
+            type: image
+            size: md
+            image: riverscapes/rother/rother_near_petworth.jpg
+            caption: 'Rother near Petworth'
       -
         type: paragraph
         content:
-          -
-            type: text
-            text: Fragmentation
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Climate change'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: Abstraction
           -
             type: hardBreak
       -
@@ -110,6 +98,15 @@ page_builder:
             type: text
             text: "We’ve spent the last few hundred years manipulating river flows, trying to drain land, direct rivers, hold water back here and there to suit our human needs.\_ We’ve now realised the error of our ways and will likely spend the next few decades trying to reverse this!\_"
       -
+        type: set
+        attrs:
+          id: lw6yt8qk
+          values:
+            type: image
+            image: issues/straightened-channel-lavant.jpeg
+            size: md
+            caption: 'The Lavant has been straightened over many years '
+      -
         type: paragraph
         content:
           -
@@ -141,6 +138,15 @@ page_builder:
             type: text
             text: "A huge number of invasive species are known to have set up home in and around our rivers.\_ Their impact on our native species can be catastrophic. The American Mink is one of the worst offenders - where mink live water voles dare not tread. Water voles cannot have a hope of returning to their homes whilst mink are inhabiting these rivers.\_"
       -
+        type: set
+        attrs:
+          id: lw6yxq79
+          values:
+            type: image
+            image: wildlife/water-vole.jpg
+            size: md
+            caption: 'Water voles have been forced out of much of their habitat by mink'
+      -
         type: paragraph
         content:
           -
@@ -171,6 +177,17 @@ page_builder:
           -
             type: text
             text: "Pollution from these consented discharges, or from accidental spills, kills wildlife, instantly or over time. It also reduces our ability to enjoy our rivers - no one wants to paddle in pee.\_"
+      -
+        type: set
+        attrs:
+          id: lw6z4n9y
+          values:
+            type: image
+            image: issues/sewage-pumped-it-river-lavant.jpg
+            size: md
+            caption: 'Sewage pumping into the Lavant'
+      -
+        type: paragraph
       -
         type: paragraph
         content:
@@ -235,8 +252,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1712135596
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1715726807
 hero_image: hero/13932f34-6c02-408e-ae8b-9f9b340e69cb_1_201_a-1712073499.jpeg
 photo_credit: 'Sarah Hughes'
 hero_title: 'River Emergency'

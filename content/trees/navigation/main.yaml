@@ -22,6 +22,9 @@ tree:
       -
         id: 847ae533-b901-4087-ad4a-3c7457448217
         entry: ecd098c6-6d65-4292-9549-944396ce9290
+      -
+        id: fba735ff-5c36-446c-b50f-0946bb7afd6f
+        entry: 6c618a86-d9f9-4d65-97e0-0fa025b2d5db
   -
     id: 1a882198-673b-47fc-a6e8-f64f676dc07e
     entry: cae26e89-1eb8-4d6b-8455-fc52bbfc4c1d
@@ -44,6 +47,18 @@ tree:
       -
         id: c3ba1122-17ea-4826-bb67-965865cb29a1
         entry: 0bffcac9-1861-469d-80d6-d64c6fcce148
+      -
+        id: 9b9d2fc6-c1d7-46c8-ae67-99d8f115b4ff
+        entry: 0c2c0c70-e7ef-4e42-a317-8821ad36de57
+      -
+        id: 1c105c63-0833-4fab-8321-ee04e14a9057
+        entry: 4a2111ef-aa7e-43db-a62a-76e3b83cfd05
+      -
+        id: 4e8c7692-3a59-4a8c-b4d3-b50ec1a736e4
+        entry: edd84fc0-6ba9-4bba-a370-4f7719ec2d89
+      -
+        id: 13a9d29b-ae99-4b75-b013-dae7ebcb1461
+        entry: 53ffbc97-1951-4515-bd8f-002855295de8
   -
     id: 302fae4d-5913-4085-b4fc-6dae9893fa23
     entry: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
@@ -52,22 +67,17 @@ tree:
         id: 8b0ca93d-04f6-4515-8f82-5e5ce000ac22
         entry: ccde85ca-4c1d-41f5-9519-17d4ad5afad3
       -
+        id: 58fb3f7d-3632-4b47-9bad-a9081d7d9d5d
+        entry: 74e87962-7908-4292-988b-521c1e35820d
+      -
         id: 3428c9ce-8936-4c20-b6bd-7c8f02a5351f
         entry: d0dead11-7757-4da4-b8f0-a471aa8a633a
       -
         id: 00b32e48-8d1d-4985-b4bf-79ed57cc2171
         entry: 9364a075-7789-4adb-aaa5-bb44f6c516a7
-      -
-        id: 2d0765c4-b395-4c34-8047-ffbfcad46887
-        entry: 5b62d9ac-d831-4140-a276-0af4512d830f
   -
     id: 716ccb39-5945-4155-af32-8cd884d82239
     entry: 00bdbfca-5ad1-471d-8970-584609103faa
-    children:
-      -
-        id: 17192730-826a-4170-bbd4-bb4a7cfdc55c
-        title: 'Thought stream'
-        url: /news/thought-stream
   -
     id: d74d482c-c919-4fe4-85bd-198961175dc0
     entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6

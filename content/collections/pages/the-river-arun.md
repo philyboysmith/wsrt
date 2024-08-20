@@ -15,7 +15,7 @@ sitemap_priority: 0.5
 parent: cae26e89-1eb8-4d6b-8455-fc52bbfc4c1d
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1712578515
+updated_at: 1715947860
 page_builder:
   -
     id: ltis87lh
@@ -69,7 +69,7 @@ page_builder:
         content:
           -
             type: text
-            text: "Labelled one of the fastest flowing rivers in England, the Arun is also tidal up to Pallingham Quay near Petworth - 41 kms upstream from the sea. Once known as the ‘Trisantonis’ in Roman times, roughly translating to ‘the wanderer’ probably due to the river meandering across the landscape, the Arun was once used to transport goods by boat.\_\_"
+            text: "Labelled one of the fastest flowing rivers in England, the Arun is also tidal up to Pallingham Quay near Wisborough Green - 41 kms upstream from the sea. Once known as the ‘Trisantonis’ in Roman times, roughly translating to ‘the wanderer’ probably due to the river meandering across the landscape, the Arun was once used to transport goods by boat.\_\_"
       -
         type: paragraph
         content:
@@ -96,7 +96,7 @@ page_builder:
         content:
           -
             type: text
-            text: "In the Lower Arun you’ll find an important wetland site – the freshwater wetlands at Pulborough, Amberley and Waltham Brooks. This area is rich in native flora, marshes, ditches, lowland bog, and invertebrates including the rare Ramshorn snail. A plethora of wildfowl and wading birds flock here in the winter, including Berwick swans. All year round there are a variety of birds to spot so definitely pack your binoculars if you’re heading here for a summer stroll.\_"
+            text: "In the Lower Arun you’ll find an important wetland site – the freshwater wetlands at Pulborough, Amberley and Waltham Brooks. This area is rich in native flora, marshes, ditches, lowland bog, and invertebrates including the rare Ramshorn snail. A plethora of wildfowl and wading birds flock here in the winter, including Bewick swans. All year round there are a variety of birds to spot so definitely pack your binoculars if you’re heading here for a summer stroll.\_"
       -
         type: set
         attrs:

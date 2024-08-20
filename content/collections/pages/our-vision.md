@@ -8,9 +8,9 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
-updated_by: b1d311df-0293-4bc5-8f87-ba4b911c8075
-updated_at: 1714749375
-hero_image: wildlife/frog_richard_will_crombie.jpg
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1715728414
+hero_image: hero/kingfisher-2.jpg
 hero_title: 'Our Vision'
 link_type: none
 target_blank: false

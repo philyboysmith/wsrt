@@ -3,8 +3,8 @@ id: home
 blueprint: page
 template: homepage
 title: Home
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1714510554
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1715950574
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -79,7 +79,7 @@ page_builder:
         text: 'All the latest happenings from the world of WSRT.'
     type: cards
     enabled: true
-hero_image: hero/kingfisher-crop-4.jpg
+hero_image: hero/kingfisher-crop-2.jpg
 hero_title: 'Action for our Riverscapes.'
 label: 'Dive in'
 link_type: entry
