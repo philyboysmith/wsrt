@@ -1,5 +1,6 @@
 ---
 id: 96be3055-a893-41f5-b888-9a9c3cb5089a
+published: false
 blueprint: page
 title: Resources
 page_builder:
@@ -12,12 +13,6 @@ page_builder:
         id: lujlm69v
         title: Test
         text: 'First resource'
-        button:
-          -
-            id: lujlmcof
-            link_type: asset
-            target_blank: false
-            button_type: button
         type: card
         enabled: true
     type: cards
@@ -33,6 +28,6 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 show_child_pages: false
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1712136118
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1724946264
 ---

@@ -1,17 +1,25 @@
 ---
 id: 53ffbc97-1951-4515-bd8f-002855295de8
-published: false
 blueprint: page
-title: 'Our Story Map'
+title: 'Our Rivers Story Map'
 page_builder:
+  -
+    id: m0md0tb4
+    article:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Have a click through our Story Map below to discover more about our rivers.  You’ll see this is still under our previous name of the Arun and Rother Rivers Trust - we’re in the process of getting this changed. If a ArcGIS dialogue box pops up just cancel it and the map will work!'
+    type: article
+    enabled: true
   -
     id: lwaow9rq
     html:
       code: |-
         <iframe
-          class="cartographer-map"
-         src="https://arunandrotherriv.maps.arcgis.com/apps/MapSeries/index.html?appid=ebe6a587593d4026a12022e816291e33"
-        		>
+          src="https://arunandrotherriv.maps.arcgis.com/apps/MapSeries/index.html?appid=ebe6a587593d4026a12022e816291e33">
         </iframe>
       mode: htmlmixed
     type: html
@@ -27,6 +35,9 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: cae26e89-1eb8-4d6b-8455-fc52bbfc4c1d
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1715951262
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1725364743
+hero_image: riverscapes/arun/arun1_dave_mills.jpg
+hero_intro: 'Discover a range of information to help you explore the rivers in our catchment and to find out more about the work we do.'
+hero_title: 'Our Story Map'
 ---

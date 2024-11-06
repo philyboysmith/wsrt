@@ -8,8 +8,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1716415526
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1727702723
 hero_image: wqtesting/img-20230908-wa0016.jpg
 link_type: none
 target_blank: false
@@ -20,7 +20,9 @@ page_builder:
     id: luilondd
     article:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 2
         content:
           -
             type: text
@@ -29,7 +31,9 @@ page_builder:
                 type: bold
             text: 'Does the thought of spending a couple of hours on a riverbank spotting wildlife and helping nature fill your heart with joy? '
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
         content:
           -
             type: text
@@ -91,11 +95,49 @@ page_builder:
               -
                 type: link
                 attrs:
-                  href: 'https://arunrotherrt-my.sharepoint.com/personal/keir_arrt_org_uk/Documents/Documents/ARRT%20CaSTCo/Water%20Quality%20Project/Guides+Handbook/ARRT%20RiverGuardians%20WQ%20Monitoring%20Handbook.pdf'
+                  href: 'statamic://asset::files::wsrt-riverguardians-wq-monitoring-handbook.pdf'
                   rel: null
                   target: null
                   title: null
-            text: 'River Guardians WQ Monitoring Handbook'
+            text: 'River Guardians Handbook'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Powered by CaSTCo'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'This initiative is part of a larger project called '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://theriverstrust.org/our-work/our-projects/castco-catchment-systems-thinking-cooperative'
+                  rel: null
+                  target: _blank
+                  title: null
+              -
+                type: bold
+            text: CaSTCo
+          -
+            type: text
+            text: ', an innovation project focused on uniting the different organisations involved in river health in the UK.'
+      -
+        type: set
+        attrs:
+          id: m0qijf1r
+          values:
+            type: image
+            image: logos/castco-logo-with-vision-statement.png
+            size: md
       -
         type: paragraph
         content:
@@ -118,5 +160,5 @@ page_builder:
     enabled: true
 hero_title: 'River Guardians'
 dark_text: false
-hero_intro: 'Water quality monitoring to safeguard our precious rivers'
+hero_intro: 'Powered by CaSTCo'
 ---

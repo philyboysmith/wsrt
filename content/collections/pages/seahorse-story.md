@@ -1,7 +1,7 @@
 ---
 id: 98c8c88f-29fa-4bec-a277-af9e921fc8dd
 blueprint: page
-title: 'Seahorses: River effects from source to sea'
+title: 'Seahorses: River Effects From Source to Sea'
 page_builder:
   -
     id: luij42lh
@@ -80,8 +80,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1715724748
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1724941121
 dark_text: false
 hero_image: wildlife/short-snouted-seahorse---oleg-kovtun.jpg
 photo_credit: 'Oleg Kovtun'

@@ -1,7 +1,7 @@
 ---
 id: e5049487-2e35-4fd5-bc0e-8ba26f0c1673
 blueprint: page
-title: 'Otters: The elusive carnivore'
+title: 'Otters: The Elusive Carnivore'
 hero_image: wildlife/otter1_derek_middleton.jpg
 hero_title: 'Otters: The elusive carnivore'
 hero_intro: 'Have you ever seen an otter? Maybe you’ve heard a big splash while down by a river bank and wondered if it might just have been one of these furry critters.'
@@ -51,6 +51,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: c11038d9-06f8-4190-9728-cb8c177727b7
 show_child_pages: false
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1709280068
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1724941094
+dark_text: false
 ---

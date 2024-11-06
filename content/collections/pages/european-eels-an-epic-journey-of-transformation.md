@@ -1,7 +1,7 @@
 ---
 id: 6e5899d0-d10e-4419-bd5a-83459c3d4f90
 blueprint: page
-title: 'European Eels: An epic journey of transformation'
+title: 'European Eels: An Epic Journey of Transformation'
 hero_image: wildlife/european_eel3_derek_middleton.jpg
 link_type: none
 target_blank: false
@@ -80,7 +80,7 @@ sitemap_priority: 0.5
 parent: c11038d9-06f8-4190-9728-cb8c177727b7
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1713189622
+updated_at: 1724941081
 photo_credit: 'Derek Middleton'
 dark_text: false
 hero_intro: 'Swimming against colossal tides, morphing more than once in their own skin and living out their lives in our humble rivers.'

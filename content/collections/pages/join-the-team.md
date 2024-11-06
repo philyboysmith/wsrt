@@ -1,7 +1,7 @@
 ---
 id: 74e87962-7908-4292-988b-521c1e35820d
 blueprint: page
-title: 'Join the team'
+title: 'Join the Team'
 page_builder:
   -
     id: lwhqd6wm
@@ -29,10 +29,25 @@ page_builder:
           -
             id: lwiduyx0
             label: 'Download the role description'
-            link_type: asset
+            link_type: url
+            target_blank: false
+            button_type: button
+            url: 'https://wsrt.org.uk/files/rother-partnership-coordinator-job-profile-final.pdf'
+      -
+        id: m1gjyy5l
+        title: 'Chalk Stream Resilience Officer - Lavant'
+        text: 'This is an unprecedented opportunity to play a key role in securing a brighter future for the Lavant chalk stream. Are you captivated by the beauty of chalk streams and passionate about helping them thrive? Are you able to inspire people to love and care for rivers? Do you have the skills and knowledge to make river improvements happen? If so this could be the role for you.'
+        button:
+          -
+            id: m1gk182l
+            label: 'Download the role description'
+            link_type: url
             target_blank: true
             button_type: button
-            asset: wsrt-fundraising-trustee-advert-may-24.pdf
+            url: 'https://wsrt.org.uk/files/chalk-stream-resilience-officer-job-profile-final.pdf'
+        image: riverscapes/lavant/lavant-at-singleton-ps.jpg
+        type: card
+        enabled: true
     type: cards
     enabled: true
 hero_image: wildlife/dsc_5916.jpg
@@ -49,6 +64,6 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1719484960
-hero_intro: 'Explore our current vacancies'
+updated_at: 1727190144
+hero_intro: 'Ever dreamt about working with rivers? Explore our current vacancies now!'
 ---

@@ -1,7 +1,7 @@
 ---
 id: 999d03d7-8e42-4cc1-810e-841b83eeef8a
 blueprint: page
-title: 'Eels and water voles on the Aldingbourne Rife'
+title: 'Eels and Water Voles on the Aldingbourne Rife'
 hero_image: wildlife/water_vole2_derek_middleton.jpg
 photo_credit: 'Derek Middleton'
 dark_text: false
@@ -14,8 +14,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1722868883
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1724941034
 page_builder:
   -
     id: lwieoyuw

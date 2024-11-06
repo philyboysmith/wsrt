@@ -1,15 +1,15 @@
 ---
 id: 17210cfb-9e37-4028-b7e6-8f3e03168d65
 blueprint: page
-title: 'What we do'
+title: 'What We Do'
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1718313006
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1724940996
 page_builder:
   -
     id: lt73fpn4

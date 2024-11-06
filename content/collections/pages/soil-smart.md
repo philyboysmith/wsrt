@@ -15,7 +15,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1720692007
+updated_at: 1725615122
 page_builder:
   -
     id: lub62cqf
@@ -254,4 +254,5 @@ page_builder:
     type: article
     enabled: true
 dark_text: false
+hero_intro: 'Powered by CaSTCo'
 ---

@@ -4,7 +4,7 @@ blueprint: page
 template: homepage
 title: Home
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1715950574
+updated_at: 1724940929
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -51,8 +51,8 @@ page_builder:
     cards:
       -
         id: lt72t6yg
-        title: 'Discover our riverscapes'
-        text: 'Find out more about the rivers and streams in Western Sussex and some of the incredible wildlife they support.'
+        title: 'Discover Our Riverscapes'
+        text: "Find out more about the rivers and streams in Western Sussex, how they've developed and a little about the incredible wildlife who call them home."
         type: card
         enabled: true
         image: riverscapes/arun/arun2_dave_mills.jpg
@@ -66,17 +66,17 @@ page_builder:
       -
         id: lt72ulb3
         title: 'Our Projects'
-        text: "From hedge planting to sluice removal, citizen science to saving black poplars, restoring ancient channels to revitalising chalk streams, and inspiring kids to creating climate resilient playgrounds....there's a lot happening for our rivers!"
+        text: "From hedge planting to sluice removal, citizen science to saving black poplars, restoring ancient channels to revitalising chalk streams, inspiring kids to creating climate resilient playgrounds - there's a lot happening for our rivers!"
         type: card
         enabled: true
         image: volunteer_hedgerow_planting-liss/liss-nfm.jpeg
       -
         id: ltzve0b1
-        title: 'Latest news'
+        title: 'Latest News'
         type: card
         enabled: true
         image: trees_plants/dsc_0126.jpg
-        text: 'All the latest happenings from the world of WSRT.'
+        text: "Read all about the latest happenings from the world of WSRT. Find out what we've been upto recently and learn more about how you can get involved to help support our precious rivers and streams."
     type: cards
     enabled: true
 hero_image: hero/kingfisher-crop-2.jpg

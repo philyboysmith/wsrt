@@ -4,16 +4,14 @@ blueprint: page
 title: 'Our Supporters'
 page_builder:
   -
-    id: lw5gcimy
+    id: m0fgu0xd
     article:
       -
-        type: heading
-        attrs:
-          level: 1
+        type: paragraph
         content:
           -
             type: text
-            text: 'We would like to give a huge thank you to all our partners, funders and supporters. With your help we take action for our riverscapes!'
+            text: 'A huge thank you to all our partners, funders and supporters, helping us to take action for our riverscapes.'
     type: article
     enabled: true
   -
@@ -78,6 +76,8 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1718287565
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1724946949
+hero_image: hero/ducks.jpg
+hero_intro: 'Find out who helps us to take action for our riverscapes.'
 ---
