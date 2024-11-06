@@ -1,50 +1,31 @@
 ---
 id: d0dead11-7757-4da4-b8f0-a471aa8a633a
 blueprint: page
-title: 'Volunteer with us'
+title: 'Volunteer With Us'
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1714042353
-hero_image: wildlife/frog2_richard_will_crombie.jpg
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1724948093
+hero_image: wildlife/foxglove_richard_will_crombie.jpg
 link_type: none
 target_blank: false
 button_type: button
 show_child_pages: false
 page_builder:
   -
-    id: lub8gyx4
-    article:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'We have lots of opportunities for you to get out on our rivers and help them to thrive. '
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
-    type: article
-    enabled: true
-  -
     id: lub8phzs
     style: two
     title: 'Become a River Guardian'
     text: |-
-      ARRT are supplying water quality testing kits (measuring Phosphates, Turbidity, Total Dissolved Solids and Nitrates) and corresponding training to ARRT volunteers to create a continuous water quality testing cooperative.
+      We're supplying water quality testing kits (measuring Phosphates, Turbidity, Total Dissolved Solids and Nitrates) and corresponding training to volunteers to create a continuous water quality testing cooperative.
 
       Increasing monitoring across our catchment (spatially and temporally), which currently has zero waterbodies achieving the acceptable standard met by the Water Framework Directive (WFD).
 
-      We aim to cover the entire catchment and collaborate with groups and orgs who currently or previously collected water quality and river health data. The 'ARRT Water Quality Survey' looks at river characteristics, ecosystems, wildlife, and pollution alongside chemical readings, to provide a holistic view of river health at every site.
+      We aim to cover the entire catchment and collaborate with groups and orgs who currently or previously collected water quality and river health data. The 'WSRT Water Quality Survey' looks at river characteristics, ecosystems, wildlife, and pollution alongside chemical readings, to provide a holistic view of river health at every site.
     type: preview
     enabled: true
     button:
@@ -56,6 +37,7 @@ page_builder:
         entry: 9364a075-7789-4adb-aaa5-bb44f6c516a7
         button_type: button
         attr_title: 'Find out more'
+    image: wqtesting/volunteers/andy---arrt-volunteer.jpg
   -
     id: lub8rwlr
     style: two
@@ -63,6 +45,7 @@ page_builder:
     text: 'Our Outfall Safari volunteers are trained to systematically survey the entire length of a river to identify and locate misconnected outfalls that are polluting our streams.'
     type: preview
     enabled: true
+    image: issues/outfall-into-lavant.jpg
   -
     id: lub8srfr
     style: two
@@ -73,6 +56,7 @@ page_builder:
       The data collected from the scheme helps us understand the health of our rivers, and highlights when there may be a more serious problem to address.
     type: preview
     enabled: true
+    image: wildlife/dragonfly_nymph_derek_middleton.jpg
   -
     id: lub8tmqn
     style: two
@@ -122,4 +106,6 @@ page_builder:
     enabled: true
 hero_title: 'Volunteer with us'
 dark_text: false
+hero_intro: 'Find out how you can get out on our rivers and help them thrive.'
+photo_credit: 'Will & Richard Crombie'
 ---

@@ -4,14 +4,14 @@ blueprint: page
 title: 'Our Supporters'
 page_builder:
   -
-    id: lw5gcimy
+    id: m0fgu0xd
     article:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'We work with lots of different organisations, here are a few of our key partners: '
+            text: 'A huge thank you to all our partners, funders and supporters, helping us to take action for our riverscapes.'
     type: article
     enabled: true
   -
@@ -22,16 +22,19 @@ page_builder:
         image: logos/castco-logo-with-vision-statement.png
         type: new_set
         enabled: true
+        url: 'https://theriverstrust.org/our-work/our-projects/castco-catchment-systems-thinking-cooperative'
       -
         id: lw0i4lg5
-        image: logos/cdc-logo_col.png
+        image: cdc-logo_col-resized.png
         type: new_set
         enabled: true
+        url: 'https://www.chichester.gov.uk/'
       -
         id: lw0i63h6
         image: logos/ea_logo_354.png
         type: new_set
         enabled: true
+        url: 'https://www.gov.uk/government/organisations/environment-agency'
       -
         id: lw0i68u2
         image: logos/pngportsmouth_water_logo_rgb_extended_values.png
@@ -39,17 +42,25 @@ page_builder:
         enabled: true
       -
         id: lw0i6fyj
-        image: logos/sw_core_logo_lock_up_print-(1).jpg
+        image: sw_core_logo_lock_up_screen-(2).png
         type: new_set
         enabled: true
       -
         id: lw0i7apv
-        image: logos/sdnp_trust_logotype.jpg
+        image: sdnpt-logo---transparent.png
         type: new_set
         enabled: true
+        url: 'https://southdownstrust.org.uk/'
       -
         id: lw0i832b
         image: logos/sdnp-logo-medium.png
+        type: new_set
+        enabled: true
+        url: 'https://www.southdowns.gov.uk/'
+      -
+        id: lxd475fr
+        url: 'https://garfieldweston.org/'
+        image: gwf-logo-blue.png
         type: new_set
         enabled: true
     type: logos
@@ -66,5 +77,7 @@ sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1715634299
+updated_at: 1724946949
+hero_image: hero/ducks.jpg
+hero_intro: 'Find out who helps us to take action for our riverscapes.'
 ---

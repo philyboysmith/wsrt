@@ -2,7 +2,7 @@
 id: e15bc997-3846-492e-b810-65414b80a87c
 blueprint: team
 title: 'Sian MacLeod - Trustee'
-image: sian.jpg
+image: team/sian.jpg
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
 updated_at: 1714653288
 ---
