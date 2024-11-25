@@ -145,9 +145,9 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
-show_child_pages: true
+show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1730724026
+updated_at: 1730887434
 hero_intro: 'Money you raise will help us restore, revive and protect rivers for wildlife and generations to come.'
 hero_title: Fundraise
 ---

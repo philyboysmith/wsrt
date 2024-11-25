@@ -9,7 +9,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1724940996
+updated_at: 1731942190
 page_builder:
   -
     id: lt73fpn4
@@ -185,6 +185,18 @@ page_builder:
           -
             type: text
             text: 'A river catchment, or riverscape, is the area of land through which water from any form of precipitation (such as rain, melting snow or ice) drains into the river. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'River catchments vary in size and are extremely complex and intertwined ecosystems that support a wide range of biodiversity. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'River catchments are impacted by every activity that happens on the land, as well as in the water environment. Agricultural pollution, sewage spills, road run-off, and water abstraction are just some of the issues facing our rivers. Any changes that occur upstream will eventually be noticed downstream. '
       -
         type: paragraph
         content:

@@ -66,6 +66,55 @@ page_builder:
             type: text
             text: 'One of the main ways you can help protect river wildlife from these harmful toxins is to keep your dog out of rivers, especially if they have recently received tick, flea or worm treatments.'
       -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'How to keep my dog flea-free without chemicals:'
+      -
+        type: orderedList
+        attrs:
+          start: 1
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Don’t treat unless there is a flea problem.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Hot wash your dog’s bed and hoover under it to kill larval fleas.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Use a flea comb once a week.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'There are treatments available which are less toxic for marine life - please speak to your vet for professional advice on these. '
+      -
         type: paragraph
         content:
           -
@@ -110,7 +159,7 @@ sitemap_priority: 0.5
 parent: 5f9c4f2e-d71a-49a1-b765-b694380b7327
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1730735015
+updated_at: 1731942409
 hero_intro: 'Keeping your dog out of rivers can help save wildlife and keep water clear of toxins.'
 hero_title: 'Flea and Tick Treatment'
 ---
