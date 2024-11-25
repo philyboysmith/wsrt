@@ -1,0 +1,74 @@
+{{#
+    @name Default
+    @desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a page get evenly spaced without having to worry about margins or paddings.
+#}}
+
+{{if hero_image }}
+    {{ partial:components/hero}}
+{{ else }}
+
+<div class="text-center space-y-4 text-primary py-12">
+<p class="uppercase text-semibold tracking-wider">{{ hero_subtitle}}</p>
+{{ partial:typography/h1 color="text-primary" :content="title ?? hero_title" }}
+</div>
+{{ svg:hero-alt class="w-full" aria-hidden="true" sanitize="true" }}
+
+{{ /if }}
+
+    <main
+        class="py-12 md:py-16 lg:py-24 stack-12 md:stack-16 lg:stack-24"
+        id="content">
+        <div class="fluid-grid ">
+            <div class="span-content md:col-start-[col-3] md:col-span-8">
+                <form action="/search" method="GET" class="mb-8">
+                    <div class="space-y-4">
+                        <div class="
+                        flex flex-col
+                        
+                        md:col-span-8
+                    ">
+                        <label class="font-bold">
+                            Search:
+                        </label>
+                        <div class="mt-2 flex flex-col gap-y-2">
+                            <input class="w-full rounded border-neutral focus-visible:border-primary focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary motion-safe:transition caret-primary" type="search" name="q" placeholder="Search">
+
+                        </div>
+                    </div>
+                        
+                        {{ partial:components/button as="button" label="Submit" }}
+
+                    </div>
+                </form>
+                <ul class="space-y-2">
+                    
+                    {{ if get:q }}
+                {{ search:results index="default" }}
+                    {{ if no_results }}
+                        <h2>No results found for {{ get:q }}.</h2>
+                    {{ else }}
+                    <li class="p-4 bg-white shadow rounded-md">
+                        <div class="flex justify-between items-center">
+                        <a href="{{ url }}" class="text-blue-600 hover:underline font-semibold">
+                            {{ title }}
+                        </a>
+                        <a href="{{ url }}" class="px-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+                        </a>
+                        </div>
+                        <p class="text-sm text-gray-600">
+                            {{ hero_intro ?? seo_description }}
+                        </p>
+                    </li>
+                    {{ /if }}
+                {{ /search:results }}
+
+                {{ /if }}
+            </ul>
+
+            </div>
+        </div>
+        
+    </main>
+
+    <!-- End: /default.antlers.html -->
