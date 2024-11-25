@@ -3,7 +3,7 @@ id: 20f6a148-63b8-47a8-9b0e-d57095d78c21
 blueprint: page
 title: 'Demo page'
 updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1713965184
+updated_at: 1724159376
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -292,6 +292,13 @@ page_builder:
         <iframe
           src="https://app.cartographer.io/embed/map?workspace=arrt&project=riverguardians&map=ArrtWaterQuality&when=year&zoom=10">
         </iframe>
+      mode: htmlmixed
+    type: html
+    enabled: true
+  -
+    id: m02fyybm
+    html:
+      code: '<iframe width="100%" height="800px" src="https://arunandrotherriv.maps.arcgis.com/apps/MapSeries/index.html?appid=ebe6a587593d4026a12022e816291e33" frameborder="0" scrolling="no"></iframe>'
       mode: htmlmixed
     type: html
     enabled: true

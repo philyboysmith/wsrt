@@ -27,7 +27,7 @@ return [
 
         'default' => [
             'driver' => 'local',
-            'searchables' => 'all',
+            'searchables' => ['news', 'team', 'pages'],
             'fields' => ['title', 'page_builder'],
         ],
 
