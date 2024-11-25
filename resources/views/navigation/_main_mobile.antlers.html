@@ -78,6 +78,15 @@
                     {{ /if }}
                 </li>
             {{ /nav:main }}
+            <li>
+                <a href="/search" class="w-full py-2 flex items-center space-x-1 text-lg font-bold hover:text-primary text-primary focus:outline-none focus-visible:ring-2 ring-primary">
+                    Search
+                </a>
+            </li>
+            <li>
+                {{ partial:components/button :inverted="inverted" class="uppercase text-xs" link_type="url" target_blank="true" label="Donate" url="https://cafdonate.cafonline.org/18201#!/DonationDetails"}}
+            </li>
+           
         </ul>
     </div>
 </nav>
