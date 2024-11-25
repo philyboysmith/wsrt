@@ -4,7 +4,7 @@ blueprint: page
 template: homepage
 title: Home
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1724940929
+updated_at: 1731940199
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry

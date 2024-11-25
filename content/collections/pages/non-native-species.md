@@ -50,8 +50,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5f9c4f2e-d71a-49a1-b765-b694380b7327
-show_child_pages: true
+show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1730734982
+updated_at: 1730887390
 hero_title: 'Non-native Invasive Species'
 ---

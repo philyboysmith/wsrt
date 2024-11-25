@@ -15,7 +15,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1725615122
+updated_at: 1732289335
 page_builder:
   -
     id: lub62cqf
@@ -133,77 +133,43 @@ page_builder:
         content:
           -
             type: text
-            text: 'This innovative project is part of our vision to improve the health of our rivers, through improving soil health.'
+            text: 'Soil SmARt is a collaborative project that is trialing different citizen science methodologies to assess soil health across the Arun and Rother catchment. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'In this project we aim to increase understanding of the importance of good soil health and promote the improvement of soils.'
+            text: 'The project aims to improve our knowledge of soil health in the local area by co-designing an innovative, in-field citizen science monitoring framework which others can use in the future.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Soil SmARt is a part of a larger project called '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://theriverstrust.org/our-work/our-projects/castco-catchment-systems-thinking-cooperative'
-                  rel: null
-                  target: _blank
-                  title: null
-            text: CaSTCo
-          -
-            type: text
-            text: ', an innovation project focused on uniting the different organisations involved in river health in the UK. '
-    type: article
-    enabled: true
-  -
-    id: lub63387
-    article:
-      -
-        type: set
-        attrs:
-          id: lvqup90h
-          values:
-            type: image
-            image: logos/castco-logo-with-vision-statement.png
-            size: md
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'What are you currently doing?'
+            text: 'We are working with five dedicated “Soil SmART farmers” to develop and test a soil health toolkit for agricultural soils. So far, we have evaluated the most important soil metrics to measure and developed a Soil SmARt Toolkit which contains the tests; pH, water infiltration, visual evaluation of soil structure (VESS), soil texture (jar and hand texturing), Solvita soil respiration, earthworm counts, soil nutrients, bury your undies, and a slake test. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Being part of CaSTCo enables us to be a trial area for different soil monitoring methods. This current project focuses on the Western Rother and the River Arun catchments.\_"
+            text: "Once the toolkits had been assembled, we trained our farmers on how to use the equipment and how to upload their results. The farmers will be sampling over the autumn and spring to test the toolkits and understand their soils better. These results will be analysed and compared to industry standard soil sampling.\_"
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'We are working with 5 farmers across the catchment to monitor the health of their soils. Together we are designing a soil health monitoring scheme that uses easy and low-cost tests which can be done in the field by farmers or volunteers. This allows farmers to test their soils anytime they want.'
+            text: 'Working with partners the countryside and community research institute (CCRI), S. Woodley crop services, Southern Water and Cranfield University has enabled this project to assess variables and validate data in innovative ways. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'This testing method helps farmers gain greater knowledge about their soil’s health, as well as helping us to have a better understanding of the health of local soils and inform a plan for what we can do to improve them.'
-    type: article
-    enabled: true
-  -
-    id: lub64uzr
-    article:
+            text: "The CCRI are monitoring collaboration and engagement througout the project giving us insight into how to best engage with farmers and with other collaborators. S. Woodley crop services are carrying out the industry standard sampling and analysis, as well as providing expertise on soils and the local area. While Southern water are leading the higher tier innovative technology testing alongside Cranfield University to trial novel technologies against citizen science.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "We have also held a soil training workshop with a local agricultural college – hoping to inspire the next generation of farmers and land managers in the region.\_"
       -
         type: heading
         attrs:
@@ -252,6 +218,26 @@ page_builder:
                 url: 'https://cafdonate.cafonline.org/18201#!/DonationDetails'
                 button_type: button
     type: article
+    enabled: true
+  -
+    id: m3sw6ilb
+    replicator_field:
+      -
+        id: m3sw6knw
+        image: logos/stephenwoodley_logo.jpg
+        type: new_set
+        enabled: true
+      -
+        id: m3sw714l
+        image: logos/ccri-logo-2.png
+        type: new_set
+        enabled: true
+      -
+        id: m3sw8mgq
+        image: logos/castco-logo-with-vision-statement.png
+        type: new_set
+        enabled: true
+    type: logos
     enabled: true
 dark_text: false
 hero_intro: 'Powered by CaSTCo'
