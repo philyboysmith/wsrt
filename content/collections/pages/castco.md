@@ -13,7 +13,7 @@ page_builder:
         content:
           -
             type: text
-            text: "CaSTCo is…\_"
+            text: "Catchment Systems Thinking Cooperative (CaSTCo) is…\_"
       -
         type: bulletList
         content:
@@ -115,21 +115,7 @@ page_builder:
                     text: 'Develop:'
                   -
                     type: text
-                    text: ' a citizen science monitoring programme for ongoing monitoring across the '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://environment.data.gov.uk/catchment-planning/ManagementCatchment/3096'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Teme catchment'
-                  -
-                    type: text
-                    text: " which will feed into the national framework for citizen science approaches and test different monitoring methods, specifically in relation to bacteria sampling.\_"
+                    text: " a citizen science monitoring programme for ongoing monitoring across the Arun catchment which will feed into the national framework for citizen science approaches and test different monitoring methods, specifically in relation to bacteria sampling.\_"
       -
         type: bulletList
         content:
@@ -147,7 +133,7 @@ page_builder:
                     text: 'Engage:'
                   -
                     type: text
-                    text: " individuals and communities within the Teme catchment to get involved with deriving evidence for catchment management.\_"
+                    text: " individuals and communities within the Arun catchment to get involved with deriving evidence for catchment management.\_"
       -
         type: bulletList
         content:
@@ -186,6 +172,26 @@ page_builder:
           -
             type: text
             text: "The aim is to empower Citizen Scientists (CitSci) to collect and share data which can be used by organisations such as the Arun & Western Streams Catchment Partnership, Environment Agency, Southern Water, local councils and authority, and all other organisations or individuals with interest in our river systems.\_\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'To find out more about CaSTco visit '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://castco.org/'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'https://castco.org'
+          -
+            type: text
+            text: '. '
     type: article
     enabled: true
   -
@@ -262,6 +268,6 @@ sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1732289743
-hero_image: logos/castco-logo-with-vision-statement.png
+updated_at: 1733400792
+hero_image: logos/castco-logos_rgb_white.png
 ---
