@@ -2,7 +2,7 @@
 id: 1db91fa7-f914-4e67-a03f-98208d111d09
 blueprint: page
 title: 'Soil SmARt'
-hero_image: wildlife/dung_beetle_victoria_hume.jpg
+hero_image: volunteering/soil_smart-volunteers/castcosoilsmart_actionshot.png
 photo_credit: 'Victoria Hume'
 hero_title: 'Soil SmARt'
 link_type: none
@@ -15,7 +15,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1732289335
+updated_at: 1738327451
 page_builder:
   -
     id: lub62cqf

@@ -280,7 +280,7 @@ page_builder:
         id: lv524o51
         title: Title
         url: 'https://amillionmonkeys.co.uk'
-        image: volunteer_hedgerow_planting-liss/liss-nfm.jpeg
+        image: volunteering/volunteer_hedgerow_planting-liss/liss-nfm.jpeg
         type: new_set
         enabled: true
     type: logos

@@ -2,6 +2,7 @@ editor:
   title: Editor
   permissions:
     - 'access cp'
+    - 'configure form fields'
     - 'view news entries'
     - 'edit news entries'
     - 'create news entries'
@@ -49,10 +50,13 @@ editor:
     - 'upload social_images assets'
     - 'edit social_images assets'
     - 'delete social_images assets'
+    - 'configure forms'
     - 'view contact form submissions'
     - 'delete contact form submissions'
     - 'view sign_up_form form submissions'
     - 'delete sign_up_form form submissions'
+    - 'view sussex_black_poplar_tree_request_form form submissions'
+    - 'delete sussex_black_poplar_tree_request_form form submissions'
 marketeer:
   title: Marketeer
   permissions:

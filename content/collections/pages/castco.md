@@ -1,7 +1,7 @@
 ---
 id: 15b5bc88-7c49-47c6-a61c-4b7dc0f90d87
 blueprint: page
-title: CaSTco
+title: 'CaSTCo - Making people count at the heart of rivers recovery'
 page_builder:
   -
     id: m3srvt1c
@@ -97,7 +97,7 @@ page_builder:
         content:
           -
             type: text
-            text: "Aims and Targets of CaSTco\_"
+            text: "Aims and Targets of CaSTCo\_"
       -
         type: bulletList
         content:
@@ -153,6 +153,14 @@ page_builder:
                     type: text
                     text: ' citizen science data with that from other sources to build a picture of catchment health and identify opportunities for future work. '
       -
+        type: set
+        attrs:
+          id: m6rtczti
+          values:
+            type: image
+            image: volunteering/water_quality-testing/river-guardian-img_0416.jpg
+            size: md
+      -
         type: heading
         attrs:
           level: 2
@@ -177,7 +185,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'To find out more about CaSTco visit '
+            text: 'To find out more on the dedicated '
           -
             type: text
             marks:
@@ -186,17 +194,12 @@ page_builder:
                 attrs:
                   href: 'https://castco.org/'
                   rel: null
-                  target: null
+                  target: _blank
                   title: null
-            text: 'https://castco.org'
+            text: 'CaSTCo website'
           -
             type: text
-            text: '. '
-    type: article
-    enabled: true
-  -
-    id: m3sseq9j
-    article:
+            text: .
       -
         type: heading
         attrs:
@@ -204,13 +207,13 @@ page_builder:
         content:
           -
             type: text
-            text: "WSRT’s Role\_in CaSTco’s Work"
+            text: "WSRT’s Role\_in CaSTCo’s Work"
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Some of our projects are supported by CaSTco. These projects are based in the Arun & Rother catchments ‘Demonstration Area’ (Demo+). Click on the links below to find out more about the work we’re doing. These projects rely on Citizen Science and partnership working:\_"
+            text: "Some of our projects are supported by CaSTCo. These projects are based in the Arun & Rother catchments ‘Demonstration Area’ (Demo+). Click on the links below to find out more about the work we’re doing. These projects rely on Citizen Science and partnership working:\_"
       -
         type: bulletList
         content:
@@ -254,6 +257,14 @@ page_builder:
                           target: null
                           title: null
                     text: "Water Quality (River Guardians)\_"
+      -
+        type: set
+        attrs:
+          id: m6505vri
+          values:
+            type: image
+            image: logos/castco-logos_rgb_full-colour.png
+            size: md
     type: article
     enabled: true
 dark_text: false
@@ -268,6 +279,7 @@ sitemap_priority: 0.5
 parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1733400792
-hero_image: logos/castco-logos_rgb_white.png
+updated_at: 1738754278
+hero_image: volunteering/water_quality-testing/20240127_113939.jpg
+hero_title: CaSTCo
 ---

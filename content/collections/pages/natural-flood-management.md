@@ -2,7 +2,7 @@
 id: 1c0ce140-2598-4151-9c28-2375620b85ec
 blueprint: page
 title: 'Natural Flood Management'
-hero_image: volunteer_hedgerow_planting-liss/hedgerow-plants-at-liss.jpg
+hero_image: volunteering/volunteer_hedgerow_planting-liss/hedgerow-plants-at-liss.jpg
 dark_text: false
 link_type: none
 target_blank: false
@@ -13,8 +13,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1720793065
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1734001728
 page_builder:
   -
     id: lwieblhq
@@ -62,14 +62,14 @@ page_builder:
         content:
           -
             type: text
-            text: 'So far we have planted trees and hedgerows to help reduce the impact of sudden and heavy rainfall by intercepting sediment and nutrients flowing the river. '
+            text: 'We have planted trees and hedgerows to help reduce the impact of sudden and heavy rainfall by intercepting water, sediment and nutrients flowing towards the river. '
       -
         type: set
         attrs:
           id: lyirq6io
           values:
             type: image
-            image: volunteer_hedgerow_planting-liss/hedgerow-plants-at-liss.jpg
+            image: volunteering/volunteer_hedgerow_planting-liss/hedgerow-plants-at-liss.jpg
             size: md
             caption: 'The new hedge will intercept and slow water flowing overland into the river'
       -
@@ -77,29 +77,31 @@ page_builder:
         content:
           -
             type: text
-            text: 'A variety of native hedgerow species such as Blackthorn, Hawthorn, Spindle, Field maple, Hazel, Dog Rose Guelder Rose, Dogwood, Cherry and Crab Apple, together with 75 Oak and 19 Sussex Black Poplar trees, have been planted so far.'
-      -
-        type: set
-        attrs:
-          id: lyirq6is
-          values:
-            type: image
-            image: volunteer_hedgerow_planting-liss/black-poplar-thriving-april.jpeg
-            size: md
-            caption: 'Black poplar thriving in the spring after planting'
+            text: 'A variety of native hedgerow species such as Blackthorn, Hawthorn, Spindle, Field maple, Hazel, Dog Rose Guelder Rose, Dogwood, Cherry and Crab Apple, together with 75 Oak and 19 Sussex Black Poplar trees, have been planted so far, totalling 4619 trees!'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'We are now planning some pond and scrape creation to hold more water back in the landscape. These will also help native wildlife by providing homes, shelter and food sources. These techniques are also great for making the riverscape more resilient to drought. '
+            text: 'We’ve also created 6 ponds and scrapes to hold more water back in the landscape. These will also help native wildlife by providing homes, shelter and food sources. These techniques are also great for making the riverscape more resilient to drought. '
+      -
+        type: set
+        attrs:
+          id: m4l7txrs
+          values:
+            type: image
+            image: img_e1040.jpg
+            size: md
+            caption: 'Newly dug pond'
+      -
+        type: paragraph
       -
         type: set
         attrs:
           id: lyirq6iv
           values:
             type: image
-            image: volunteer_hedgerow_planting-liss/liss-nfm.jpeg
+            image: volunteering/volunteer_hedgerow_planting-liss/liss-nfm.jpeg
             size: md
             caption: 'Soggy staff and volunteer!'
       -

@@ -19,7 +19,21 @@ page_builder:
         content:
           -
             type: text
-            text: 'We’re working on two projects to restore natural meanders, one on the Rother and one on the Arun. Restoring these meanders allows rivers to function naturally once more, reconnecting them to their floodplain and making them more resilient to drought and flooding.  The river becomes more varied in its flow and form once again. A more natural river is also great for wildlife too. '
+            text: 'We’re working on two projects to restore natural meanders, '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://entry::31596ee1-4f51-41b5-b5c0-994a896bb71d'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: 'one on the Rother'
+          -
+            type: text
+            text: ' and one on the Arun. Restoring these meanders allows rivers to function naturally once more, reconnecting them to their floodplain and making them more resilient to drought and flooding.  The river becomes more varied in its flow and form once again. A more natural river is also great for wildlife too. '
       -
         type: set
         attrs:
@@ -44,6 +58,6 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1724941062
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1734002534
 ---

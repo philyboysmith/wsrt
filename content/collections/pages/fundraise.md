@@ -103,7 +103,18 @@ page_builder:
         content:
           -
             type: text
-            text: "A simple digital sponsorship form makes it really easy for you to spread the word about your challenge and for your supporters to make a donation. You'll have your own web page to share, people can donate directly to it, and the money gets automatically sent to WSRT. Use Just Giving to set up your page and choose us as your charity of choice."
+            text: "A simple digital sponsorship form makes it really easy for you to spread the word about your challenge and for your supporters to make a donation. You'll have your own web page to share, people can donate directly to it, and the money gets automatically sent to WSRT. Use Just Giving to set up your page and choose us as your charity of choice - "
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.justgiving.com/arun-rother-riverstrust'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'https://www.justgiving.com/arun-rother-riverstrust'
       -
         type: heading
         attrs:
@@ -147,7 +158,7 @@ sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1730887434
+updated_at: 1733409286
 hero_intro: 'Money you raise will help us restore, revive and protect rivers for wildlife and generations to come.'
 hero_title: Fundraise
 ---

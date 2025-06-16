@@ -4,7 +4,7 @@ blueprint: page
 template: homepage
 title: Home
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1731940199
+updated_at: 1734613255
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -56,6 +56,14 @@ page_builder:
         type: card
         enabled: true
         image: riverscapes/arun/arun2_dave_mills.jpg
+        button:
+          -
+            id: m4vbv3nr
+            label: 'Learn more here'
+            link_type: entry
+            target_blank: false
+            entry: cae26e89-1eb8-4d6b-8455-fc52bbfc4c1d
+            button_type: button
       -
         id: lt72txsm
         title: 'Wild Lives'
@@ -63,13 +71,29 @@ page_builder:
         type: card
         enabled: true
         image: wildlife/otter2_derek_middleton.jpg
+        button:
+          -
+            id: m4vbvy91
+            label: 'Learn more here'
+            link_type: entry
+            target_blank: false
+            entry: c11038d9-06f8-4190-9728-cb8c177727b7
+            button_type: button
       -
         id: lt72ulb3
         title: 'Our Projects'
-        text: "From hedge planting to sluice removal, citizen science to saving black poplars, restoring ancient channels to revitalising chalk streams, inspiring kids to creating climate resilient playgrounds - there's a lot happening for our rivers!"
+        text: 'From hedge planting to sluice removal, citizen science to saving black poplars, restoring ancient channels to revitalising chalk streams, inspiring kids to creating climate resilient playgrounds.'
         type: card
         enabled: true
-        image: volunteer_hedgerow_planting-liss/liss-nfm.jpeg
+        image: volunteering/volunteer_hedgerow_planting-liss/liss-nfm.jpeg
+        button:
+          -
+            id: m4vbwc84
+            label: 'Learn more here'
+            link_type: entry
+            target_blank: false
+            entry: ecd098c6-6d65-4292-9549-944396ce9290
+            button_type: button
       -
         id: ltzve0b1
         title: 'Latest News'
@@ -77,6 +101,14 @@ page_builder:
         enabled: true
         image: trees_plants/dsc_0126.jpg
         text: "Read all about the latest happenings from the world of WSRT. Find out what we've been upto recently and learn more about how you can get involved to help support our precious rivers and streams."
+        button:
+          -
+            id: m4vbwtl5
+            label: 'Learn more here'
+            link_type: entry
+            target_blank: false
+            entry: 00bdbfca-5ad1-471d-8970-584609103faa
+            button_type: button
     type: cards
     enabled: true
 hero_image: hero/kingfisher-crop-2.jpg

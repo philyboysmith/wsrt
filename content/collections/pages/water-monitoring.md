@@ -9,7 +9,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1727702723
+updated_at: 1741018588
 hero_image: wqtesting/img-20230908-wa0016.jpg
 link_type: none
 target_blank: false
@@ -48,14 +48,41 @@ page_builder:
             type: text
             text: 'Led by our fantastic Citizen Scientists, our River Guardians initiative focuses on monitoring the water quality of our precious rivers. The data collected from these surveys helps us to identify pollution and act quickly to help prevent further damage to these special habitats. '
       -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Take a look at our handy river health scorecards which have been created using data collected by our brilliant River Guardians.'
+      -
+        type: set
+        attrs:
+          id: m7t9cfim
+          values:
+            type: buttons
+            buttons:
+              -
+                id: m7t9cghr
+                label: 'River Health Scorecards'
+                link_type: entry
+                target_blank: false
+                entry: 310f939f-3015-4f0b-8a67-3ba67f23f25e
+                button_type: button
+      -
         type: set
         attrs:
           id: lvp7m8iq
           values:
             type: image
-            image: wqtesting/high-phosphate.jpeg
+            image: volunteering/water_quality-testing/img_1187-tony-in-river.jpg
             size: md
-            caption: 'High phosphate in the Lavant chalk stream'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Why do we monitor water quality? '
       -
         type: paragraph
         content:
@@ -63,11 +90,27 @@ page_builder:
             type: text
             text: 'Regular water quality data gives us a better picture of what is happening in and around our rivers. This information enables us to work with local landowners and organisations to devise a plan to create positive transformations for rivers within West Sussex and Hampshire. '
       -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'What do I need?'
+      -
         type: paragraph
         content:
           -
             type: text
             text: 'You will be given all of the equipment and training you will need to accurately carry out water quality monitoring on your dedicated river section. '
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'What will we be monitoring? '
       -
         type: paragraph
         content:
@@ -80,6 +123,14 @@ page_builder:
           -
             type: text
             text: 'Collecting a meaningful long-term set of data will help guide decision making and enable positive changes for our river systems. This is a big deal and something that we cannot achieve without our team of passionate volunteers.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'How do I sign up? '
       -
         type: paragraph
         content:

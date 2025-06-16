@@ -20,13 +20,41 @@ page_builder:
         content:
           -
             type: text
-            text: 'The Arun and Western Streams Catchment Partnership is one of over 100 catchment partnerships across the country working  to improve the state of our rivers. '
+            text: 'The '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://awscp.org.uk/'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: 'Arun and Western Streams Catchment Partnership'
+          -
+            type: text
+            text: ' is one of over 100 catchment partnerships across the country working  to improve the state of our rivers. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'We follow the Catchment Based Approach (CaBA):'
+            text: 'We follow the '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://catchmentbasedapproach.org/'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: 'Catchment Based Approach (CaBA)'
+          -
+            type: text
+            text: ':'
       -
         type: bulletList
         content:
@@ -144,7 +172,26 @@ page_builder:
             marks:
               -
                 type: bold
-            text: 'Watch this space for a link to our new Catchment Partnership website!'
+            text: 'Click here to link to our '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://awscp.org.uk/'
+                  rel: null
+                  target: _blank
+                  title: null
+              -
+                type: bold
+            text: 'new Catchment Partnership website'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '!'
     type: article
     enabled: true
 hero_image: wildlife/bluebells_richard_will_crombie.jpg
@@ -161,5 +208,5 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1722867523
+updated_at: 1734001296
 ---

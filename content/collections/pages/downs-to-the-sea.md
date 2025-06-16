@@ -13,7 +13,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Downs to the Sea is a project led by the South Downs National Park Authority and South Downs Trust to bring together environmental organisations, farmers and communities to create and restore priority wetland habitats in the National Park and beyond. '
+            text: 'Downs to the Sea is a project led by the South Downs National Park Authority and South Downs Trust to bring together environmental organisations, farmers and communities.  We’re focusing on water in the landscape, and water in people’s lives.  Creation and restoration of ponds and wetlands is a key part of this project, as well as inspiring people to take action for our rivers and wetland habitats.  '
       -
         type: set
         attrs:
@@ -29,13 +29,13 @@ page_builder:
         content:
           -
             type: text
-            text: 'As one of 6 key partners we have jointly drawn up a bid to the National Lottery Heritage Fund. Big thanks to SDNPA and SDT for organising the partnership and putting in a huge amount of work to pull the bid together!'
+            text: 'This project will launch in spring 2025, thanks to the support of the National Lottery Heritage Fund. Big thanks to SDNPA and SDT for organising the partnership and putting in a huge amount of work to pull the bid together!'
       -
         type: paragraph
         content:
           -
             type: text
-            text: "  We’ll hear the outcome in September, and should it be successful we will be employing an officer to work with Parish Councils on river focused projects, as well as an Education Officer who will be able to run sessions with schools to help connect children with the watery habitats on their doorstep.\_\_\_\_"
+            text: "Two Water Champions will join our team - one will work with Parish Councils on river focused projects, and the other with schools and youth groups to help connect children with the watery habitats on their doorstep.\_\_\_\_"
       -
         type: paragraph
         content:
@@ -73,10 +73,6 @@ page_builder:
         type: paragraph
       -
         type: paragraph
-        content:
-          -
-            type: text
-            text: 'We are hopeful that the bid will be successful and we can do many more educational visits in future. '
       -
         type: set
         attrs:
@@ -99,6 +95,6 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1718314578
+updated_at: 1746117609
 hero_title: 'Downs to the Sea - Water in our Lives'
 ---

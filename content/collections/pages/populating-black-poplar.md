@@ -24,7 +24,7 @@ page_builder:
           id: lyhakupz
           values:
             type: image
-            image: volunteer_hedgerow_planting-liss/black-poplar-in-tree-tube.jpeg
+            image: volunteering/volunteer_hedgerow_planting-liss/black-poplar-in-tree-tube.jpeg
             size: md
       -
         type: paragraph
@@ -42,15 +42,21 @@ page_builder:
             content:
               -
                 type: text
-                text: 'In 2023/4 we have distributed 509 Black Poplar trees - a fantastic achievement. '
+                text: 'In 2024/5 we have distributed 650 Black Poplar trees - a fantastic achievement. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We would like to thank Wakehurst Place, Kew, who are our partners for the Sussex Black Poplar project, and the South Downs Trust - Trees for the Downs for their support.  Thank you!'
     type: article
     enabled: true
   -
     id: m4bbwq6z
-    title: 'Sussex Black Poplar Tree Request Form'
+    title: 'Sussex Black Poplar Tree Request Form - 2025/26 Planting Season'
     form: sussex_black_poplar_tree_request_form
     type: form
-    enabled: true
+    enabled: false
   -
     id: m4bc49a1
     article:
@@ -76,7 +82,7 @@ page_builder:
                 button_type: button
     type: article
     enabled: true
-hero_image: volunteer_hedgerow_planting-liss/black-poplar-thriving-april.jpeg
+hero_image: volunteering/volunteer_hedgerow_planting-liss/black-poplar-thriving-april.jpeg
 dark_text: false
 link_type: none
 target_blank: false
@@ -88,7 +94,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: ecd098c6-6d65-4292-9549-944396ce9290
 show_child_pages: false
-updated_by: a675cf36-f153-4a24-9195-29b6eccb8c3a
-updated_at: 1733404265
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1743675698
 hero_title: 'Bringing back the Black Poplar'
 ---

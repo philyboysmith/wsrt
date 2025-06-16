@@ -37,7 +37,7 @@ page_builder:
             text: 'Robert Bray Associates'
           -
             type: text
-            text: ' have drawn up designs and we are aiming for  construction in autumn 2024 once planning permission has been obtained.'
+            text: ' have drawn up designs and we are aiming for  construction in spring 2025.'
       -
         type: set
         attrs:
@@ -115,6 +115,6 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: ecd098c6-6d65-4292-9549-944396ce9290
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1720704136
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1734001398
 ---

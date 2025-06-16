@@ -14,8 +14,8 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 parent: cae26e89-1eb8-4d6b-8455-fc52bbfc4c1d
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1713187015
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1746692634
 page_builder:
   -
     id: luigsflu
@@ -73,6 +73,40 @@ page_builder:
         content:
           -
             type: text
+            text: 'Find out about all the issues faced by the River Ems in the '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://asset::files::river-ems-catchment-appraisal-2025-final.pdf'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: 'Catchment Appraisal'
+          -
+            type: text
+            text: ', and our plans to tackle them in the '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://asset::files::ems-restoration-plan-2025-final.pdf'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: 'Restoration Plan'
+          -
+            type: text
+            text: '. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
             text: "Chalk streams have been described as our equivalent of the Great Barrier Reef, a natural resource which needs to be protected and cared for. The River Ems is one such river and is a vital resource which needs our help.\_\_"
       -
         type: paragraph
@@ -81,6 +115,6 @@ page_builder:
             type: hardBreak
     type: article
     enabled: true
-hero_image: post/river-ems-10-year-chalk-stream-restoration-plan/ems.jpg
+hero_image: ems-at-river-st.jpg
 dark_text: false
 ---

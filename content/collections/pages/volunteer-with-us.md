@@ -37,7 +37,7 @@ page_builder:
         entry: 9364a075-7789-4adb-aaa5-bb44f6c516a7
         button_type: button
         attr_title: 'Find out more'
-    image: wqtesting/volunteers/andy---arrt-volunteer.jpg
+    image: volunteering/water_quality-testing/andy---arrt-volunteer.jpg
   -
     id: lub8rwlr
     style: two
