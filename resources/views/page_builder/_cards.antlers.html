@@ -17,7 +17,7 @@
                 scroll-reveal
                     bg-white flex flex-col overflow-hidden  items-start  border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary 
                     {{ switch(
-                        (total_results === 1) => 'md:col-span-8 md:col-start-3',
+                        (total_results === 1) => 'md:col-span-6 md:col-start-4',
                         (total_results === 2) => 'md:col-span-6',
                         (total_results === 4) => 'md:col-span-8 md:col-start-3 lg:col-span-3 lg:col-start-0',
                         (total_results > 2) => 'md:col-span-8 md:col-start-3 lg:col-span-4 lg:col-start-0',
@@ -34,7 +34,7 @@
                         {{ /image }}
                     </div>
                 {{ /if }}
-                <div class="mb-4 p-4">
+                <div class="mb-4 p-4 flex-1">
                     {{ if button }}
                         {{ button }}
                             <a class="group" {{ partial:statamic-peak-tools::snippets/button_attributes }} aria-hidden="true" tabindex="-1">
@@ -51,7 +51,7 @@
                     {{ /if }}
                 </div>
                 {{ button }}
-                    {{ partial:components/button }}
+                    {{ partial:components/button class="w-full text-center justify-center" }}
                 {{ /button }}
             </article>
         {{ /block:cards }}

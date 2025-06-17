@@ -16,7 +16,7 @@
 {{ /if }}
 
     <main
-        class="py-12 md:py-16 lg:py-24 stack-12 md:stack-16 lg:stack-24"
+        class="{{if page_builder}}py-12 md:py-16 lg:py-24{{ /if}} stack-12 md:stack-16 lg:stack-24"
         id="content">
         {{ page_builder scope="block" }}
         {{ partial src="page_builder/{type}" }}
