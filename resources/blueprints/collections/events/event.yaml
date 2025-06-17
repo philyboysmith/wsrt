@@ -1,0 +1,117 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            import: article
+          -
+            import: 'events::event'
+          -
+            handle: external_link
+            field:
+              input_type: url
+              type: text
+              display: 'External link'
+          -
+            handle: event_status
+            field:
+              options:
+                -
+                  key: fully-booked
+                  value: 'Fully booked'
+                -
+                  key: limited-availability
+                  value: 'Limited availability'
+              clearable: true
+              type: select
+              display: 'Event status'
+  hero:
+    display: Hero
+    sections:
+      -
+        display: Hero
+        fields:
+          -
+            handle: hero_image
+            field:
+              max_files: 1
+              container: images
+              folder: hero
+              type: assets
+              display: 'Hero image'
+          -
+            handle: photo_credit
+            field:
+              type: text
+              display: 'Photo Credit'
+          -
+            handle: hero_title
+            field:
+              type: text
+              display: 'Hero Title'
+          -
+            handle: dark_text
+            field:
+              type: toggle
+              display: 'Dark text'
+          -
+            handle: hero_intro
+            field:
+              type: textarea
+              display: 'Hero Introduction'
+          -
+            import: button
+  seo:
+    display: SEO
+    sections:
+      -
+        display: Basic
+        instructions: 'Basic SEO settings.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_basic'
+      -
+        display: Advanced
+        instructions: 'Advanced SEO settings.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_advanced'
+      -
+        display: 'Open Graph'
+        instructions: 'Open Graph meta tags for social sharing.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_open_graph'
+      -
+        display: Sitemap
+        instructions: 'Sitemap configuration.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_sitemap'
+      -
+        display: 'JSON-ld Schema'
+        instructions: 'Custom JSON-ld schema objects.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_jsonld'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+title: Event

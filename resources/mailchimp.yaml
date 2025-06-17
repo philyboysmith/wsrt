@@ -1,0 +1,13 @@
+add_new_users: false
+users:
+  audience_id: null
+  check_consent: true
+  consent_field: consent
+  disable_opt_in: false
+  interests_field: interests
+  marketing_permissions_field: gdpr
+  marketing_permissions_field_ids: {  }
+  merge_fields: {  }
+  primary_email_field: email
+  tag: null
+  tag_field: null
