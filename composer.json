@@ -16,7 +16,8 @@
         "laravel/tinker": "^2.8",
         "osayaweventures/share-links": "^1.0",
         "statamic-rad-pack/mailchimp": "^5.3",
-        "statamic/cms": "^5.0",
+        "statamic/cms": "5.50",
+        "studio1902/statamic-peak-browser-appearance": "^3.6",
         "studio1902/statamic-peak-seo": "^8.23",
         "studio1902/statamic-peak-tools": "^7.3",
         "transformstudios/events": "^5.8"

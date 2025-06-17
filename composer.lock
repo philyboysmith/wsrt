@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac1e7644a58312cf0f856303544a63c5",
+    "content-hash": "4d3fde8b28d673e653af1e7d3dbf086d",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -4973,16 +4973,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.57.0",
+            "version": "v5.50.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "eba307923eb5fe9ce7b0954bf6ceecc0357be8c1"
+                "reference": "1bb28a16b3e312c47e1723c1019bc77a6582add8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/eba307923eb5fe9ce7b0954bf6ceecc0357be8c1",
-                "reference": "eba307923eb5fe9ce7b0954bf6ceecc0357be8c1",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/1bb28a16b3e312c47e1723c1019bc77a6582add8",
+                "reference": "1bb28a16b3e312c47e1723c1019bc77a6582add8",
                 "shasum": ""
             },
             "require": {
@@ -5067,7 +5067,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.57.0"
+                "source": "https://github.com/statamic/cms/tree/v5.50.0"
             },
             "funding": [
                 {
@@ -5075,7 +5075,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-04T17:04:56+00:00"
+            "time": "2025-03-10T15:26:11+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -5258,6 +5258,53 @@
                 }
             ],
             "time": "2025-04-02T01:26:45+00:00"
+        },
+        {
+            "name": "studio1902/statamic-peak-browser-appearance",
+            "version": "v3.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studio1902/statamic-peak-browser-appearance.git",
+                "reference": "e30bb44fe9b3a748acc63e19896a2610893655e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-browser-appearance/zipball/e30bb44fe9b3a748acc63e19896a2610893655e9",
+                "reference": "e30bb44fe9b3a748acc63e19896a2610893655e9",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Studio1902\\PeakBrowserAppearance\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Statamic Peak Browser Appearance",
+                    "description": "Statamic Peak Browser Appearance addon"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Studio1902\\PeakBrowserAppearance\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/studio1902/statamic-peak-browser-appearance/issues",
+                "source": "https://github.com/studio1902/statamic-peak-browser-appearance/tree/v3.6.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/studio1902",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-11T12:33:16+00:00"
         },
         {
             "name": "studio1902/statamic-peak-seo",
