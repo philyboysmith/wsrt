@@ -1,5 +1,16 @@
 title: Events
+template: events/show
+layout: layout
+taxonomies:
+  - events
 revisions: false
+route: '/get-involved/whats-on/{slug}'
+sort_dir: asc
 date_behavior:
   past: public
   future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

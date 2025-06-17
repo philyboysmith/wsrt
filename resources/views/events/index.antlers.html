@@ -1,0 +1,30 @@
+{{#
+    @name Default
+    @desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a
+    page get evenly spaced without having to worry about margins or paddings.
+    #}}
+    
+    {{ partial:components/hero}}
+    
+    
+    <main class="py-12  stack-12 md:stack-16 lg:stack-24" id="content">
+        {{ page_builder scope="block" }}
+        {{ partial src="page_builder/{type}" }}
+        {{ /page_builder }}
+    
+    
+        <div class="fluid-grid">
+            <div class="span-content grid md:grid-cols-12 gap-6 py-6 md:py-12 relative z-30">
+                {{ events:upcoming collection="events"  paginate="2" }}
+                    {{ results }}
+                    {{ partial:events/_event}}
+                    {{ /results }}
+                    {{ pagination }}
+                        {{ partial:components/pagination}}
+                    {{ /pagination }}
+                {{ /events:upcoming }}
+            </div>
+        </div>
+    
+    </main>
+    

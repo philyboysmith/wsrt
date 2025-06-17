@@ -12,28 +12,14 @@ tabs:
               validate:
                 - required
           -
-            import: article
+            import: page_builder
           -
             import: 'events::event'
           -
-            handle: external_link
+            handle: location
             field:
-              input_type: url
               type: text
-              display: 'External link'
-          -
-            handle: event_status
-            field:
-              options:
-                -
-                  key: fully-booked
-                  value: 'Fully booked'
-                -
-                  key: limited-availability
-                  value: 'Limited availability'
-              clearable: true
-              type: select
-              display: 'Event status'
+              display: Location
   hero:
     display: Hero
     sections:
@@ -109,9 +95,36 @@ tabs:
       -
         fields:
           -
+            handle: event_status
+            field:
+              options:
+                -
+                  key: fully-booked
+                  value: 'Fully booked'
+                -
+                  key: limited-availability
+                  value: 'Limited availability'
+              clearable: true
+              type: select
+              display: 'Event status'
+          -
+            handle: external_link
+            field:
+              input_type: url
+              type: text
+              display: 'External link'
+          -
             handle: slug
             field:
               type: slug
               localizable: true
               validate: 'max:200'
+          -
+            handle: events
+            field:
+              type: terms
+              taxonomies:
+                - events
+              display: Events
+              mode: select
 title: Event

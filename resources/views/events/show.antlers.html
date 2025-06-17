@@ -1,0 +1,39 @@
+{{#
+    @name Default
+    @desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a page get evenly spaced without having to worry about margins or paddings.
+#}}
+
+{{ partial:components/hero :hero_title="title" :hero_intro="start_date format='l, F jS'" :hero_subtitle="location" }}
+ 
+
+<main class="py-12 md:py-16 lg:py-24 stack-12 md:stack-16 lg:stack-24" id="content">
+
+ <div class="fluid-grid">
+    <div class="span-xl">
+        <h3 class="text-2xl font-bold">{{start_date}} {{ if multi_day }} - {{end_date}} {{ /if }} | {{start_time}} - {{end_time}}</h3>
+
+        {{ if location}}
+        <h3 class="text-2xl font-bold">{{location}}</h3>
+        {{ /if}}
+
+      
+
+    </div>
+</div>
+
+    {{ page_builder scope="block" }}
+        {{ partial src="page_builder/{type}" }}
+    {{ /page_builder }}
+
+    {{ if external_link}}
+
+    <div class="flex items-center justify-center">
+        {{ partial:components/button :url="external_link" label="Get tickets"}}
+    </div>
+    
+    {{ /if}}
+
+</main>
+
+
+<!-- End: /default.antlers.html -->
