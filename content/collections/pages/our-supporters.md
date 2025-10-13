@@ -36,11 +36,6 @@ page_builder:
         enabled: true
         url: 'https://www.gov.uk/government/organisations/environment-agency'
       -
-        id: lw0i68u2
-        image: logos/pngportsmouth_water_logo_rgb_extended_values.png
-        type: new_set
-        enabled: true
-      -
         id: lw0i6fyj
         image: sw_core_logo_lock_up_screen-(2).png
         type: new_set
@@ -74,10 +69,9 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-parent: e2e07a7f-e648-44ec-b3c7-7b5b003cd53f
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1724946949
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1757001891
 hero_image: hero/ducks.jpg
 hero_intro: 'Find out who helps us to take action for our riverscapes.'
 ---

@@ -1,4 +1,6 @@
-data: {  }
+data:
+  exempt_from_alt: false
+  focus: 49-9-1
 size: 1598885
 last_modified: 1750084783
 width: 3024

@@ -39,7 +39,7 @@ page_builder:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.riverkennet.org/advice/riparian-responsibilities'
+                          href: 'https://www.kennetandpang.org/advice/riparian-responsibilities'
                           rel: null
                           target: _blank
                           title: null
@@ -112,10 +112,9 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-parent: 96be3055-a893-41f5-b888-9a9c3cb5089a
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1738249745
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1760356617
 hero_image: hero/ambersham.jpeg
 hero_title: 'Riparian Landowner Information'
 ---

@@ -1,6 +1,20 @@
+mailchimp:
+  enabled: false
+  settings:
+    primary_email_field: email
+    interests_field: null
+    audience_id: null
+    tag: null
+    tag_field: null
+    disable_opt_in: false
+    check_consent: false
+    consent_field: null
+    marketing_permissions_field: null
+    marketing_permissions_field_ids: {  }
+    merge_fields: {  }
 title: 'Sussex Black Poplar Tree Request Form'
 email:
   -
     id: m4raqvcc
-    to: tracy@arrt.org.uk
+    to: tracy@wsrt.org.uk
     subject: 'SBP Website contact'

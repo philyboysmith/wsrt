@@ -14,8 +14,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1738327451
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1751292620
 page_builder:
   -
     id: lub62cqf
@@ -127,7 +127,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'What is Soil SmART?'
+            text: 'What is Soil SmARt?'
       -
         type: paragraph
         content:
@@ -145,7 +145,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'We are working with five dedicated “Soil SmART farmers” to develop and test a soil health toolkit for agricultural soils. So far, we have evaluated the most important soil metrics to measure and developed a Soil SmARt Toolkit which contains the tests; pH, water infiltration, visual evaluation of soil structure (VESS), soil texture (jar and hand texturing), Solvita soil respiration, earthworm counts, soil nutrients, bury your undies, and a slake test. '
+            text: 'We are working with five dedicated “Soil SmARt farmers” to develop and test a soil health toolkit for agricultural soils. So far, we have evaluated the most important soil metrics to measure and developed a Soil SmARt Toolkit which contains the tests; pH, water infiltration, visual evaluation of soil structure (VESS), soil texture (jar and hand texturing), Solvita soil respiration, earthworm counts, soil nutrients, bury your undies, and a slake test. '
       -
         type: paragraph
         content:
@@ -177,13 +177,83 @@ page_builder:
         content:
           -
             type: text
-            text: 'What are the future plans for this project?'
+            text: 'Soil SmARt Factsheets:'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'In the future, we are aiming to have more farmer groups working on the Soil SmARt project. We would also like to engage more with non-farmers in the area to promote better understanding of soils and their importance, and hope to focus on urban areas and private gardens/allotments.'
+            text: 'Designed by Soil SmARt team member Charlotte Chivers of the Countryside and Community Research Institute.'
+      -
+        type: set
+        attrs:
+          id: mcj67s1d
+          values:
+            type: buttons
+            buttons:
+              -
+                id: mcj67ucg
+                label: 'Earthworm counts'
+                link_type: asset
+                target_blank: true
+                asset: earthworm-counts.pdf
+                button_type: button
+              -
+                id: mcj693dl
+                label: 'Soil respiration test'
+                link_type: asset
+                target_blank: true
+                asset: solvita-test-1.pdf
+                button_type: button
+              -
+                id: mcj6a1k0
+                label: 'Water infiltration test'
+                link_type: asset
+                target_blank: true
+                asset: infiltration-test.pdf
+                button_type: button
+              -
+                id: mcj6akig
+                label: 'Slake test (soil stability test)'
+                link_type: asset
+                target_blank: true
+                asset: slake-test.pdf
+                button_type: button
+              -
+                id: mcj6b154
+                label: 'Bury my undies'
+                link_type: asset
+                target_blank: true
+                asset: soil-my-undies-test.pdf
+                button_type: button
+              -
+                id: mcj6buow
+                label: 'Soil nutrient tests'
+                link_type: asset
+                target_blank: true
+                asset: soil-nutrient-tests.pdf
+                button_type: button
+              -
+                id: mcj6c3r4
+                label: 'Soil texture tests'
+                link_type: asset
+                target_blank: true
+                asset: soil-texture-jar-test.pdf
+                button_type: button
+              -
+                id: mcj6chf5
+                label: 'VESS (visual evaluation of soil structure)'
+                link_type: asset
+                target_blank: true
+                asset: vess-test.pdf
+                button_type: button
+              -
+                id: mcj6d0uh
+                label: 'VESS colour chart'
+                link_type: asset
+                target_blank: true
+                asset: vess-colour-chart.pdf
+                button_type: button
     type: article
     enabled: true
   -

@@ -11,7 +11,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'We regularly have opportunities to join our dynamic team!  Watch this space for vacancies coming in June/July 2025.  We are happy to receive CVs at any time. '
+            text: 'We regularly have opportunities to join our dynamic team! Forthcoming opportunities will be advertised here and on Environment Job. We are also happy to receive CVs at any time.   '
     type: article
     enabled: true
   -
@@ -23,7 +23,7 @@ page_builder:
         title: 'Trustee (Fundraising, Legal or Accountant Specialist)'
         image: wildlife/barn_owl_richard_will_crombie.jpg
         type: card
-        enabled: true
+        enabled: false
         text: 'Could you help us take action for our riverscapes and shape our charity for the next few years? Do you have experience in fundraising, accountancy or law? Do you want to be part of a dynamic team working to preserve one of the most precious resources in our community? If the answer is yes, sharing your skills as a Trustee could be for you!'
         button:
           -
@@ -34,7 +34,7 @@ page_builder:
             button_type: button
             asset: wsrt-fundraising-trustee-advert-may-24.pdf
     type: cards
-    enabled: true
+    enabled: false
 hero_image: hero/deer-2.jpg
 photo_credit: 'Will & Richard Crombie'
 hero_title: 'Join our Team'
@@ -49,6 +49,6 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1749575583
+updated_at: 1759756029
 hero_intro: 'Ever dreamt about working with rivers? Explore our current vacancies now!'
 ---

@@ -121,7 +121,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'Need help finding a solicitor? Contact The Law Society on 02073 20 56 50 or visit solicitors.lawsociety.org.uk'
+                text: 'Need help finding a solicitor? Contact The Law Society on 020 7320 5650 or visit solicitors.lawsociety.org.uk'
       -
         type: heading
         attrs:
@@ -135,7 +135,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Address: Western Sussex Rivers Trust, The Barlavington Estate Office, Duncton Mill, Dye House Lane, Duncton, Petworth, GU28 0LF'
+            text: 'Address: Western Sussex Rivers Trust, Walnut Tree Yard Lower St, Fittleworth, RH20 1JE'
       -
         type: paragraph
         content:
@@ -164,9 +164,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1730743524
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1754950935
 hero_image: wildlife/badger_richard_will_crombie.jpg
 ---

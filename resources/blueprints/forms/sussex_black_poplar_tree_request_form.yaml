@@ -14,26 +14,12 @@ tabs:
                 - 'min:2'
               localizable: true
               width: 66
-              instructions_position: above
-              listable: hidden
-              visibility: visible
-              replicator_preview: true
-              input_type: text
-              antlers: false
-              hide_display: false
           -
             handle: organisation_name
             field:
-              input_type: text
-              antlers: false
               type: text
               display: 'Organisation Name'
               width: 66
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
           -
             handle: email
             field:
@@ -44,64 +30,23 @@ tabs:
                 - email
               localizable: true
               width: 50
-              instructions_position: above
-              listable: hidden
-              visibility: visible
-              replicator_preview: true
-              input_type: text
-              antlers: false
-              hide_display: false
           -
             handle: telephone
             field:
-              input_type: text
-              antlers: false
               type: text
               display: Telephone
               width: 50
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
           -
             handle: location
             field:
-              input_type: text
-              antlers: false
               type: text
               display: Location
               instructions: 'Your planned planting location (Grid Ref. Or/and Postcode)'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
           -
             handle: number_of_trees
             field:
-              input_type: text
-              antlers: false
               type: text
               display: 'Number of trees'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-          -
-            handle: sex_of_trees
-            field:
-              input_type: text
-              antlers: false
-              type: text
-              display: 'Sex of trees'
-              instructions: 'Number of male and/or female trees requested (if applicable)'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
           -
             handle: message_body
             field:
@@ -111,23 +56,11 @@ tabs:
                 - required
                 - 'min:5'
               localizable: true
-              instructions_position: above
-              listable: hidden
-              visibility: visible
-              replicator_preview: true
-              antlers: false
-              hide_display: false
           -
             handle: consent
             field:
               inline_label: 'I agree that my submitted data is being collected and stored. I agree that my data will also be shared with our Sussex Black Poplar working group partners, and Wakehurst Place staff.'
-              default: false
               display: Consent
               type: toggle
-              listable: hidden
-              instructions_position: above
               validate:
                 - accepted
-              visibility: visible
-              replicator_preview: true
-              hide_display: false

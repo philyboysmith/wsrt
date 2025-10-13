@@ -7,9 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1741018588
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1755710522
 hero_image: wqtesting/img-20230908-wa0016.jpg
 link_type: none
 target_blank: false
@@ -136,7 +135,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'If you would like to get involved, have a read through our Water Quality Monitoring Handbook at the link below and email Keir at keir@arrt.org.uk to sign up.'
+            text: 'If you would like to get involved, have a read through our Water Quality Monitoring Handbook at the link below and email Keir at keir@wsrt.org.uk to sign up.'
       -
         type: paragraph
         content:

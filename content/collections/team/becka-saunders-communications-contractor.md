@@ -4,6 +4,6 @@ blueprint: team
 title: 'Becka Saunders - Communications (contractor)'
 image: becka-saunders.jpg
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1724942920
+updated_at: 1750244547
 ---
-Becka has worked in communications for the past 15 years, with 13 years experience specifically in the environmental sector. Becka has worked on projects involving a huge range of habitats and different communities, and is now looking forward to focusing on communicating about the world of rivers. Growing up in the stunning South Downs, Becka has a deep rooted love of the outdoors, with some of her favourite childhood (and adult!) memories involving paddling in streams, wild swimming and watching the world go by on riverbanks. With a passion for nature and wildlife, Becka is very excited to be involved with helping spread the WSRT messages far and wide, doing her bit towards helping our precious riverscapes thrive.
+Becka has worked in communications for the past 15 years, with 13 years experience specifically in the environmental sector. Working on projects focused on a huge range of habitats and different communities, Becka has a passion for rivers and all the wildlife which they provide a home to. Growing up in the stunning South Downs, Becka has a deep rooted love of the outdoors, with some of her favourite childhood (and adult!) memories involving paddling in streams, wild swimming and watching the world go by on riverbanks. With an appreciation for nature and wildlife, Becka is very excited to be involved with helping spread the WSRT messages far and wide, doing her bit towards helping our precious riverscapes thrive.

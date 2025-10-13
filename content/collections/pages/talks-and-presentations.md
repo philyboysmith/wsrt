@@ -194,20 +194,25 @@ page_builder:
         type: card
         enabled: true
       -
-        id: m7t565ah
-        title: 'Why are soils important and how to improve them!'
+        id: meu4xbcg
+        title: 'But what can I do about it?'
         text: |-
-          Are you interested in the ground under your feet? Do you want to learn more about this amazing medium for growth, flood mitigation, climate change mitigation and life?
-          Soils are fundamental to life on earth, they provide 99% of all calories consumed by humans and yet they are often forgotten. Despite this, soils are often taken for granted and are rapidly being degraded by intensive agriculture, urbanisation, and pollution. Book a talk to find out more about why soils are important, what exactly is soil, why are soils are under threat and what you can do to help improve soil health in your local area.
+          Find out what everyday actions can help our rivers and wetlands.
+
+          No single stretch of river in England is in good overall health. 
+
+          90% of freshwater wetlands have been lost or destroyed in England alone in the past 400 years. A whole host of problems are impacting the health of our water environment: sewage, chemical pollution, climate change, habitat loss, over abstraction...the problems can seem overwhelming and complex. It can be difficult to see how, as individuals, we can make a difference. 
+
+          But don't despair! Book a talk with Water Champion, Louise Barnetson, to find out how we can all be part of the solution. Learn about everyday actions and small changes that we can all make that will help our water environment, and how we are all part of the bigger picture.
         button:
           -
-            id: m7t578r8
+            id: meu55ink
             label: 'Book a talk'
             link_type: entry
             target_blank: true
             entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
             button_type: button
-        image: wildlife/dung_beetle_victoria_hume.jpg
+        image: wildlife/water-vole.jpg
         type: card
         enabled: true
     type: cards
@@ -221,10 +226,9 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
 show_child_pages: false
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1741011495
+updated_at: 1757019984
 hero_image: wildlife/kingfisher4_richard_will_crombie.jpg
 hero_title: 'Talks and Presentations'
 hero_intro: 'Book one of our inspirational and knowledgable speakers to find out more about rivers, wildlife and how you can help our riverscapes thrive.'
