@@ -14,8 +14,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1751292620
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1761134010
 page_builder:
   -
     id: lub62cqf
@@ -255,6 +255,32 @@ page_builder:
                 asset: vess-colour-chart.pdf
                 button_type: button
     type: article
+    enabled: true
+  -
+    id: mh1xi7kf
+    article:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Soil Guardian Toolkit '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'This video gives an in-depth overview of each soil test. Click the YouTube icon at the bottom of the video to view directly on our YouTube channel if you would like access to skip between individual chapters in the film.'
+    type: article
+    enabled: true
+  -
+    id: mh1xhxdd
+    html:
+      code: '<iframe width="560" height="315" src="https://www.youtube.com/embed/CWm0YPlQ4MA?si=CSk9boacNHYv9dYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+      mode: htmlmixed
+    type: html
     enabled: true
   -
     id: lub65dr2

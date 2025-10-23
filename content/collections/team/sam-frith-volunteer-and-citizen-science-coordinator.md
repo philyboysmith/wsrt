@@ -1,6 +1,5 @@
 ---
 id: da3fb057-9126-466d-8b61-f04b9d9852d6
-published: false
 blueprint: team
 title: 'Sam Frith - Volunteer and Citizen Science Coordinator'
 image: sam.jpg

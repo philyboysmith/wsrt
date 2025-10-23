@@ -7,14 +7,76 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1755710522
-hero_image: wqtesting/img-20230908-wa0016.jpg
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1761139442
+hero_image: volunteering/water_quality-testing/stills-from-sam-moore-filming-july-25/wsrt-stills-(1).jpg
 link_type: none
 target_blank: false
 button_type: button
 show_child_pages: false
 page_builder:
+  -
+    id: mh1ywsbh
+    article:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Western Sussex Rivers Trust (WSRT) River Guardians'
+          -
+            type: text
+            text: ' is a pioneering citizen science initiative addressing gaps in river health monitoring. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'As part of the national '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Catchment Systems Thinking Cooperative (CaSTCo)'
+          -
+            type: text
+            text: ' project, we equip volunteers with water testing kits, training, and an open-access data platform to contribute to a meaningful, long-term dataset to improve water quality.'
+    type: article
+    enabled: true
+  -
+    id: mh20xt10
+    html:
+      code: '<iframe width="560" height="315" src="https://www.youtube.com/embed/56uPpoTwB-o?si=qqJ6wQQjhcPqqXJd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+      mode: htmlmixed
+    type: html
+    enabled: true
+  -
+    id: mh20xj4e
+    article:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Dive into our River Guardians citizen science data with our interactive map:'
+    type: article
+    enabled: true
+  -
+    id: lvducspb
+    html:
+      code: |-
+        <iframe
+          class="cartographer-map"
+          src="https://app.cartographer.io/embed/map?workspace=arrt&project=riverguardians&map=ArrtWaterQuality&when=year&zoom=10"
+        		>
+        </iframe>
+      mode: htmlmixed
+    type: html
+    enabled: true
   -
     id: luilondd
     article:
@@ -28,18 +90,7 @@ page_builder:
             marks:
               -
                 type: bold
-            text: 'Does the thought of spending a couple of hours on a riverbank spotting wildlife and helping nature fill your heart with joy? '
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Then sign up now to become a River Guardian!'
+            text: 'How healthy is your river?'
       -
         type: paragraph
         content:
@@ -51,7 +102,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Take a look at our handy river health scorecards which have been created using data collected by our brilliant River Guardians.'
+            text: 'Take a look at our handy river health scorecards and map which have been created using data collected by our brilliant River Guardians.'
       -
         type: set
         attrs:
@@ -66,147 +117,465 @@ page_builder:
                 target_blank: false
                 entry: 310f939f-3015-4f0b-8a67-3ba67f23f25e
                 button_type: button
-      -
-        type: set
-        attrs:
-          id: lvp7m8iq
-          values:
-            type: image
-            image: volunteering/water_quality-testing/img_1187-tony-in-river.jpg
-            size: md
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Why do we monitor water quality? '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Regular water quality data gives us a better picture of what is happening in and around our rivers. This information enables us to work with local landowners and organisations to devise a plan to create positive transformations for rivers within West Sussex and Hampshire. '
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'What do I need?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'You will be given all of the equipment and training you will need to accurately carry out water quality monitoring on your dedicated river section. '
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'What will we be monitoring? '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Our River Guardians monitor chemical indicators such as phosphates, nitrates, turbidity, total dissolved solids and temperature. You will also be asked to make observations on visible pollution, wildlife sightings and river characteristics.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Collecting a meaningful long-term set of data will help guide decision making and enable positive changes for our river systems. This is a big deal and something that we cannot achieve without our team of passionate volunteers.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'How do I sign up? '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'If you would like to get involved, have a read through our Water Quality Monitoring Handbook at the link below and email Keir at keir@wsrt.org.uk to sign up.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'statamic://asset::files::wsrt-riverguardians-wq-monitoring-handbook.pdf'
-                  rel: null
-                  target: null
-                  title: null
-            text: 'River Guardians Handbook'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Powered by CaSTCo'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'This initiative is part of a larger project called '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://theriverstrust.org/our-work/our-projects/castco-catchment-systems-thinking-cooperative'
-                  rel: null
-                  target: _blank
-                  title: null
-              -
-                type: bold
-            text: CaSTCo
-          -
-            type: text
-            text: ', an innovation project focused on uniting the different organisations involved in river health in the UK.'
-      -
-        type: set
-        attrs:
-          id: m0qijf1r
-          values:
-            type: image
-            image: logos/castco-logo-with-vision-statement.png
-            size: md
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Explore the map below to see where surveys are taking place in our catchment area.'
     type: article
     enabled: true
   -
-    id: lvducspb
+    id: mh1z9etn
+    article:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Despite no waterbodies in the Arun & Western Streams catchment currently meeting the Water Framework Directive (WFD) standards, River Guardians are making a difference by identifying pollution sources, monitoring trends and advocating for sustainable river management solutions.'
+      -
+        type: set
+        attrs:
+          id: mh1zg16o
+          values:
+            type: image
+            image: volunteering/water_quality-testing/stills-from-sam-moore-filming-july-25/wsrt-stills-(37).jpg
+            size: md
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'The challenge…'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'A lack of comprehensive monitoring'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Without sufficient data, communities and policymakers lack information about which areas are in good ecological health and which need urgent intervention.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Without baseline data, identifying pollution events and their sources is challenging, and with a lack of reliable data accessible, communities are unable to find answers to their concerns about their local rivers. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'To address these issues, WSRT initiated the River Guardians citizen science project to increase the coverage, frequency, and transparency of river health monitoring.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Empowering citizen scientists'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Since January 2024, WSRT River Guardians and volunteers have conducted 1600+ River Health Surveys using standardised testing kits measuring:'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Phosphates
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Turbidity
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Total Dissolved Solids (TDS)'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Nitrates '
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Temperature
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Surveys also include observations of river characteristics, pollution, and ecosystems. Training ensures consistent, scientifically valid methods, while collaboration with existing groups unifies monitoring efforts.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Results and impact'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'This project is transforming local water monitoring by:'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Greatly expanding monitoring coverage across the catchment'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Building a reliable, long-term dataset for assessing water quality'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Detecting pollution in real time and triggering reports to the Environment Agency and Southern Water'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Engaging communities in river stewardship and freshwater protection'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Supporting future mitigation projects like wetlands, SuDS, and advanced monitoring programs'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Data visualisation and analysis'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Results are shared through interactive tools—including '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://cartographer.io/'
+                  rel: null
+                  target: null
+                  title: null
+            text: Cartographer
+          -
+            type: text
+            text: ",\_"
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://experience.arcgis.com/template/3488509b4b254903b25f6925351fee92'
+                  rel: null
+                  target: null
+                  title: null
+              -
+                type: bold
+            text: 'ArcGIS Experience Hub'
+          -
+            type: text
+            text: ", and\_"
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://wsrt.org.uk/get-involved/water-monitoring'
+                  rel: null
+                  target: null
+                  title: null
+              -
+                type: bold
+            text: 'WSRT River Health Scorecards'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: ' '
+          -
+            type: text
+            text: '- making complex data accessible to communities and decision-makers. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Summarising large datasets into clear, local River Health reports was key to empowering action in 2024.'
+      -
+        type: set
+        attrs:
+          id: mh20frft
+          values:
+            type: image
+            image: volunteering/water_quality-testing/stills-from-sam-moore-filming-july-25/wsrt-stills-(25).jpg
+            size: md
+    type: article
+    enabled: true
+  -
+    id: mh1zyyxl
+    article:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Useful resources and guides:'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'statamic://asset::files::river-guardian-resources/river-guardians-risk-assessment.pdf'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'WSRT Risk Assessment'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'WSRT Volunteer Health & Safety Agreement'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'statamic://asset::files::wsrt-riverguardians-wq-monitoring-handbook.pdf'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'River Guardian Handbook '
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'statamic://asset::files::river-guardian-resources/wsrt_wq_surveyformguide.pdf'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'River Guardian Survey Form'
+                  -
+                    type: text
+                    text: ' '
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Equipment Guide'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'about:blank'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Angling Trust Equipment Step-by-step Guide'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'about:blank'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Cartographer Guide'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'statamic://asset::files::river-guardian-resources/interpreting-your-results-guide.pdf'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Interpreting your results Guide'
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Watch our water quality testing tutorial video below for a full, detailed explanation of all the different tests:'
+    type: article
+    enabled: true
+  -
+    id: mh207a9m
     html:
-      code: |-
-        <iframe
-          class="cartographer-map"
-          src="https://app.cartographer.io/embed/map?workspace=arrt&project=riverguardians&map=ArrtWaterQuality&when=year&zoom=10"
-        		>
-        </iframe>
+      code: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ucCw3k_7znI?si=kHwOprUcaghn2XyD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
       mode: htmlmixed
     type: html
+    enabled: true
+  -
+    id: mh1z4ow1
+    replicator_field:
+      -
+        id: mh1z4qrx
+        title: 'Powered by CaSTco'
+        image: logos/castco-logo-with-vision-statement.png
+        type: new_set
+        enabled: true
+    type: logos
     enabled: true
 hero_title: 'River Guardians'
 dark_text: false
