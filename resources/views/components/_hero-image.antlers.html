@@ -1,4 +1,4 @@
-<picture class="hero-image">
+<picture class="hero-image {{ if semi_transparent_image }}opacity-50{{ /if }}">
     <source media="(min-width: 1024px)" srcset="{{ glide:url width='1440' height='580' format='webp' fit="crop_focal"  }}"
         type="image/webp">
     <source media="(min-width: 1024px)" srcset="{{ glide:url width='1400' height='580' fit="crop_focal"  }}" type="image/jpeg">

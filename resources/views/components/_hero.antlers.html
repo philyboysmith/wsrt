@@ -1,7 +1,7 @@
 
 {{if hero_image }}
     {{hero_image}}
-    <div class="relative z-10 overflow-hidden bg-neutral">
+    <div class="relative z-10 overflow-hidden {{ if dark_text }}bg-primary-light{{ else }}bg-primary-dark{{ /if }}">
     {{ partial:components/_hero-image class="w-full"}}
 
     {{ if photo_credit}}
