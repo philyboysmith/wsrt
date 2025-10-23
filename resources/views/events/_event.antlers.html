@@ -2,6 +2,11 @@
         class="scroll-reveal bg-white flex flex-col overflow-hidden  items-start  border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary relative md:col-span-4 ">
         <a href="{{url}}"
             class="absolute z-10 inset-0">&nbsp;</a>
+        {{ if partner_event }}
+        <div class="absolute top-4 right-4 z-20 bg-primary text-white text-xs font-semibold px-3 py-1 rounded-full shadow-md">
+            Partner Event
+        </div>
+        {{ /if }}
         {{ if hero_image }}
         <div>
             {{ hero_image }}

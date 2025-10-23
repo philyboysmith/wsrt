@@ -108,6 +108,13 @@ tabs:
               type: select
               display: 'Event status'
           -
+            handle: partner_event
+            field:
+              type: toggle
+              display: 'Partner event'
+              instructions: 'Mark this as a partner event to display a badge on the website.'
+              default: false
+          -
             handle: external_link
             field:
               input_type: url

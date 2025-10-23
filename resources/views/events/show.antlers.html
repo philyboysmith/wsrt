@@ -10,6 +10,11 @@
 
  <div class="fluid-grid">
     <div class="span-xl">
+        {{ if partner_event }}
+        <div class="inline-block bg-primary text-white text-sm font-semibold px-4 py-2 rounded-full shadow-md mb-4">
+            Partner Event
+        </div>
+        {{ /if }}
         <h3 class="text-2xl font-bold">{{start_date}} {{ if multi_day }} - {{end_date}} {{ /if }} | {{start_time}} - {{end_time}}</h3>
 
         {{ if location}}
