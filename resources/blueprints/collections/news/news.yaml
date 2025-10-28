@@ -201,6 +201,18 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
+            handle: semi_transparent_image
+            field:
+              default: false
+              type: toggle
+              display: 'Semi-transparent image'
+              instructions: 'Make the hero image 50% transparent to improve text legibility'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: hero_intro
             field:
               restrict: false
