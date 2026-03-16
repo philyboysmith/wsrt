@@ -49,6 +49,20 @@ page_builder:
           -
             type: text
             text: 'We would like to thank Wakehurst Place, Kew, who are our partners for the Sussex Black Poplar project, and the South Downs Trust - Trees for the Downs for their support.  Thank you!'
+      -
+        type: blockquote
+        content:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'All trees for the 2025-26 planting season have now found a home!'
     type: article
     enabled: true
   -
@@ -56,7 +70,7 @@ page_builder:
     title: 'Sussex Black Poplar Tree Request Form - 2025/26 Planting Season'
     form: sussex_black_poplar_tree_request_form
     type: form
-    enabled: true
+    enabled: false
   -
     id: m4bc49a1
     article:
@@ -94,6 +108,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1759483606
+updated_at: 1763033659
 hero_title: 'Bringing back the Black Poplar'
+semi_transparent_image: false
 ---

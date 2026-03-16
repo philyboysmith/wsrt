@@ -2,7 +2,7 @@
 id: 211c1fc0-41c6-4873-b1bb-66ce1d8be5e5
 blueprint: team
 title: 'Becka Saunders - Communications (contractor)'
-image: becka-saunders.jpg
+image: team/becka-saunders.jpg
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
 updated_at: 1750244547
 ---

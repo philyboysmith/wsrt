@@ -2,7 +2,7 @@
 id: be1827a0-9b79-4cfd-a7cf-b34e577d4b7f
 blueprint: team
 title: 'Chloe Clarke - Rother Partnership Coordinator'
-image: chloe.jpg
+image: team/chloe.jpg
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
 updated_at: 1726067498
 ---

@@ -76,7 +76,7 @@ page_builder:
                       -
                         type: link
                         attrs:
-                          href: 'statamic://asset::files::riparian-landowner-guide---norfolk-trust.jpg'
+                          href: 'statamic://asset::files::landowner-guide.pdf'
                           rel: null
                           target: _blank
                           title: null

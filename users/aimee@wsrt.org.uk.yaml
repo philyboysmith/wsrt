@@ -1,0 +1,9 @@
+name: Aimee
+roles:
+  - editor
+id: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+password_hash: $2y$10$n7PqiJh8N9bD86VtBtMKpOQX.cIhtpuyJ3tfxu7K9.pkzhMAlr2kS
+preferences:
+  assets:
+    images:
+      mode: grid

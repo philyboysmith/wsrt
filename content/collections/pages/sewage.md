@@ -34,6 +34,30 @@ page_builder:
             size: md
             caption: 'Sewage pumping into the Lavant'
       -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Help us raise money to test for harmful E.coli bacteria in our rivers'
+      -
+        type: set
+        attrs:
+          id: mmngwb6r
+          values:
+            type: buttons
+            buttons:
+              -
+                id: mmngwc23
+                label: 'Find out more and donate'
+                link_type: entry
+                target_blank: false
+                entry: 5b62d9ac-d831-4140-a276-0af4512d830f
+                button_type: button
+      -
+        type: paragraph
+      -
         type: paragraph
         content:
           -
@@ -52,9 +76,9 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-parent: 5f9c4f2e-d71a-49a1-b765-b694380b7327
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1730887371
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1773324288
 hero_title: Sewage
+semi_transparent_image: false
 ---

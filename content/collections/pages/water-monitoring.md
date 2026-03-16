@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1761139442
+updated_at: 1770034866
 hero_image: volunteering/water_quality-testing/stills-from-sam-moore-filming-july-25/wsrt-stills-(1).jpg
 link_type: none
 target_blank: false
@@ -549,23 +549,15 @@ page_builder:
                           target: null
                           title: null
                     text: 'Interpreting your results Guide'
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Watch our water quality testing tutorial video below for a full, detailed explanation of all the different tests:'
     type: article
     enabled: true
   -
     id: mh207a9m
     html:
-      code: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ucCw3k_7znI?si=kHwOprUcaghn2XyD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+      code: '<iframe width="560" height="315" src="https://www.youtube.com/embed/0u7N1sSWCaU?si=_amg46t572CGsEOu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
       mode: htmlmixed
     type: html
-    enabled: true
+    enabled: false
   -
     id: mh1z4ow1
     replicator_field:
@@ -580,4 +572,5 @@ page_builder:
 hero_title: 'River Guardians'
 dark_text: false
 hero_intro: 'Powered by CaSTCo'
+semi_transparent_image: false
 ---

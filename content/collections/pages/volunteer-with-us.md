@@ -7,9 +7,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-parent: 5e58530c-ed37-48dc-a615-9a320ab6f0b3
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1724948093
+updated_at: 1768823730
 hero_image: wildlife/foxglove_richard_will_crombie.jpg
 link_type: none
 target_blank: false
@@ -84,7 +83,7 @@ page_builder:
                   rel: null
                   target: null
                   title: Keir
-            text: keir@arrt.org.uk
+            text: sam@wsrt.org.uk
           -
             type: text
             text: .
@@ -108,4 +107,5 @@ hero_title: 'Volunteer with us'
 dark_text: false
 hero_intro: 'Find out how you can get out on our rivers and help them thrive.'
 photo_credit: 'Will & Richard Crombie'
+semi_transparent_image: false
 ---

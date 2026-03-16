@@ -14,8 +14,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1761134010
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1763033953
 page_builder:
   -
     id: lub62cqf
@@ -127,7 +127,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'What is Soil SmARt?'
+            text: 'Soil SmARt - 2023 - 2025'
       -
         type: paragraph
         content:
@@ -260,6 +260,17 @@ page_builder:
     id: mh1xi7kf
     article:
       -
+        type: blockquote
+        content:
+          -
+            type: heading
+            attrs:
+              level: 1
+            content:
+              -
+                type: text
+                text: 'Soil SmARt has now come to a close, but the legacy will be taken on by some of our Catchment Partners, and our Soils Guardians. '
+      -
         type: heading
         attrs:
           level: 2
@@ -337,4 +348,5 @@ page_builder:
     enabled: true
 dark_text: false
 hero_intro: 'Powered by CaSTCo'
+semi_transparent_image: false
 ---

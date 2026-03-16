@@ -18,14 +18,8 @@ page_builder:
     id: lw0i4bat
     replicator_field:
       -
-        id: lw0i4dyt
-        image: logos/castco-logo-with-vision-statement.png
-        type: new_set
-        enabled: true
-        url: 'https://theriverstrust.org/our-work/our-projects/castco-catchment-systems-thinking-cooperative'
-      -
         id: lw0i4lg5
-        image: cdc-logo_col-resized.png
+        image: logos/cdc-logo_col-resized.png
         type: new_set
         enabled: true
         url: 'https://www.chichester.gov.uk/'
@@ -37,12 +31,12 @@ page_builder:
         url: 'https://www.gov.uk/government/organisations/environment-agency'
       -
         id: lw0i6fyj
-        image: sw_core_logo_lock_up_screen-(2).png
+        image: logos/sw_core_logo_lock_up_screen-(2).png
         type: new_set
         enabled: true
       -
         id: lw0i7apv
-        image: sdnpt-logo---transparent.png
+        image: logos/sdnpt-logo---transparent.png
         type: new_set
         enabled: true
         url: 'https://southdownstrust.org.uk/'
@@ -53,9 +47,39 @@ page_builder:
         enabled: true
         url: 'https://www.southdowns.gov.uk/'
       -
-        id: lxd475fr
-        url: 'https://garfieldweston.org/'
-        image: gwf-logo-blue.png
+        id: mljehpxz
+        url: 'https://www.goodwood.com/'
+        image: goodwood-core-brand---device---colour.png
+        type: new_set
+        enabled: true
+      -
+        id: mljels11
+        url: 'https://friendsofthesouthdowns.org.uk/'
+        image: fotsd_logo-550x214px-full-2024.png
+        type: new_set
+        enabled: true
+      -
+        id: mkoaafay
+        url: 'https://geraldmicklemct.org.uk/'
+        image: the-gerald-micklem-small-jpeg.jpg
+        type: new_set
+        enabled: true
+      -
+        id: mkpkx5ml
+        url: 'https://ekct.org.uk/'
+        image: main-logo.jpg
+        type: new_set
+        enabled: true
+      -
+        id: mhnhjzpt
+        url: 'https://www.chalkclifftrust.org/'
+        image: logos/chalk-cliff-trust-logo-rgb_full-colour-(1).png
+        type: new_set
+        enabled: true
+      -
+        id: mlh8km6h
+        url: 'https://ninevehtrust.org.uk/'
+        image: ninevehtrust-logo.png
         type: new_set
         enabled: true
     type: logos
@@ -71,7 +95,8 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1757001891
+updated_at: 1770897474
 hero_image: hero/ducks.jpg
 hero_intro: 'Find out who helps us to take action for our riverscapes.'
+semi_transparent_image: false
 ---

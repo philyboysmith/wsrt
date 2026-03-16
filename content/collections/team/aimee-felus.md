@@ -2,7 +2,7 @@
 id: 97fb48ca-cd45-4ea1-8beb-96487baaf47e
 blueprint: team
 title: 'Aimee Felus - Chief Executive'
-image: aimee-2.jpg
+image: team/aimee-2.jpg
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
 updated_at: 1736426301
 ---

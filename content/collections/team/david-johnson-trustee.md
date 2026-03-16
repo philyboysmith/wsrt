@@ -2,7 +2,7 @@
 id: 7a1e9ed8-8273-4b7e-8cbf-425287475460
 blueprint: team
 title: 'David Johnson - Trustee'
-image: david-crop.jpg
+image: team/david-crop.jpg
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
 updated_at: 1760706968
 ---

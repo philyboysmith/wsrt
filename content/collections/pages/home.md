@@ -3,8 +3,8 @@ id: home
 blueprint: page
 template: homepage
 title: Home
-updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1734613255
+updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
+updated_at: 1773324189
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -29,6 +29,72 @@ page_builder:
   -
     id: T5ZZwBfn
     article:
+      -
+        type: heading
+        attrs:
+          level: 1
+        content:
+          -
+            type: text
+            text: 'Spring Fundraising Campaign!'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Inspired by '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.channel4.com/programmes/dirty-business'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: 'Channel 4’s docudrama'
+          -
+            type: text
+            text: ' '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://entry::72469756-9ad2-4d76-827e-7e771e8787ff'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: 'Dirty Business'
+          -
+            type: text
+            text: ', we’re raising funds for our River Guardians to investigate E.coli bacteria in our rivers, especially in locations that are used for recreation. Can you help us reach our target of £2000?'
+      -
+        type: set
+        attrs:
+          id: mmnf3keb
+          values:
+            type: buttons
+            buttons:
+              -
+                id: mmnf3lgr
+                label: 'Find out more and donate'
+                link_type: entry
+                target_blank: false
+                button_type: button
+                entry: 5b62d9ac-d831-4140-a276-0af4512d830f
+      -
+        type: set
+        attrs:
+          id: mmnf60aj
+          values:
+            type: image
+            image: leisure-activities/wsrt-pulborough-paddles-(212).jpg
+            size: md
+      -
+        type: paragraph
       -
         type: heading
         attrs:
@@ -121,4 +187,5 @@ button_type: button
 attr_title: 'Dive in'
 show_child_pages: false
 dark_text: true
+semi_transparent_image: false
 ---

@@ -167,7 +167,7 @@ page_builder:
                   rel: null
                   target: null
                   title: null
-            text: Sarah@arrt.org.uk
+            text: Sarah@wsrt.org.uk
           -
             type: text
             text: "\_\_"
@@ -186,6 +186,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
-updated_at: 1731940800
+updated_at: 1762176961
 hero_title: 'The Hambrook'
+semi_transparent_image: true
 ---

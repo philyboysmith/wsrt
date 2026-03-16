@@ -12,10 +12,9 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-parent: cae26e89-1eb8-4d6b-8455-fc52bbfc4c1d
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1746692634
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1773349809
 page_builder:
   -
     id: luigsflu
@@ -115,6 +114,7 @@ page_builder:
             type: hardBreak
     type: article
     enabled: true
-hero_image: ems-at-river-st.jpg
+hero_image: riverscapes/ems/ems-at-river-st.jpg
 dark_text: false
+semi_transparent_image: false
 ---

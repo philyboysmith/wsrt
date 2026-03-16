@@ -9,7 +9,7 @@ page_builder:
       -
         type: heading
         attrs:
-          level: 2
+          level: 1
         content:
           -
             type: text
@@ -24,12 +24,156 @@ page_builder:
             video_url: 'https://www.youtube.com/watch?v=3lwc7m7jp9g'
       -
         type: paragraph
+        content:
+          -
+            type: text
+            text: 'The Rother Partnership has been established by core funding partners - South Downs National Park Authority (SDNPA), South Downs Trust (SDT), Southern Water, and Chichester District Council. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: "We're working in partnership with organisations, farmers, landowners and local communities to draw together a collective plan for action to allow the river Rother to flourish again. We'll be turning this plan into actions focussing on improving water quality, ecological networks and measures to increase resilience to flood and drought. We're excited about the partnership projects being developed and the range of opportunities for riparian landowners to help restore and enhance the riverscapes, for example:"
+            text: 'Bringing together organisations, landowners, farmers and local communities, this partnership will co-develop and deliver projects to allow the Western Rother riverscapes to flourish again. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The Partnership and '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://asset::files::rother-action-plan-2025-2035.pdf'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'the Rother Action Plan'
+          -
+            type: text
+            text: " are coordinated by us, the Western Sussex Rivers Trust (WSRT).\_"
+      -
+        type: set
+        attrs:
+          id: mmj0s6jk
+          values:
+            type: image
+            image: riverscapes/rother/rother-at-fittleworth.jpg
+            size: md
+            caption: 'Rother at Fittleworth'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Our long-term aim is to see the river Rother and its tributaries that flow across the South Downs landscape, become the beacon of good river health within a National Park. A flourishing river system, guided and championed by all. A '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'coordinated, urgent and ambitious approach will be necessary'
+          -
+            type: text
+            text: ' if we are to achieve '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Good Ecological Status'
+          -
+            type: text
+            text: " for every stretch of the catchment.\_\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'This will require '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'dramatic improvements in reducing pollutants entering the water'
+          -
+            type: text
+            text: '; the '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'removal of many barriers'
+          -
+            type: text
+            text: ' that currently restrict the free movement of wildlife; and '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'changes in land management'
+          -
+            type: text
+            text: ", particularly along the river corridors.\_\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We will need to address questions around what good looks like, and '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'balance the requirements of food production, water quality, water quantity and improving soil health all whilst maintaining a rural economy'
+          -
+            type: text
+            text: '. With wetter warmer winters and hotter drier summers, we’ll need to ensure the local landscape is even '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'more resilient to an increasingly challenging climate'
+          -
+            type: text
+            text: ".\_\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'As more stakeholders and landowners come on board and the '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'local community becomes ever-more engaged in the state of the local rivers and streams'
+          -
+            type: text
+            text: ", we will start to see these big changes that are much needed.\_"
+      -
+        type: set
+        attrs:
+          id: mmj0tpvq
+          values:
+            type: image
+            image: wildlife/pike_derek_middleton.jpg
+            size: md
+            caption: 'Pike by Derek Middleton'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "We're excited about the partnership projects being developed and the range of opportunities for riparian landowners to help restore and enhance the riverscapes, for example:"
       -
         type: paragraph
         content:
@@ -99,19 +243,7 @@ page_builder:
         content:
           -
             type: text
-            text: "\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
             text: 'There will be many opportunities to involve the wider community in a range of practical tasks, awareness raising and citizen science initiatives, to help inform projects and grow awareness of the local Rother riverscapes'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
       -
         type: paragraph
         content:
@@ -119,20 +251,39 @@ page_builder:
             type: text
             text: 'Please get in touch to find out more about how you can get involved.'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
-      -
         type: heading
         attrs:
           level: 3
         content:
           -
             type: text
-            text: 'Big thanks to the South Downs Trust, South Downs National Park Authority, Chichester District Council and Southern Water for supporting this project to make it happen.'
+            text: 'This Partnership has been made possible thanks to: '
     type: article
+    enabled: true
+  -
+    id: mmj0v8l6
+    replicator_field:
+      -
+        id: mmj0v9zs
+        image: logos/cdc-logo_col-resized.png
+        type: new_set
+        enabled: true
+      -
+        id: mmj0vk1m
+        image: logos/sdnp_trust_logotype.jpg
+        type: new_set
+        enabled: true
+      -
+        id: mmj0vvj4
+        image: logos/sdnp-logo-medium.png
+        type: new_set
+        enabled: true
+      -
+        id: mmj0xlir
+        image: logos/sw_core_logo_lock_up_screen-(2).png
+        type: new_set
+        enabled: true
+    type: logos
     enabled: true
 hero_image: riverscapes/rother/rother_near_rogate2.jpg
 hero_title: 'The Rother Partnership'
@@ -146,6 +297,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
-updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1738257631
+updated_by: cae59c31-1013-4345-ad1a-f03e9945a36f
+updated_at: 1773051511
+semi_transparent_image: false
 ---

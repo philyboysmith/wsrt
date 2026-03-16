@@ -49,6 +49,7 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1759756029
+updated_at: 1769094163
 hero_intro: 'Ever dreamt about working with rivers? Explore our current vacancies now!'
+semi_transparent_image: false
 ---

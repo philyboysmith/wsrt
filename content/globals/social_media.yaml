@@ -3,7 +3,7 @@ data:
   social_media:
     -
       id: lti9yjam
-      handle: arunandrotherriverstrust/
+      handle: westernsussexrivers/
       prefix: 'https://www.instagram.com/'
       type: instagram
       enabled: true

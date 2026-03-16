@@ -80,12 +80,14 @@ page_builder:
     cards:
       -
         id: m5o3s1oo
-        title: "Why I don't love our rivers, and how we can change this - Aimee Felus, Chief Executive"
+        title: 'Reimagining rivers - Aimee Felus, Chief Executive'
         image: riverscapes/arun/arundel-(123)-1.jpg
         type: card
         enabled: true
         text: |-
           Book our passionate and knowledgeable Chief Executive for a deep dive into the state of our rivers and how we can take action for our riverscapes; for ourselves, the wildlife who live on them and for future generations. 
+
+          Find out why we need to bring the power of imagination to the realm of river restoration, and what can happen as a result!
 
           This is a time of unprecedented challenges, but also of unprecedented opportunities. This talk is guaranteed to leave you feeling inspired!
         button:
@@ -143,7 +145,7 @@ page_builder:
         text: |-
           With the health of rivers under threat, find out more about how you or your local community can get involved with river focused volunteering opportunities in your local area. 
 
-          Our inspirational Volunteer Coordinator, Keir Smith, will be able to give you an insight into how volunteering and Citizen Science is helping to change the state of our rivers. 
+          Our inspirational Volunteer Coordinator, Sam Frith, will be able to give you an insight into how volunteering and Citizen Science is helping to change the state of our rivers. 
 
           From water quality monitoring and pollution identifying, to Himalayan Balsam bashing and hedgerow planting, there's something for everyone to get involved with. Book a talk now to find out more.
         button:
@@ -181,7 +183,7 @@ page_builder:
         text: |-
           Have you ever wondered about the state of your local river's water? Or maybe you want more information on where the pollution hotspots are, what the origin is and how you can help.
 
-          Book a talk with our Volunteer Coordinator, Keir Smith, who can answer these questions and more! Running volunteer programmes including our River Guardians, Keir has a wealth of knowledge about how we're using data to track and improve river health across our catchment area.
+          Book a talk with our Volunteer Coordinator, Sam Frith, who can answer these questions and more! Running volunteer programmes including our River Guardians, Sam has a wealth of knowledge about how we're using data to track and improve river health across our catchment area.
         button:
           -
             id: m6z6imkg
@@ -228,8 +230,9 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 show_child_pages: false
 updated_by: 6662aa76-9cd8-45d9-990e-3dfc8e51c38a
-updated_at: 1757019984
+updated_at: 1770053729
 hero_image: wildlife/kingfisher4_richard_will_crombie.jpg
 hero_title: 'Talks and Presentations'
 hero_intro: 'Book one of our inspirational and knowledgable speakers to find out more about rivers, wildlife and how you can help our riverscapes thrive.'
+semi_transparent_image: false
 ---
